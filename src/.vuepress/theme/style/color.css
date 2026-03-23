@@ -1,0 +1,10 @@
+/*
+ * @see https://theme-plume.vuejs.press/tools/theme-colors/
+ */
+
+:root {
+    --vp-c-brand-1: #EE97AA;
+    --vp-c-brand-2: #f3aebb;
+    --vp-c-brand-3: #f8c5cf;
+    --vp-c-brand-soft: rgba(238, 151, 170, 0.314);
+}

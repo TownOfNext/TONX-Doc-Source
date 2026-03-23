@@ -1,0 +1,19 @@
+/*
+  * @see https://theme-plume.vuejs.press/guide/custom-home/#doc-hero
+  */
+:root {
+  --vp-home-hero-tagline: var(--vp-c-text-2);
+  --vp-home-hero-text: var(--vp-c-text-1);
+  --vp-home-hero-image-background-image: linear-gradient(-45deg, var(--vp-c-brand-soft) 50%, var(--vp-c-brand-2) 50%);
+  --vp-home-hero-image-filter: blur(55px);
+}
+
+/*
+  * 主题默认在深色模式下会使用更浅的按钮颜色，这在当前配色方案中会导致可读性更差
+  * 此处强制使用浅色按钮品牌颜色以解决该问题
+  */
+[data-theme="dark"] {
+  --vp-button-brand-bg: var(--vp-c-brand-1);
+  --vp-button-brand-hover-bg: var(--vp-c-brand-2);
+  --vp-button-brand-active-bg: var(--vp-c-brand-3);
+}
