@@ -3,7 +3,13 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: [main]
-    paths: ["src/**/*", "package.json", "package-lock.json"]
+    paths:
+      [
+        "src/**/*",
+        "package.json",
+        "package-lock.json",
+        ".github/workflows/deploy.yaml",
+      ]
   workflow_dispatch:
 
 permissions:
