@@ -20,12 +20,12 @@ export default defineUserConfig({
     '/': {
       title: 'TONX',
       lang: 'zh-CN',
-      description: '始于热爱旨在学习的 AmongUs 模组。',
+      description: "应不少玩家的要求，TOHE 将保持最基本的适配，并与 TOH 同步更新，以保证有需要的玩家仍然可以正常玩。 顺带一提，TOHE 已更名为 TONX。",
     },
     '/en/': {
       title: 'TONX',
       lang: 'en-US',
-      description: 'An AmongUs mod with learning &amp; love.',
+      description: 'At the request of many players, TOHE will maintain the most basic adaptation and synchronize updates with TOH to ensure that players in need can still play normally. By the way, TOHE has renamed TONX.',
     },
   },
   head: [
