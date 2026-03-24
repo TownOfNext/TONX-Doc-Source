@@ -36,7 +36,7 @@ export default defineUserConfig({
   theme: plumeTheme({
     hostname: 'https://tonx.cc',
     docsRepo: 'TownOfNext/TONX-Doc-Source',
-    docsBranch: 'next',
+    docsBranch: 'main',
     editLink: true,
     lastUpdated: { formatOptions: { dateStyle: 'short', timeStyle: 'short' } },
     contributors: true,
