@@ -11,7 +11,7 @@ config:
       name: Town Of Next
       text: 始于热爱旨在学习的 AmongUs 模组
       tagline: 应不少玩家的要求，TOHE 将保持最基本的适配，并与 TOH 同步更新，以保证有需要的玩家仍然可以正常玩。 顺带一提，TOHE 已更名为 TONX。
-      image: /logo.png
+      image: https://raw.githubusercontent.com/TownOfNext/TownOfNext/refs/heads/main/Assets/LOGO.png
       actions:
         -
           theme: brand

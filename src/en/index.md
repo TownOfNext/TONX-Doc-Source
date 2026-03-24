@@ -11,7 +11,7 @@ config:
       name: Town Of Next
       text: An AmongUs mod with learning & love
       tagline: At the request of many players, TOHE will maintain the most basic adaptation and synchronize updates with TOH to ensure that players in need can still play normally. By the way, TOHE has renamed TONX.
-      image: /logo.png
+      image: https://raw.githubusercontent.com/TownOfNext/TownOfNext/refs/heads/main/Assets/LOGO.png
       actions:
         -
           theme: brand
