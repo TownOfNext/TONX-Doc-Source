@@ -1,27 +1,30 @@
-name: Deploy to GitHub Pages
+name: Deploy VuePress to ghPages
 
 on:
   push:
     branches: [main]
     paths:
-      [
-        "src/**/*",
-        "package.json",
-        "package-lock.json",
-        ".github/workflows/deploy.yaml",
-      ]
+      - ".github/workflows/deploy.yaml"
+      - "src/**"
+      - "package.json"
+      - "package-lock.json"
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
   pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
-
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
@@ -29,19 +32,31 @@ jobs:
         uses: actions/setup-node@v5
         with:
           node-version: 24
+          cache: npm
 
-      - name: Install Dependencies
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Install dependencies
         run: npm ci
 
-      - name: Build VuePress site
+      - name: Build with VuePress
         env:
           NODE_OPTIONS: --max_old_space_size=8192
         run: npm run docs:build
 
-      - name: Deploy to GitHub Pages
-        uses: crazy-max/ghaction-github-pages@v4
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          target_branch: gh-pages
-          build_dir: src/.vuepress/dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          path: src/.vuepress/dist
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    needs: build
+    runs-on: ubuntu-latest
+    name: Deploy
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
