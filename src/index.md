@@ -16,6 +16,7 @@ config:
         -
           theme: brand
           text: 下载
+          link: https://github.com/TownOfNext/TownOfNext/releases/latest
         -
           theme: alt
           text: 模组介绍

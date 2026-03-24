@@ -16,6 +16,7 @@ config:
         -
           theme: brand
           text: Download
+          link: https://github.com/TownOfNext/TownOfNext/releases/latest
         -
           theme: alt
           text: About
