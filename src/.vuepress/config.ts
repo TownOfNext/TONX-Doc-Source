@@ -29,7 +29,7 @@ export default defineUserConfig({
     },
   },
   head: [
-    ['link', { rel: 'icon', type: 'image/png', href: 'https://raw.githubusercontent.com/TownOfNext/TownOfNext/refs/heads/main/Assets/LOGO.png' }],
+    ['link', { rel: 'icon', type: 'image/png', href: '/logo.png' }],
   ],
   bundler: viteBundler(),
   shouldPrefetch: true,

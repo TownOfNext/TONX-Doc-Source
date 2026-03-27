@@ -17,9 +17,8 @@ import { enNavbar, zhNavbar } from './navbar'
  * @see https://theme-plume.vuejs.press/config/theme/
  */
 export default defineThemeConfig({
-  logo: 'https://raw.githubusercontent.com/TownOfNext/TownOfNext/refs/heads/main/Assets/LOGO.png',
+  logo: '/logo.png',
   appearance: true,
-
   social: [
     { icon: 'github', link: 'https://github.com/TownOfNext/TownOfNext' },
   ],
