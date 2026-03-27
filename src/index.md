@@ -15,8 +15,8 @@ config:
       actions:
         -
           theme: brand
-          text: 下载
-          link: docs/getting-start
+          text: 下载安装
+          link: docs/getting-started
         -
           theme: alt
           text: 模组介绍

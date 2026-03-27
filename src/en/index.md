@@ -15,8 +15,8 @@ config:
       actions:
         -
           theme: brand
-          text: Download
-          link: docs/getting-start
+          text: Installation
+          link: docs/getting-started
         -
           theme: alt
           text: About

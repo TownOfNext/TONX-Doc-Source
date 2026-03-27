@@ -39,7 +39,7 @@ export default defineThemeConfig({
       sidebar: {
         "/docs/": [
           "features",
-          "getting-start",
+          "getting-started",
           "advanced",
           "roles",
           "faq"
@@ -63,7 +63,7 @@ export default defineThemeConfig({
           // Plume 主题 sidebar 对于多语言情况的处理有 bug
           // https://github.com/pengzhanbo/vuepress-theme-plume/issues/876
           "/en/docs/features",
-          "/en/docs/getting-start",
+          "/en/docs/getting-started",
           "/en/docs/advanced",
           "/en/docs/roles",
           "/en/docs/faq"
