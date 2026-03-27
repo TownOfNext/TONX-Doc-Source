@@ -46,14 +46,14 @@ export default defineThemeConfig({
         content: "维护该项目会消耗我大量的空闲时间，也会使用一部分我的零钱用于更新检查服务等。因此很高兴您能为这个项目提供一些经济上的帮助！",
       },
       footer: {
-        message: "本作品采用 <a href='https://creativecommons.org/licenses/by-nc-sa/4.0/' target='_blank'>CC-BY-NC-SA-4.0</a> 进行许可。"
+        message: "本站点采用 <a href='https://creativecommons.org/licenses/by-nc-sa/4.0/' target='_blank'>CC-BY-NC-SA-4.0</a> 进行许可。"
       }
     },
     '/en/': {
       navbar: enNavbar,
       collections: enCollections,
       footer: {
-        message: "This work is licensed under <a href='https://creativecommons.org/licenses/by-nc-sa/4.0/' target='_blank'>CC-BY-NC-SA-4.0</a>."
+        message: "This site is licensed under <a href='https://creativecommons.org/licenses/by-nc-sa/4.0/' target='_blank'>CC-BY-NC-SA-4.0</a>."
       }
     }
   }
