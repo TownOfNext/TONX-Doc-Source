@@ -31,7 +31,7 @@ export default defineThemeConfig({
     appearance: "circle-clip"
   },
   footer: {
-    copyright: "© 2023-2026 <a href='https://github.com/TownOfNext/TownOfNext' target='_blank'>TownOfNext</a>"
+    copyright: "© 2023-2026 <a href='https://github.com/TownOfNext' target='_blank'>TownOfNext</a>"
   },
   locales: {
     '/': {
