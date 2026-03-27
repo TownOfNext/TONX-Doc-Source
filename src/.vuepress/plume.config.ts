@@ -38,7 +38,7 @@ export default defineThemeConfig({
       navbar: zhNavbar,
       sidebar: {
         "/docs/": [
-          "features",
+          "introduction",
           "getting-started",
           "advanced",
           "roles",
@@ -62,7 +62,7 @@ export default defineThemeConfig({
         "/docs/": [
           // Plume 主题 sidebar 对于多语言情况的处理有 bug
           // https://github.com/pengzhanbo/vuepress-theme-plume/issues/876
-          "/en/docs/features",
+          "/en/docs/introduction",
           "/en/docs/getting-started",
           "/en/docs/advanced",
           "/en/docs/roles",

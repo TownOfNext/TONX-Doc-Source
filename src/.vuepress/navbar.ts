@@ -8,7 +8,7 @@ import { defineNavbarConfig } from 'vuepress-theme-plume'
 
 export const zhNavbar = defineNavbarConfig([
   { text: '首页', link: '/' },
-  { text: "模组介绍", link: "/docs/features" },
+  { text: "模组介绍", link: "/docs/introduction" },
   { text: "下载安装", link: "/docs/getting-started" },
   { text: "进阶教程", link: "/docs/advanced" },
   { text: "职业列表", link: "/docs/roles" },
@@ -17,7 +17,7 @@ export const zhNavbar = defineNavbarConfig([
 
 export const enNavbar = defineNavbarConfig([
   { text: 'Home', link: '/en/' },
-  { text: "About", link: "/en/docs/features" },
+  { text: "About", link: "/en/docs/introduction" },
   { text: "Installation", link: "/en/docs/getting-started" },
   { text: "Advanced", link: "/en/docs/advanced" },
   { text: "Roles", link: "/en/docs/roles" },
