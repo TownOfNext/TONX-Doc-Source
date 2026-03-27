@@ -16,11 +16,13 @@ config:
         -
           theme: brand
           text: Download
-          link: https://github.com/TownOfNext/TownOfNext/releases/latest
+          link: docs/getting-start
         -
           theme: alt
           text: About
+          link: docs/features
         -
           theme: alt
           text: Roles
+          link: docs/roles
 ---

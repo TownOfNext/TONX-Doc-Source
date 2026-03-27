@@ -10,7 +10,6 @@
  */
 
 import { defineThemeConfig } from 'vuepress-theme-plume'
-import { enCollections, zhCollections } from './collections'
 import { enNavbar, zhNavbar } from './navbar'
 
 /**
@@ -37,7 +36,15 @@ export default defineThemeConfig({
   locales: {
     '/': {
       navbar: zhNavbar,
-      collections: zhCollections,
+      sidebar: {
+        "/docs/": [
+          "features",
+          "getting-start",
+          "advanced",
+          "roles",
+          "faq"
+        ]
+      },
       bulletin: {
         layout: 'top-right',
         contentType: 'markdown',
@@ -51,7 +58,17 @@ export default defineThemeConfig({
     },
     '/en/': {
       navbar: enNavbar,
-      collections: enCollections,
+      sidebar: {
+        "/docs/": [
+          // Plume 主题 sidebar 对于多语言情况的处理有 bug
+          // https://github.com/pengzhanbo/vuepress-theme-plume/issues/876
+          "/en/docs/features",
+          "/en/docs/getting-start",
+          "/en/docs/advanced",
+          "/en/docs/roles",
+          "/en/docs/faq"
+        ]
+      },
       footer: {
         message: "This site is licensed under <a href='https://creativecommons.org/licenses/by-nc-sa/4.0/' target='_blank'>CC-BY-NC-SA-4.0</a>."
       }

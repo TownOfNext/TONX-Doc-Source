@@ -16,11 +16,13 @@ config:
         -
           theme: brand
           text: 下载
-          link: https://github.com/TownOfNext/TownOfNext/releases/latest
+          link: docs/getting-start
         -
           theme: alt
           text: 模组介绍
+          link: docs/features
         -
           theme: alt
           text: 职业列表
+          link: docs/roles
 ---
