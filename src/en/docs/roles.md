@@ -772,7 +772,7 @@ If there are only the Jackal team and the Crewmate team are left, and the number
 
 Help the Jackal to win. Sidekick may vent, have a according to the host's settings. Depending on the host's settings, Sidekick may be able to vent or has Impostor vision or become Jackal after Jackal is dead.
 
-> From: TOR & Code: [慕斯Mousse](https://github.com/Sand-and-Beans)
+> From: TOR & Coding: [慕斯Mousse](https://github.com/Sand-and-Beans)
 ---
 
 ### <font color=#f96464>God</font>
