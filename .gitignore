@@ -4,8 +4,8 @@
 **/.vuepress/.temp
 **/.vuepress/dist
 
-./idea/
-./vs/
+.idea/
+.vs/
 
 .DS_Store
 *.log
