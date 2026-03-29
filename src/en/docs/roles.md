@@ -15,7 +15,7 @@ Count：128（include 2 hidden roles）
 |         [Warlock](#warlock)         |     [Super Star](#super-star)     |       [Terrorist](#terrorist)       |       [Watcher](#watcher)       |
 |        [Assassin](#assassin)        |      [Celebrity](#celebrity)      |     [Executioner](#executioner)     |       [Lighter](#lighter)       |
 |          [Zombie](#zombie)          |          [Mayor](#mayor)          |          [Jackal](#jackal)          |          [Seer](#seer)          |
-|          [Hacker](#hacker)          |      [Repairman](#repairman)      |                                     |         [Flash](#flash)         |
+|          [Hacker](#hacker)          |      [Repairman](#repairman)      |        [Sidekick](#sidekick)        |         [Flash](#flash)         |
 |           [Miner](#miner)           |        [Sheriff](#sheriff)        |             [God](#god)             |    [Tiebreaker](#tiebreaker)    |
 |        [Escapist](#escapist)        |       [Paranoid](#paranoid)       |           [Mario](#mario)           |     [Oblivious](#oblivious)     |
 | [Killing Machine](#killing-machine) |        [Psychic](#psychic)        |        [Innocent](#innocent)        |      [Bewilder](#bewilder)      |
@@ -33,7 +33,7 @@ Count：128（include 2 hidden roles）
 |      [Booby Trap](#booby-trap)      |      [Grenadier](#grenadier)      | [Schrodinger Cat](#schrodinger-cat) |      [Beartrap](#beartrap)      |
 |    [Evil Tracker](#evil-tracker)    |          [Medic](#medic)          |   [Plague Doctor](#plague-doctor)   |                                 |
 |       [Scavenger](#scavenger)       | [Fortune Teller](#fortune-teller) |         [Shifter](#shifter)         |                                 |
-|    [Shape Master](#shape-master)    |     [The Glitch](#the-glitch)     |      [Doomsayer](#doomsayer)        |                                 |
+|    [Shape Master](#shape-master)    |     [The Glitch](#the-glitch)     |       [Doomsayer](#doomsayer)       |                                 |
 |      [Capitalist](#capitalist)      |          [Judge](#judge)          |                                     |                                 |
 |        [Gangster](#gangster)        |      [Mortician](#mortician)      |                                     |                                 |
 |         [Cleaner](#cleaner)         |         [Medium](#medium)         |                                     |                                 |
@@ -772,7 +772,7 @@ If there are only the Jackal team and the Crewmate team are left, and the number
 
 Help the Jackal to win. Sidekick may vent, have a according to the host's settings. Depending on the host's settings, Sidekick may be able to vent or has Impostor vision or become Jackal after Jackal is dead.
 
-> From: TOH & Code: [慕斯Mousse](https://github.com/Sand-and-Beans)
+> From: TOR & Code: [慕斯Mousse](https://github.com/Sand-and-Beans)
 ---
 
 ### <font color=#f96464>God</font>
