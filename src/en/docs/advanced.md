@@ -65,11 +65,7 @@ title: Advanced
 | /end              | force end game                  | host      |
 | /hy               | force start / end meeting       | host      |
 
-::: About /cmd command 
-
-Due to the update of the server, the function of hiding messages is no longer necessary. When inputting commands, please use /cmd, for example, /id => /cmd id. 
-
-:::
+ - Tip: Due to the update of the server, the function of hiding messages is no longer necessary. When inputting commands, please use /cmd, for example, /id => /cmd id. 
 
 ## Welcome & onMeeting auto messages
 
