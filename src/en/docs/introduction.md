@@ -1,13 +1,14 @@
 ---
-lang: en-US
 title: About
 ---
 
-![Cover](https://npm.elemecdn.com/tohe-doc-resources@1.0.1/Cover.webp)
+![Cover](/image/Cover.webp)
 
-::: warning Regarding this mod
+:::important Regarding this mod
 
-This mod is not affiliated with Among Us or Innersloth LLC, and the content contained therein is not endorsed or otherwise sponsored by Innersloth LLC. Portions of the materials contained herein are property of Innersloth LLC. © Innersloth LLC.
+This mod is not affiliated with Among Us or Innersloth LLC, and the content contained therein is not endorsed or otherwise sponsored by Innersloth LLC.\
+ Portions of the materials contained herein are property of Innersloth LLC.\
+ © Innersloth LLC.
 
 :::
 
@@ -71,8 +72,3 @@ The TOHE project, developed and maintained by KARPED1EM, ceased development on M
 SHAAARKY subsequently rebuilt the project from the ground up using a new base and renamed it to TONX, continuing development until v3.0.1 before discontinuing maintenance. This phase's code is preserved in the legacy branch.
 
 The project is now maintained by Sand-and-Beans, with ongoing development based on the main branch.
-## Feedback & Contact
-
-<p align="left">
-<a href="https://github.com/KARPED1EM/TownOfHostEdited" target="_blank"><img src="https://img.shields.io/badge/Github%20-%231DA1F2.svg?&style=for-the-badge&logo=github&logoColor=white&color=181717"/></a>
-</p>
