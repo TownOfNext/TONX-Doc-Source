@@ -2,7 +2,7 @@
 title: About
 ---
 
-![Cover](/image/Cover.webp)
+![Cover](/image/cover.webp)
 
 :::important Regarding this mod
 
