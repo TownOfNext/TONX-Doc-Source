@@ -20,7 +20,7 @@ config:
         -
           theme: alt
           text: 模组介绍
-          link: docs/features
+          link: docs/introduction
         -
           theme: alt
           text: 职业列表

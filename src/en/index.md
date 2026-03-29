@@ -20,7 +20,7 @@ config:
         -
           theme: alt
           text: About
-          link: docs/features
+          link: docs/introduction
         -
           theme: alt
           text: Roles
