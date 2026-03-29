@@ -30,60 +30,60 @@ title: 模组介绍
 
 <CardGrid>
   <LinkCard icon="simple-icons:github" title="KARPED1EM" href="https://github.com/KARPED1EM">
-    创建者
-  </LinkCard>
-  <LinkCard icon="simple-icons:bilibili" title="IRIDESCENT" href="https://space.bilibili.com/434079598">
-    美术
-  </LinkCard>
-  <LinkCard icon="simple-icons:github" title="Endrmen40409" href="https://github.com/endrmen9487">
-    美术
-  </LinkCard>
-  <Card title="NCSIMON">
-    模组职业开发
-  </Card>
-  <LinkCard icon="simple-icons:github" title="Tommy-XL" href="https://github.com/Tommy-XL">
-    英 & 俄语翻译
-  </LinkCard>
-  <LinkCard icon="simple-icons:github" title="Tem" href="https://github.com/mogekonik1">
-    英 & 俄语翻译
-  </LinkCard>
-  <Card title="NetherDragon">
-    繁中翻译
-  </Card>
-  <Card title="Gurge44">
-    英语翻译
-  </Card>
-  <Card title="法官">
-    繁中翻译
-  </Card>
-  <Card title="SolarFlare">
-    英语翻译 & 文档贡献
-  </Card>
-  <LinkCard icon="simple-icons:github" title="天寸梦初" href="https://github.com/TianMengLucky">
-    模组职业开发 & 技术支持
+    Creator
   </LinkCard>
   <LinkCard icon="simple-icons:github" title="Commandf1" href="https://github.com/commandf1">
-    模组职业 & 功能开发
-  </LinkCard>
-  <LinkCard icon="simple-icons:github" title="喜" href="https://github.com/Xieiawa">
-    模组职业开发
-  </LinkCard>
-  <LinkCard icon="simple-icons:github" title="SHAAARKY" href="https://github.com/SHAAARKY">
-    模组职业开发
-  </LinkCard>
-  <Card title="水木年华">
-    文档贡献 & Contact Support
-  </Card>
-  <LinkCard icon="simple-icons:github" title="Mousse" href="https://github.com/Sand-and-Beans">
-    文档贡献 & 模组职业开发
+    Feature & Role Coding
   </LinkCard>
   <LinkCard icon="simple-icons:github" title="Slok·琐律" href="https://github.com/Slok7565">
-    美术 & 模组职业开发
+    Role Coding & Art
   </LinkCard>
   <LinkCard icon="simple-icons:github" title="ELinmei" href="https://github.com/HayashiUme">
-    模组职业开发 & 网站开发
+    Role Coding & Website Coding
   </LinkCard>
+  <LinkCard icon="simple-icons:github" title="天寸梦初" href="https://github.com/TianMengLucky">
+    Role Coding & Tech Support
+  </LinkCard>
+  <LinkCard icon="simple-icons:github" title="Mousse" href="https://github.com/Sand-and-Beans">
+    Role Coding & Document
+  </LinkCard>
+  <Card title="NCSIMON">
+    Role Coding
+  </Card>
+  <LinkCard icon="simple-icons:github" title="喜" href="https://github.com/Xieiawa">
+    Role Coding
+  </LinkCard>
+  <LinkCard icon="simple-icons:github" title="SHAAARKY" href="https://github.com/SHAAARKY">
+    Role Coding
+  </LinkCard>
+  <LinkCard icon="simple-icons:bilibili" title="IRIDESCENT" href="https://space.bilibili.com/434079598">
+    Art
+  </LinkCard>
+  <LinkCard icon="simple-icons:github" title="Endrmen40409" href="https://github.com/endrmen9487">
+    Art
+  </LinkCard>
+  <LinkCard icon="simple-icons:github" title="Tommy-XL" href="https://github.com/Tommy-XL">
+    English & Russian Translator
+  </LinkCard>
+  <LinkCard icon="simple-icons:github" title="Tem" href="https://github.com/mogekonik1">
+    English & Russian Translator
+  </LinkCard>
+  <Card title="SolarFlare">
+    English Translator & Document
+  </Card>
+  <Card title="Gurge44">
+    English Translator
+  </Card>
+  <Card title="NetherDragon">
+    Traditional Chinese Translator
+  </Card>
+  <Card title="法官">
+    Traditional Chinese Translator
+  </Card>
   <LinkCard icon="simple-icons:github" title="QingFeng" href="https://github.com/QingFeng-awa">
-    网站开发
+    Website Coding
   </LinkCard>
+  <Card title="水木年华">
+    Document & Contact Support
+  </Card>
 </CardGrid>

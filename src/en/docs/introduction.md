@@ -26,11 +26,35 @@ In short, I am very happy that you can support my learning results! If possible,
 > SHAAARKY subsequently rebuilt the project from the ground up using a new base and renamed it to TONX, continuing development until v3.0.1 before discontinuing maintenance. This phase's code is preserved in the legacy branch.\
 > The project is now maintained by Sand-and-Beans, with ongoing development based on the main branch.
 
-## Contributor
+## Contributors
 
 <CardGrid>
   <LinkCard icon="simple-icons:github" title="KARPED1EM" href="https://github.com/KARPED1EM">
-    Creator of TOHE
+    Creator
+  </LinkCard>
+  <LinkCard icon="simple-icons:github" title="Commandf1" href="https://github.com/commandf1">
+    Feature & Role Coding
+  </LinkCard>
+  <LinkCard icon="simple-icons:github" title="Slok·琐律" href="https://github.com/Slok7565">
+    Role Coding & Art
+  </LinkCard>
+  <LinkCard icon="simple-icons:github" title="ELinmei" href="https://github.com/HayashiUme">
+    Role Coding & Website Coding
+  </LinkCard>
+  <LinkCard icon="simple-icons:github" title="天寸梦初" href="https://github.com/TianMengLucky">
+    Role Coding & Tech Support
+  </LinkCard>
+  <LinkCard icon="simple-icons:github" title="Mousse" href="https://github.com/Sand-and-Beans">
+    Role Coding & Document
+  </LinkCard>
+  <Card title="NCSIMON">
+    Role Coding
+  </Card>
+  <LinkCard icon="simple-icons:github" title="喜" href="https://github.com/Xieiawa">
+    Role Coding
+  </LinkCard>
+  <LinkCard icon="simple-icons:github" title="SHAAARKY" href="https://github.com/SHAAARKY">
+    Role Coding
   </LinkCard>
   <LinkCard icon="simple-icons:bilibili" title="IRIDESCENT" href="https://space.bilibili.com/434079598">
     Art
@@ -38,52 +62,28 @@ In short, I am very happy that you can support my learning results! If possible,
   <LinkCard icon="simple-icons:github" title="Endrmen40409" href="https://github.com/endrmen9487">
     Art
   </LinkCard>
-  <Card title="NCSIMON">
-    Role Coding
-  </Card>
   <LinkCard icon="simple-icons:github" title="Tommy-XL" href="https://github.com/Tommy-XL">
     English & Russian Translator
   </LinkCard>
   <LinkCard icon="simple-icons:github" title="Tem" href="https://github.com/mogekonik1">
     English & Russian Translator
   </LinkCard>
-  <Card title="NetherDragon">
-    Traditional Chinese Translator
+  <Card title="SolarFlare">
+    English Translator & Document
   </Card>
   <Card title="Gurge44">
     English Translator
   </Card>
+  <Card title="NetherDragon">
+    Traditional Chinese Translator
+  </Card>
   <Card title="法官">
     Traditional Chinese Translator
   </Card>
-  <Card title="SolarFlare">
-    English Translator & Document
-  </Card>
-  <LinkCard icon="simple-icons:github" title="天寸梦初" href="https://github.com/TianMengLucky">
-    Role Coding & Tech Support
-  </LinkCard>
-  <LinkCard icon="simple-icons:github" title="Commandf1" href="https://github.com/commandf1">
-    Role Coding & Features Coding
-  </LinkCard>
-  <LinkCard icon="simple-icons:github" title="喜" href="https://github.com/Xieiawa">
-    Role Coding
-  </LinkCard>
-  <LinkCard icon="simple-icons:github" title="SHAAARKY" href="https://github.com/SHAAARKY">
-    Role Coding
+  <LinkCard icon="simple-icons:github" title="QingFeng" href="https://github.com/QingFeng-awa">
+    Website Coding
   </LinkCard>
   <Card title="水木年华">
     Document & Contact Support
   </Card>
-  <LinkCard icon="simple-icons:github" title="Mousse" href="https://github.com/Sand-and-Beans">
-    Document & Role Coding
-  </LinkCard>
-  <LinkCard icon="simple-icons:github" title="Slok·琐律" href="https://github.com/Slok7565">
-    Art & Role Coding
-  </LinkCard>
-  <LinkCard icon="simple-icons:github" title="ELinmei" href="https://github.com/HayashiUme">
-    Role Coding & Website Coding
-  </LinkCard>
-  <LinkCard icon="simple-icons:github" title="QingFeng" href="https://github.com/QingFeng-awa">
-    WebSite Coding
-  </LinkCard>
 </CardGrid>
