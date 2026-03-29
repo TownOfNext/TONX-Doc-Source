@@ -22,9 +22,14 @@ This is my first time using C#, so TOHE's code was terrible and there were a lot
 
 In short, I am very happy that you can support my learning results! If possible, post more videos of TOHE on the video platform, I will be really happy.
 
-> The TOHE project, developed and maintained by KARPED1EM, ceased development on May 20, 2023, with its final release being v2.3.6. The source code is preserved in the tohe branch.\
-> SHAAARKY subsequently rebuilt the project from the ground up using a new base and renamed it to TONX, continuing development until v3.0.1 before discontinuing maintenance. This phase's code is preserved in the legacy branch.\
-> The project is now maintained by Sand-and-Beans, with ongoing development based on the main branch.
+:::note
+
+The TOHE project, developed and maintained by KARPED1EM, ceased development on May 20, 2023, with its final release being v2.3.6.\
+SHAAARKY subsequently rebuilt the project from the ground up using a new base and renamed it to TONX, continuing development until v3.0.1 before discontinuing maintenance.\
+The project is now maintained by Sand-and-Beans, with ongoing development based on the main branch.
+
+:::
+
 
 ## Contributors
 
