@@ -8,7 +8,7 @@ title: Frequently Asked Questions
 
 ## How to install mod on mobile phones, tablets, and Apple
 
-Only Windows can install mods. If you have no Windows, you don’t need to worry, the Host-only mods such as TOHE, TOH, TOHR, TOHY, SHR, etc. are all compatible with the vanilla. You can find the lobbys of these mods to join and play.
+Only Windows can install mods. If you have no Windows, you don’t need to worry, the Host-only mods such as TONX, TOH, TOHR, TOHY, SHR, etc. are all compatible with the vanilla. You can find the lobbys of these mods to join and play.
 
 ## You have been kicked by room
 
@@ -55,8 +55,8 @@ Please return to the main menu of the game. There is an "Update" button in the l
 
 You have three methods to get log files:
 
-1. Press <kbd>Ctrl</kbd> + <kbd>F1</kbd> in the game, then you can find the log file on your desktop, the file name starts with `TOHE...`.
-2. Send the message "/dump" in the game, then you can find the log file on your desktop, the file name starts with `TOHE...`.
+1. Press <kbd>Ctrl</kbd> + <kbd>F1</kbd> in the game, then you can find the log file on your desktop, the file name starts with `TONX...`.
+2. Send the message "/dump" in the game, then you can find the log file on your desktop, the file name starts with `TONX...`.
 3. Please find your Among Us game directory, enter the `Among Us/BepInEx` folder, and then you will see a file called `LogOutput.log`, this is the log file.
 
 ## Test Error Lv.x
@@ -87,7 +87,7 @@ Game ends suddenly, If there are still imps alive and the victory conditions of 
 
 ## Just after the start, it shows that the host has forced the end of the game
 
-There is a bug in the H-series mod that fails to assign roles. When the bug occurs in the original TOH, the homeowner will not be able to see the start button, and other players will be loaded with an infinite black screen. In this case, everyone can only exit the game. In TOHE, in order to avoid this situation, it will automatically detect whether other players are stuck in loading, and if detected, the game will be automatically terminated to prevent everyone from being stuck. So it's a protection mechanism, just ignore it and keep playing.
+There is a bug in the H-series mod that fails to assign roles. When the bug occurs in the original TOH, the homeowner will not be able to see the start button, and other players will be loaded with an infinite black screen. In this case, everyone can only exit the game. In TONX, in order to avoid this situation, it will automatically detect whether other players are stuck in loading, and if detected, the game will be automatically terminated to prevent everyone from being stuck. So it's a protection mechanism, just ignore it and keep playing.
 
 ## Most of the screen is black, but the sound can be heard and there is a setting button
 
@@ -110,3 +110,7 @@ Turn on the "Disable vanilla roles" option, and enable more roles.
 ## The game never ends
 
 Please turn off "No Game End" in settings.
+
+## Unable to make the game public
+
+Innersloth does not allow players using Host-Only Mods to make their lobbies public, so currently you can only make your lobby public or play on a personal server.

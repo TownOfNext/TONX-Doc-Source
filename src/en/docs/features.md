@@ -17,6 +17,8 @@ This mod is not affiliated with Among Us or Innersloth LLC, and the content cont
 
 [**IRIDESCENT**](https://space.bilibili.com/434079598)：Art
 
+[**Endrmen40409**](https://github.com/endrmen9487)：Art
+
 [**NCSIMON**](https://github.com/NCSIMON)：Role Coding
 
 [**Tommy-XL**](https://github.com/Tommy-XL)：English & Russian Translator
@@ -43,7 +45,15 @@ This mod is not affiliated with Among Us or Innersloth LLC, and the content cont
 
 [**SolarFlare**](#)：Document
 
-[**Mousse**](https://github.com/Sand-and-Beans)：Document
+[**SHAAARKY**](https://github.com/SHAAARKY)：Legcay Role Coding
+
+[**Mousse**](https://github.com/Sand-and-Beans)：Document & Role Coding
+
+[**Slok·琐律**](https://github.com/Slok7565)：Art & Role Coding
+
+[**ELinmei**](https://github.com/HayashiUme)：Role Coding & Website Coding
+
+[**QingFeng**](https://github.com/QingFeng-awa)：WebSite Coding & Cloud Admin
 
 
 ## About
@@ -56,9 +66,13 @@ This is my first time using C#, so TOHE's code was terrible and there were a lot
 
 In short, I am very happy that you can support my learning results! If possible, post more videos of TOHE on the video platform, I will be really happy.
 
+The TOHE project, developed and maintained by KARPED1EM, ceased development on May 20, 2023, with its final release being v2.3.6. The source code is preserved in the tohe branch.
+
+SHAAARKY subsequently rebuilt the project from the ground up using a new base and renamed it to TONX, continuing development until v3.0.1 before discontinuing maintenance. This phase's code is preserved in the legacy branch.
+
+The project is now maintained by Sand-and-Beans, with ongoing development based on the main branch.
 ## Feedback & Contact
 
 <p align="left">
-<a href="https://discord.gg/hkk2p9ggv4" target="_blank"><img src="https://img.shields.io/badge/Discord%20-%231DA1F2.svg?&style=for-the-badge&logo=discord&logoColor=white&color=5662f6"/></a>&nbsp;
 <a href="https://github.com/KARPED1EM/TownOfHostEdited" target="_blank"><img src="https://img.shields.io/badge/Github%20-%231DA1F2.svg?&style=for-the-badge&logo=github&logoColor=white&color=181717"/></a>
 </p>

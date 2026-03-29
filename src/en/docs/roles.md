@@ -5,49 +5,55 @@ title: Roles
 
 # Roles
 
-Count：113（include 2 hidden roles）
+Count：128（include 2 hidden roles）
 
-|              Impostor               |             Crewmate              |             Neutral             |             Add-on              |
-| :---------------------------------: | :-------------------------------: | :-----------------------------: | :-----------------------------: |
-|   [Bounty Hunter](#bounty-hunter)   |   [Nice Guesser](#nice-guesser)   |      [Arsonist](#arsonist)      |        [Lovers](#lovers)        |
-|   [Serial Killer](#serial-killer)   |         [Luckey](#luckey)         |        [Jester](#jester)        | [Last Impostor](#last-impostor) |
-|         [Vampire](#vampire)         |       [Lazy Guy](#lazy-guy)       |   [Opportunist](#opportunist)   |       [Neptune](#neptune)       |
-|         [Warlock](#warlock)         |     [Super Star](#super-star)     |     [Terrorist](#terrorist)     |       [Watcher](#watcher)       |
-|        [Assassin](#assassin)        |      [Celebrity](#celebrity)      |   [Executioner](#executioner)   |       [Lighter](#lighter)       |
-|          [Zombie](#zombie)          |          [Mayor](#mayor)          |        [Jackal](#jackal)        |          [Seer](#seer)          |
-|          [Hacker](#hacker)          |      [Repairman](#repairman)      |           [God](#god)           |         [Flash](#flash)         |
-|           [Miner](#miner)           |        [Sheriff](#sheriff)        |         [Mario](#mario)         |    [Tiebreaker](#tiebreaker)    |
-|        [Escapist](#escapist)        |       [Paranoid](#paranoid)       |      [Innocent](#innocent)      |     [Oblivious](#oblivious)     |
-| [Killing Machine](#killing-machine) |        [Psychic](#psychic)        |       [Pelican](#pelican)       |      [Bewilder](#bewilder)      |
-|           [Witch](#witch)           |         [Snitch](#snitch)         | [Revolutionist](#revolutionist) |       [Madmate](#madmate)       |
-|           [Mafia](#mafia)           |  [Speed Booster](#speed-booster)  |         [Hater](#hater)         |          [Fool](#fool)          |
-|      [Fireworker](#fireworker)      |         [Doctor](#doctor)         |         [Demon](#demon)         |     [Workhorse](#workhorse)     |
-|          [Sniper](#sniper)          |       [Dictator](#dictator)       |       [Stalker](#stalker)       |       [Avenger](#avenger)       |
-|       [Puppeteer](#puppeteer)       |      [Detective](#detective)      |    [Workaholic](#workaholic)    |      [YouTuber](#youTuber)      |
-|            [Mare](#Mare)            |      [Vigilante](#vigilante)      |     [Collector](#collector)     |        [Egoist](#egoist)        |
-|      [Time Thief](#time-thief)      |    [Transporter](#transporter)    |   [Provocateur](#provocateur)   |       [Stealer](#stealer)       |
-|    [Evil Guesser](#evil-guesser)    |   [Time Manager](#time-manager)   |  [Blood Knight](#blood-knight)  | [Schizophrenic](#schizophrenic) |
-|    [Anti Adminer](#anti-adminer)    |        [Veteran](#veteran)        |      [Follower](#follower)      |         [Mimic](#mimic)         |
-|       [Arrogance](#arrogance)       |      [Bodyguard](#bodyguard)      |      [Succubus](#succubus)      |         [Reach](#reach)         |
-|          [Bomber](#bomber)          |       [Deceiver](#deceiver)       |                                 |          [Bait](#bait)          |
-|      [Booby Trap](#booby-trap)      |      [Grenadier](#grenadier)      |                                 |      [Beartrap](#beartrap)      |
-|    [Evil Tracker](#evil-tracker)    |          [Medic](#medic)          |                                 |                                 |
-|       [Scavenger](#scavenger)       | [Fortune Teller](#fortune-teller) |                                 |                                 |
-|    [Shape Master](#shape-master)    |     [The Glitch](#the-glitch)     |                                 |                                 |
-|      [Capitalist](#capitalist)      |          [Judge](#judge)          |                                 |                                 |
-|        [Gangster](#gangster)        |      [Mortician](#mortician)      |                                 |                                 |
-|         [Cleaner](#cleaner)         |         [Medium](#medium)         |                                 |                                 |
-|       [Lightning](#lightning)       |       [Observer](#observer)       |                                 |                                 |
-|          [Greedy](#greedy)          |  [Dove of Peace](#dove-of-peace)  |                                 |                                 |
-|      [CursedWolf](#cursedWolf)      |                                   |                                 |                                 |
-|    [Soul Catcher](#soul-catcher)    |                                   |                                 |                                 |
-|   [Quick Shooter](#quick-shooter)   |                                   |                                 |                                 |
-|       [Concealer](#concealer)       |                                   |                                 |                                 |
-|          [Eraser](#eraser)          |                                   |                                 |                                 |
-|         [Butcher](#butcher)         |                                   |                                 |                                 |
-|         [Hangman](#hangman)         |                                   |                                 |                                 |
-|         [Swooper](#swooper)         |                                   |                                 |                                 |
-|      [CrewPostor](#crewpostor)      |                                   |                                 |                                 |
+|              Impostor               |             Crewmate              |               Neutral               |             Add-on              |
+|:-----------------------------------:|:---------------------------------:|:-----------------------------------:| :-----------------------------: |
+|   [Bounty Hunter](#bounty-hunter)   |   [Nice Guesser](#nice-guesser)   |        [Arsonist](#arsonist)        |        [Lovers](#lovers)        |
+|   [Serial Killer](#serial-killer)   |         [Luckey](#luckey)         |          [Jester](#jester)          | [Last Impostor](#last-impostor) |
+|         [Vampire](#vampire)         |       [Lazy Guy](#lazy-guy)       |     [Opportunist](#opportunist)     |       [Neptune](#neptune)       |
+|         [Warlock](#warlock)         |     [Super Star](#super-star)     |       [Terrorist](#terrorist)       |       [Watcher](#watcher)       |
+|        [Assassin](#assassin)        |      [Celebrity](#celebrity)      |     [Executioner](#executioner)     |       [Lighter](#lighter)       |
+|          [Zombie](#zombie)          |          [Mayor](#mayor)          |          [Jackal](#jackal)          |          [Seer](#seer)          |
+|          [Hacker](#hacker)          |      [Repairman](#repairman)      |                                     |         [Flash](#flash)         |
+|           [Miner](#miner)           |        [Sheriff](#sheriff)        |             [God](#god)             |    [Tiebreaker](#tiebreaker)    |
+|        [Escapist](#escapist)        |       [Paranoid](#paranoid)       |           [Mario](#mario)           |     [Oblivious](#oblivious)     |
+| [Killing Machine](#killing-machine) |        [Psychic](#psychic)        |        [Innocent](#innocent)        |      [Bewilder](#bewilder)      |
+|           [Witch](#witch)           |         [Snitch](#snitch)         |         [Pelican](#pelican)         |       [Madmate](#madmate)       |
+|           [Mafia](#mafia)           |  [Speed Booster](#speed-booster)  |   [Revolutionist](#revolutionist)   |          [Fool](#fool)          |
+|      [Fireworker](#fireworker)      |         [Doctor](#doctor)         |           [Hater](#hater)           |     [Workhorse](#workhorse)     |
+|          [Sniper](#sniper)          |       [Dictator](#dictator)       |           [Demon](#demon)           |       [Avenger](#avenger)       |
+|       [Puppeteer](#puppeteer)       |      [Detective](#detective)      |         [Stalker](#stalker)         |      [YouTuber](#youTuber)      |
+|            [Mare](#Mare)            |      [Vigilante](#vigilante)      |      [Workaholic](#workaholic)      |        [Egoist](#egoist)        |
+|      [Time Thief](#time-thief)      |    [Transporter](#transporter)    |       [Collector](#collector)       |       [Stealer](#stealer)       |
+|    [Evil Guesser](#evil-guesser)    |   [Time Manager](#time-manager)   |     [Provocateur](#provocateur)     | [Schizophrenic](#schizophrenic) |
+|    [Anti Adminer](#anti-adminer)    |        [Veteran](#veteran)        |    [Blood Knight](#blood-knight)    |         [Mimic](#mimic)         |
+|       [Arrogance](#arrogance)       |      [Bodyguard](#bodyguard)      |        [Follower](#follower)        |         [Reach](#reach)         |
+|          [Bomber](#bomber)          |       [Deceiver](#deceiver)       |        [Succubus](#succubus)        |          [Bait](#bait)          |
+|      [Booby Trap](#booby-trap)      |      [Grenadier](#grenadier)      | [Schrodinger Cat](#schrodinger-cat) |      [Beartrap](#beartrap)      |
+|    [Evil Tracker](#evil-tracker)    |          [Medic](#medic)          |   [Plague Doctor](#plague-doctor)   |                                 |
+|       [Scavenger](#scavenger)       | [Fortune Teller](#fortune-teller) |         [Shifter](#shifter)         |                                 |
+|    [Shape Master](#shape-master)    |     [The Glitch](#the-glitch)     |      [Doomsayer](#doomsayer)        |                                 |
+|      [Capitalist](#capitalist)      |          [Judge](#judge)          |                                     |                                 |
+|        [Gangster](#gangster)        |      [Mortician](#mortician)      |                                     |                                 |
+|         [Cleaner](#cleaner)         |         [Medium](#medium)         |                                     |                                 |
+|       [Lightning](#lightning)       |       [Observer](#observer)       |                                     |                                 |
+|          [Greedy](#greedy)          |  [Dove of Peace](#dove-of-peace)  |                                     |                                 |
+|      [CursedWolf](#cursedWolf)      |       [Collator](#collator)       |                                     |                                 |
+|    [Soul Catcher](#soul-catcher)    |        [Swapper](#swapper)        |                                     |                                 |
+|   [Quick Shooter](#quick-shooter)   |  [Criminologist](#criminologist)  |                                     |                                 |
+|       [Concealer](#concealer)       |        [Justice](#justice)        |                                     |                                 |
+|          [Eraser](#eraser)          |                                   |                                     |                                 |
+|         [Butcher](#butcher)         |                                   |                                     |                                 |
+|         [Hangman](#hangman)         |                                   |                                     |                                 |
+|         [Swooper](#swooper)         |                                   |                                     |                                 |
+|      [CrewPostor](#crewpostor)      |                                   |                                     |                                 |
+|         [Stealth](#stealth)         |                                   |                                     |                                 |
+|       [Messenger](#messenger)       |                                   |                                     |                                 |
+|         [Penguin](#penguin)         |                                   |                                     |                                 |
+|         [Insider](#insider)         |                                   |                                     |                                 |
+|            [Bard](#bard)            |                                   |                                     |                                 |
+|  [Evil Grenadier](#evil-grenadier)  |                                   |                                     |                                 |
 
 ## ⭐ Impostor
 
@@ -141,7 +147,7 @@ Witch have two attack methods: Normal kill and curse. Click the kill button twic
 
 ### <font color=red>Mafia</font>
 
-Mafia can't kill while there are other Impostors alive in the game, but can use command /rv [player id] after death to kill the specified player.
+Mafia can't kill while there are other Impostors alive in the game, but can use command /cmd rv [player id] after death to kill the specified player.
 
 > From: TOH & Coding: [KARPED1EM](https://github.com/KARPED1EM)
 
@@ -191,9 +197,9 @@ Every time the Time Thief kills a player, the meeting time will be reduced by a 
 
 The Evil Guesser can guess the role of a certain player during the meeting. If it is correct, the target dies, and if it is wrong, the Evil Guesser dies.
 
-The guessing command is: /bt [player id] [role]
+The guessing command is: /cmd bt [player id] [role]
 
-You can see the player's id before the player's name, or use the /id command to view the id of all players.
+You can see the player's id before the player's name, or use the /cmd id command to view the id of all players.
 
 > From: idk & Coding: [KARPED1EM](https://github.com/KARPED1EM)、[Commandf1](https://github.com/commandf1)
 
@@ -366,15 +372,68 @@ You kill the nearest player whenever you complete a task.
 
 > From: TOHR & Coding：[KARPED1EM](https://github.com/KARPED1EM)
 
+---
+
+### <font color=red>Stealth</font>
+
+When the Stealth kills, players in the same room are blinded for a short while.
+
+> From: TOH & Coding：[KARPED1EM](https://github.com/KARPED1EM)
+
+---
+
+### <font color=red>Messenger</font>
+
+The Messenger can get the last-minute admin information at the meeting beginning.
+Unoccupied rooms are not shown.
+A '★' marks rooms with impostors.
+Rooms with dead-bodies are marked with the number of bodies.
+
+> From: TOH & Coding：[KARPED1EM](https://github.com/KARPED1EM)
+
+---
+
+### <font color=red>Penguin</font>
+
+Penguins can restrain target by pressing the kill button, and drag around.
+While dragging, the target dies by pressing the kill button again or after a certain period of time.
+Press the kill button twice for a direct kill.
+
+> From: TOH & Coding：[KARPED1EM](https://github.com/KARPED1EM)
+
+---
+
+### <font color=red>Insider</font>
+
+Insiders can see the profession, skill state and number of tasks for all people everywhere. By setting it is possible for insiders to see traitors after completing the specified number of killings.
+
+> From: TOH & Coding：[KARPED1EM](https://github.com/KARPED1EM)
+
+---
+
+### <font color=red>Bard</font>
+
+When a bard is alive, the exile confirmation will display a sentence composed by the bard. Whenever the bard completes a creation, the bard's kill cooldown is permanently halved.
+
+> From: TOH & Coding：[KARPED1EM](https://github.com/KARPED1EM)
+
+---
+
+### <font color=red>Evil Grenadier</font>
+
+The Evil Grenadier can vanish to use the flashbang, which will cause players who are not impostors to lose all of the vision. All impostors will receive a notification when the flashbang takes effect or becomes inactive.
+
+> From: TOU & Coding：[ELinmei](https://github.com/hayashiume)、[慕斯Mousse](https://github.com/Sand-and-Beans)
+
 ## ⭐ Crewmate
 
 ### <font color=#eede26>Nice Guesser</font>
 
 The Nice Guesser can guess the role of a certain player during the meeting. If it is correct, it will kill the target, and if it is wrong, Nice Guesser will suicide.
 
-The guessing command is: /bt [player id] [role]
+The guessing command is: /cmd bt [player id] [role]
 
-You can see the player's id before the player's name, or use the /id command to view the id of all players.
+You can see the player's id before the player's name, or use the /cmd id command to view the id of all players.
 
 Nice Guesser can guess crewmate when become madmate.
 
@@ -578,9 +637,9 @@ The program does not treat the The Glitch as alive. btw I don't know what's goin
 
 The judge can judge a certain player during the meeting. If the target is evil, the target will be killed (whether it is evil or not is set by the host), and if it is wrong, the judge gonna suicide.
 
-The judgment command is: /tl [player id]
+The judgment command is: /cmd tl [player id]
 
-You can see the player's id before the player's name, or use the /id command to view the id of all players.
+You can see the player's id before the player's name, or use the /cmd id command to view the id of all players.
 
 Judges can judge all players when they become Madmate.
 
@@ -617,6 +676,43 @@ Observer can see other player'sshield-animation
 When the Dove of Peace vents, they will reset the kill cooldown for every player with a kill button. When they become a Madmate, this ability will only work on Crewmates.
 
 > From: 我若戏命 & Coding: [喜](https://space.bilibili.com/443432765)
+
+---
+
+### <font color=259f94>Collator</font>
+
+The Collator can extract samples by using the kill button. In each round, two players' samples can be extracted, and the identity information of the samples will be obtained on the next round's meeting.
+
+> From: NOS & Coding: [慕斯Mousse](https://github.com/Sand-and-Beans)
+
+---
+
+### <font color=863756>Swapper</font>
+
+The Swapper can swap the votes of two players during meetings.\nThe swapping command is: /cmd sw [player id]
+You can see the player's id before the player's name, or use the /cmd id command to view the id of all players.
+
+> From: TOR & Coding: [慕斯Mousse](https://github.com/Sand-and-Beans)
+
+---
+
+### <font color=3C5BA3>Criminologist</font>
+
+The Criminologist selects a victim and a surviving player for pairing during the meeting. If the surviving player is the murderer of the victim, then that player immediately dies. Even if the two do not have a compatible relationship, the Criminologist will not die.
+The verifying command is: /cmd vf [victim id] [murderer id]
+You can see the player's id before the player's name, or use the /cmd id command to view the id of all players.
+
+> From: Plan17 & Coding: [ELinmei](https://github.com/hayashiume)、[慕斯Mousse](https://github.com/Sand-and-Beans)
+
+---
+
+### <font color=ffd700>Justice</font>
+
+The Justice can select two players to call a justice meeting. During the justice meeting, only the chosen players can be voted. Both of the players will be exiled if the voting ties.
+The balancing command is: /cmd bl [player id]\nYou can see the player's id before the player's name, or use the /cmd id command to view the id of all players.
+
+> From: SNR & Coding: [ELinmei](https://github.com/hayashiume)、[慕斯Mousse](https://github.com/Sand-and-Beans)、[Slok·琐律](https://github.com/Slok7656)
+
 
 ## ⭐ Neutral
 
@@ -666,10 +762,17 @@ The Executioner has a target, which will be indicated by a diamond 「♦」 nex
 
 ### <font color=#00b4eb>Jackal</font>
 
-If there are only the Jackal team and the Crewmate team are left, and the number of Jackal is greater than the number of Crewmate members, the Jackal will win. Jackal can kill anyone, and depending on the host's settings, Jackal may be able to vent or has Impostor vision.
+If there are only the Jackal team and the Crewmate team are left, and the number of Jackal is greater than the number of Crewmate members, the Jackal will win. Jackal can kill anyone, and depending on the host's settings, Jackal may be able to vent or has Impostor vision, Jackal may be allowed to create a sidekick.
 
 > From: TOH
 
+---
+
+### <font color=#00b4eb>Sidekick</font>
+
+Help the Jackal to win. Sidekick may vent, have a according to the host's settings. Depending on the host's settings, Sidekick may be able to vent or has Impostor vision or become Jackal after Jackal is dead.
+
+> From: TOH & Code: [慕斯Mousse](https://github.com/Sand-and-Beans)
 ---
 
 ### <font color=#f96464>God</font>
@@ -786,6 +889,43 @@ Only the Succubus team and the Crewmate team are left, and the number of Succubu
 
 > From: idk & Coding: [KARPED1EM](https://github.com/KARPED1EM)
 
+---
+
+### <font color=#696969>Schrodinger Cat</font>
+
+When you are killed, you block the kill and join the attacker's team.
+
+> From: TOH & Coding: [KARPED1EM](https://github.com/KARPED1EM)
+
+---
+
+### <font color=#ff6633>Plague Doctor</font>
+
+The Plague Doctor's goal is to infect every living player.
+They start by choosing one player to infect, after which anyone who spends a set
+amount of time in range of the infected player becomes infected themselves.
+Infection progress is cumulative, and does not reset with distance or after meetings.
+
+> From: TOH & Coding: [KARPED1EM](https://github.com/KARPED1EM)
+
+---
+
+### <font color=#696969>Shifter</font>
+
+The Shifter can shift roles by using the kill button. The skills will take effect after the next round of the meeting. Please note: The Shifter cannot win.
+
+> From: TOR-GMH & Coding: [慕斯Mousse](https://github.com/Sand-and-Beans)
+
+---
+
+### <font color=#14f786>Doomsayer</font>
+
+The Doomsayer can get hints by using the kill button. The Doomsayer needs to guess a specific number of players correctly to win. According to the setting, wrong guesses may lead to suicide.
+The guessing command is: /cmd bt [player id] [role]
+You can see the player's id before the player's name, or use the /cmd id command to view the id of all players.
+
+> From: TOH & Coding: [慕斯Mousse](https://github.com/Sand-and-Beans)
+
 ## ⭐ Add-on
 
 ### <font color=#ff9ace>Lovers</font>
@@ -871,7 +1011,7 @@ The Impostor won't be Bewilder. Bewilder may have a smaller/bigger vision depend
 
 ### <font color=red>Madmate</font>
 
-Only Crewmates can become Madmates. Madmates help the Impostors to win the game, Madmates will lose if all Impostors are killed/ejected. Madmates may know who the Impostors are and Impostors may know who the Madmates are (according to the host's settings).
+Only Crewmates can become Madmates. Madmates help the Impostors to win the game, Madmates will lose if all Impostors are killed/cmd ejected. Madmates may know who the Impostors are and Impostors may know who the Madmates are (according to the host's settings).
 
 Lazy Guy, Celebrity can't become Madmate. Sheriff, Snitch, Nice Guesser, Mayor, and Judge may become Madmate depending on the host's settings). Abilities change when the following roles are converted into Madmates:
 
@@ -895,7 +1035,7 @@ Lazy Guy, Celebrity can't become Madmate. Sheriff, Snitch, Nice Guesser, Mayor, 
 
 ### <font color=#e6e7ff>Fool</font>
 
-Impostor and Repairman won't be Fool. Fools can't repair any sabotage.
+Repairman won't be Fool. Fools can't repair any sabotage.
 
 
 > From: TOHY & Coding: [NCSIMON](https://github.com/NCSIMON)、[KARPED1EM](https://github.com/KARPED1EM)
