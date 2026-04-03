@@ -55,13 +55,11 @@ export default defineThemeConfig({
       navbar: enNavbar,
       sidebar: {
         "/docs/": [
-          // Plume 主题 sidebar 对于多语言情况的处理有 bug
-          // https://github.com/pengzhanbo/vuepress-theme-plume/issues/876
-          "/en/docs/introduction",
-          "/en/docs/getting-started",
-          "/en/docs/advanced",
-          "/en/docs/roles",
-          "/en/docs/faq"
+          "introduction",
+          "getting-started",
+          "advanced",
+          "roles",
+          "faq"
         ]
       },
       footer: {
