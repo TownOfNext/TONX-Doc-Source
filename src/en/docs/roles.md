@@ -1,14 +1,11 @@
 ---
-lang: en-US
-title: Roles
+title: Role List
 ---
-
-# Roles
 
 Count：128（include 2 hidden roles）
 
 |              Impostor               |             Crewmate              |               Neutral               |             Add-on              |
-|:-----------------------------------:|:---------------------------------:|:-----------------------------------:| :-----------------------------: |
+| :---------------------------------: | :-------------------------------: | :---------------------------------: | :-----------------------------: |
 |   [Bounty Hunter](#bounty-hunter)   |   [Nice Guesser](#nice-guesser)   |        [Arsonist](#arsonist)        |        [Lovers](#lovers)        |
 |   [Serial Killer](#serial-killer)   |         [Luckey](#luckey)         |          [Jester](#jester)          | [Last Impostor](#last-impostor) |
 |         [Vampire](#vampire)         |       [Lazy Guy](#lazy-guy)       |     [Opportunist](#opportunist)     |       [Neptune](#neptune)       |

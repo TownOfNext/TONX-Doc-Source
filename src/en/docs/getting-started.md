@@ -2,7 +2,7 @@
 title: Getting Started
 ---
 
-# Manual Installation
+## Manual Installation
 
 1. Click [here](https://github.com/KARPED1EM/TownOfHostEdited/releases/latest) and download the latest relaease.
 

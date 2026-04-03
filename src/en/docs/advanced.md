@@ -1,39 +1,36 @@
 ---
-lang: en-US
-title: Advanced
+title: Advanced Tutorial
 ---
-
-# Advanced
 
 ## HotKeys
 
-| Hotkeys                                           | To                                       | Access                 |
-| ------------------------------------------------- |------------------------------------------|------------------------|
-| <kbd>F11</kbd>                                    | change resolution                        | mod                    |
-| <kbd>Alt</kbd> + <kbd>Enter</kbd>                 | switch to full-screen                    | mod & pc               |
-| <kbd>F5</kbd> + <kbd>T</kbd>                      | reload custom translation                | mod                    |
-| <kbd>F5</kbd> + <kbd>X</kbd>                      | output custom transation                 | mod                    |
-| <kbd>Ctrl</kbd> + <kbd>F1</kbd>                   | output log file to desktop               | mod                    |
-| <kbd>Alt</kbd> + <kbd>C</kbd>                     | copy current game options                | mod                    |
-| <kbd>F10</kbd>                                    | pop up root directory of game            | mod                    |
-| <kbd>F1</kbd>                                     | show roleinfo panel                      | mod & in game          |
-| <kbd>Ctrl</kbd>+<kbd>Right Click</kbd>            | kill the selected player                 | host & meeting         |
+| Hotkeys                                            | To                                       | Access                 |
+| -------------------------------------------------- | ---------------------------------------- | ---------------------- |
+| <kbd>F11</kbd>                                     | change resolution                        | mod                    |
+| <kbd>Alt</kbd> + <kbd>Enter</kbd>                  | switch to full-screen                    | mod & pc               |
+| <kbd>F5</kbd> + <kbd>T</kbd>                       | reload custom translation                | mod                    |
+| <kbd>F5</kbd> + <kbd>X</kbd>                       | output custom transation                 | mod                    |
+| <kbd>Ctrl</kbd> + <kbd>F1</kbd>                    | output log file to desktop               | mod                    |
+| <kbd>Alt</kbd> + <kbd>C</kbd>                      | copy current game options                | mod                    |
+| <kbd>F10</kbd>                                     | pop up root directory of game            | mod                    |
+| <kbd>F1</kbd>                                      | show roleinfo panel                      | mod & in game          |
+| <kbd>Ctrl</kbd>+<kbd>Right Click</kbd>             | kill the selected player                 | host & meeting         |
 | <kbd>Shift</kbd> + <kbd>C</kbd> + <kbd>Enter</kbd> | show chat bubble                         | host & in game         |
 | <kbd>Shift</kbd> + <kbd>L</kbd> + <kbd>Enter</kbd> | force end game                           | host & in game         |
 | <kbd>Shift</kbd> + <kbd>M</kbd> + <kbd>Enter</kbd> | force start / end meeting                | host & in game         |
-| <kbd>Shift</kbd>                                  | start game now                           | host & start countdown |
-| <kbd>C</kbd>                                      | reset start countdown                    | host & start countdown |
-| <kbd>Shift</kbd> + <kbd>Ctrl</kbd>+ <kbd>N</kbd>  | show description of current game options | host                   |
-| <kbd>Ctrl</kbd>+ <kbd>N</kbd>                     | show current game options                | host                   |
-| <kbd>Ctrl</kbd>+ <kbd>Delete</kbd>                | reset to default TONX options            | host & lobby           |
+| <kbd>Shift</kbd>                                   | start game now                           | host & start countdown |
+| <kbd>C</kbd>                                       | reset start countdown                    | host & start countdown |
+| <kbd>Shift</kbd> + <kbd>Ctrl</kbd>+ <kbd>N</kbd>   | show description of current game options | host                   |
+| <kbd>Ctrl</kbd>+ <kbd>N</kbd>                      | show current game options                | host                   |
+| <kbd>Ctrl</kbd>+ <kbd>Delete</kbd>                 | reset to default TONX options            | host & lobby           |
 | <kbd>Shift</kbd> + <kbd>E</kbd> + <kbd>Enter</kbd> | suicide                                  | host & in game         |
 | <kbd>Shift</kbd> + <kbd>D</kbd> + <kbd>Enter</kbd> | open all doors (airship)                 | host & debug & in game |
 | <kbd>Shift</kbd> + <kbd>K</kbd> + <kbd>Enter</kbd> | set your kill cooldown to 0              | host & debug & in game |
 | <kbd>Shift</kbd> + <kbd>T</kbd> + <kbd>Enter</kbd> | done all your tasks                      | host & debug & in game |
-| <kbd>Y</kbd>                                      | rpc sync options for all client          | host & debug & in game |
-| <kbd>G</kbd>                                      | show intros                              | host & debug & in game |
-| <kbd>=</kbd>                                      | switch task show                         | host & debug & in game |
-| <kbd>I</kbd>                                      | get present coordinate                   | host & debug & in game |
+| <kbd>Y</kbd>                                       | rpc sync options for all client          | host & debug & in game |
+| <kbd>G</kbd>                                       | show intros                              | host & debug & in game |
+| <kbd>=</kbd>                                       | switch task show                         | host & debug & in game |
+| <kbd>I</kbd>                                       | get present coordinate                   | host & debug & in game |
 
 ## Chat Command
 
@@ -65,7 +62,7 @@ title: Advanced
 | /end              | force end game                  | host      |
 | /hy               | force start / end meeting       | host      |
 
- - Tip: Due to the update of the server, the function of hiding messages is no longer necessary. When inputting commands, please use /cmd, for example, /id => /cmd id. 
+ - Tip: Due to the update of the server, the function of hiding messages is no longer necessary. When inputting commands, please use /cmd, for example, /id => /cmd id.
 
 ## Welcome & onMeeting auto messages
 
