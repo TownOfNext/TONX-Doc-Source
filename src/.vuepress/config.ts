@@ -54,7 +54,9 @@ export default defineUserConfig({
       whitespace: true,
       lineNumbers: false,
     },
-    readingTime: false,
+    readingTime: {
+      wordPerMinute: 350
+    },
     hostname: 'https://tonx.cc',
     autoFrontmatter: false,
     cache: "filesystem",
