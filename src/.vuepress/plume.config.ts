@@ -49,6 +49,7 @@ export default defineThemeConfig({
       footer: {
         message: "本站点采用 <a href='https://creativecommons.org/licenses/by-nc-sa/4.0/' target='_blank'>CC-BY-NC-SA-4.0</a> 进行许可。"
       },
+      sidebarMenuLabel: "菜单",
       editLinkText: "在 GitHub 上查看此页"
     },
     '/en/': {
