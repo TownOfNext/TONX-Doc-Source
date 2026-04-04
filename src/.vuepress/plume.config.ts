@@ -17,61 +17,56 @@ import { enNavbar, zhNavbar } from './navbar'
  */
 export default defineThemeConfig({
   logo: '/logo.png',
-  appearance: true,
   social: [
     { icon: 'github', link: 'https://github.com/TownOfNext/TownOfNext' },
   ],
   navbarSocialInclude: ['github'],
+  sidebarScrollbar: false,
   outline: [2, 4],
-  copyright: "CC-BY-NC-SA-4.0",
-  prevPage: false,
-  nextPage: false,
-  createTime: false,
   transition: {
     appearance: "circle-clip"
   },
   footer: {
     copyright: "© 2023-2026 <a href='https://github.com/TownOfNext' target='_blank'>TownOfNext</a>"
   },
+  editLinkPattern: ":repo/blob/:branch/:path",
+  copyright: false,
+  prevPage: false,
+  nextPage: false,
+  createTime: false,
   locales: {
     '/': {
       navbar: zhNavbar,
       sidebar: {
         "/docs/": [
-          "features",
+          "introduction",
           "getting-started",
           "advanced",
           "roles",
           "faq"
         ]
       },
-      // bulletin: {
-      //   layout: 'top-right',
-      //   contentType: 'markdown',
-      //   lifetime: "session",
-      //   title: "公告",
-      //   content: "维护该项目会消耗我大量的空闲时间，也会使用一部分我的零钱用于更新检查服务等。因此很高兴您能为这个项目提供一些经济上的帮助！",
-      // },
       footer: {
         message: "本站点采用 <a href='https://creativecommons.org/licenses/by-nc-sa/4.0/' target='_blank'>CC-BY-NC-SA-4.0</a> 进行许可。"
-      }
+      },
+      sidebarMenuLabel: "菜单",
+      editLinkText: "在 GitHub 上查看此页"
     },
     '/en/': {
       navbar: enNavbar,
       sidebar: {
         "/docs/": [
-          // Plume 主题 sidebar 对于多语言情况的处理有 bug
-          // https://github.com/pengzhanbo/vuepress-theme-plume/issues/876
-          "/en/docs/features",
-          "/en/docs/getting-started",
-          "/en/docs/advanced",
-          "/en/docs/roles",
-          "/en/docs/faq"
+          "introduction",
+          "getting-started",
+          "advanced",
+          "roles",
+          "faq"
         ]
       },
       footer: {
         message: "This site is licensed under <a href='https://creativecommons.org/licenses/by-nc-sa/4.0/' target='_blank'>CC-BY-NC-SA-4.0</a>."
-      }
+      },
+      editLinkText: "View this page on GitHub"
     }
   }
 })
