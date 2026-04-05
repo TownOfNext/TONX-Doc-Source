@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -57,6 +57,10 @@
               "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "faq.md",
@@ -64,7 +68,7 @@
               "RelativeDocumentMoniker": "src\\en\\docs\\faq.md",
               "ToolTip": "C:\\Users\\ASUS\\source\\repos\\TONX-Website\\TONX-Doc-Source\\src\\en\\docs\\faq.md",
               "RelativeToolTip": "src\\en\\docs\\faq.md",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAACFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAACFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
               "WhenOpened": "2026-03-29T08:37:24.296Z",
               "EditorCaption": ""
@@ -79,8 +83,7 @@
               "RelativeToolTip": "src\\en\\docs\\roles.md",
               "ViewState": "AgIAAPgCAAAAAAAAAAAewAIDAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2026-03-29T08:35:09.666Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-29T08:35:09.666Z"
             },
             {
               "$type": "Document",
@@ -92,8 +95,7 @@
               "RelativeToolTip": ".gitignore",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-03-29T08:32:42.563Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-29T08:32:42.563Z"
             },
             {
               "$type": "Document",
@@ -105,8 +107,7 @@
               "RelativeToolTip": "src\\en\\docs\\advanced.md",
               "ViewState": "AgIAADgAAAAAAAAAAAAAAEMAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2026-03-29T08:29:46.742Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-29T08:29:46.742Z"
             },
             {
               "$type": "Document",
@@ -118,8 +119,7 @@
               "RelativeToolTip": "src\\en\\index.md",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2026-03-29T08:29:45.223Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-29T08:29:45.223Z"
             },
             {
               "$type": "Document",
@@ -131,8 +131,7 @@
               "RelativeToolTip": "src\\index.md",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2026-03-29T08:29:40.856Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-29T08:29:40.856Z"
             }
           ]
         }

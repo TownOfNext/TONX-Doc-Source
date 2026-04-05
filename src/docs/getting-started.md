@@ -36,4 +36,14 @@ title: 安装教程
 
 ## 库文件 {#dll}
 
-很抱歉，我认为我不需要写库文件的教程，因为懂的人不用教，不懂的人用不到。
+1. 首先[从 GitHub 下载](https://github.com/TownOfNext/TownOfNext/releases/latest)最新版本或从 QQ 群文件里下载 TownOfNext.dll 文件。
+
+2. 如果您使用 Steam，请根据图示操作，弹出来的文件夹就是游戏的根目录；如果您使用 Epic，请去手动寻找游戏根目录，具体教程网上有。
+
+   ![通过 Steam 打开根目录](/image/steam-get-folder.webp)
+
+3. 找到游戏根目录后，打开 Among Us\BepInEx\plugins 目录，将 TownOfNext.dll 置于此处。
+
+4. 现在您可以在 Steam 或 Epic 启动游戏，第一次打开会卡一段时间，请耐心等待。
+
+- Tip: 如果您在此安装方案时发现模组启动失败了，请自行尝试其他安装方式，开发者不会给予帮助。

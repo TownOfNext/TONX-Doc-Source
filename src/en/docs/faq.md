@@ -4,7 +4,9 @@ title: Frequently Asked Questions
 
 ## How to install mod on mobile phones and tablets
 
-Only Windows can install mods. If you have no Windows, you don’t need to worry, the Host-only mods such as TONX, TOH, TOHR, TOHY, SHR, etc. are all compatible with the vanilla. You can find the lobbys of these mods to join and play.
+In theory, only Windows PCs will be able to install mods until our mod is released on Starlight.
+If TONX is listed on Starlight following negotiations with the AOU development team, players using Android devices will be able to install the mod.
+If you have no Windows, you don’t need to worry, the Host-only mods such as TONX, TOH, TOHR, TOHY, SHR, etc. are all compatible with the vanilla. You can find the lobbys of these mods to join and play.
 
 ## You have been kicked by room
 

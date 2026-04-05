@@ -34,60 +34,60 @@ title: 模组介绍
 
 <CardGrid>
   <LinkCard icon="simple-icons:github" title="KARPED1EM" href="https://github.com/KARPED1EM">
-    Creator
+    创建者
   </LinkCard>
   <LinkCard icon="simple-icons:github" title="Commandf1" href="https://github.com/commandf1">
-    Feature & Role Coding
+    功能&职业编程
   </LinkCard>
   <LinkCard icon="simple-icons:github" title="Slok·琐律" href="https://github.com/Slok7565">
-    Role Coding & Art
+    职业编程&美术
   </LinkCard>
   <LinkCard icon="simple-icons:github" title="ELinmei" href="https://github.com/HayashiUme">
-    Role Coding & Website Coding
+    职业编程&网站编程
   </LinkCard>
   <LinkCard icon="simple-icons:github" title="天寸梦初" href="https://github.com/TianMengLucky">
-    Role Coding & Tech Support
+    职业编程&技术支持
   </LinkCard>
   <LinkCard icon="simple-icons:github" title="Mousse" href="https://github.com/Sand-and-Beans">
-    Role Coding & Document
+    职业编程&文档
   </LinkCard>
   <Card title="NCSIMON">
-    Role Coding
+    职业编程
   </Card>
   <LinkCard icon="simple-icons:github" title="喜" href="https://github.com/Xieiawa">
-    Role Coding
+    职业编程
   </LinkCard>
   <LinkCard icon="simple-icons:github" title="SHAAARKY" href="https://github.com/SHAAARKY">
-    Role Coding
+    职业编程
   </LinkCard>
   <LinkCard icon="simple-icons:bilibili" title="IRIDESCENT" href="https://space.bilibili.com/434079598">
-    Art
+    美术
   </LinkCard>
   <LinkCard icon="simple-icons:github" title="Endrmen40409" href="https://github.com/endrmen9487">
-    Art
+    美术
   </LinkCard>
   <LinkCard icon="simple-icons:github" title="Tommy-XL" href="https://github.com/Tommy-XL">
-    English & Russian Translator
+    英语&俄语翻译
   </LinkCard>
   <LinkCard icon="simple-icons:github" title="Tem" href="https://github.com/mogekonik1">
-    English & Russian Translator
+    英语&俄语翻译
   </LinkCard>
   <Card title="SolarFlare">
-    English Translator & Document
+    英语翻译&文档
   </Card>
   <Card title="Gurge44">
-    English Translator
+    英语翻译
   </Card>
   <Card title="NetherDragon">
-    Traditional Chinese Translator
+    繁体中文翻译
   </Card>
   <Card title="法官">
-    Traditional Chinese Translator
+    繁体中文翻译
   </Card>
   <LinkCard icon="simple-icons:github" title="QingFeng" href="https://github.com/QingFeng-awa">
-    Website Coding
+    网站编程
   </LinkCard>
   <Card title="水木年华">
-    Document & Contact Support
+    文档&联系支持
   </Card>
 </CardGrid>
