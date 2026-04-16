@@ -18,7 +18,7 @@
     "typescript": "^5.9.3",
     "vue": "^3.5.32",
     "vuepress": "2.0.0-rc.28",
-    "vuepress-theme-plume": "1.0.0-rc.193"
+    "vuepress-theme-plume": "1.0.0-rc.194"
   },
   "engines": {
     "node": "^20.19.0 || >=22.0.0"
