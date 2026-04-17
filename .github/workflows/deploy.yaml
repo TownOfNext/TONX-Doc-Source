@@ -22,7 +22,7 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    name: Build
+    name: Build Site Source
     steps:
       - name: Checkout
         uses: actions/checkout@v4
