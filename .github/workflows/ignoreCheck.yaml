@@ -1,0 +1,63 @@
+name: Check Gitignored Files
+
+on:
+  pull_request:
+    types: [ opened, synchronize ]
+
+jobs:
+  check-gitignored:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Get PR base branch
+        id: base-branch
+        run: |
+          echo "branch=${{ github.event.pull_request.base.ref }}" >> $GITHUB_OUTPUT
+
+      - name: Check for gitignored files in PR
+        run: |
+          # Get the list of changed files between base branch and PR head
+          git fetch origin ${{ steps.base-branch.outputs.branch }}
+
+          # Get all changed files (added, modified) in the PR
+          CHANGED_FILES=$(git diff --name-only --diff-filter=AM origin/${{ steps.base-branch.outputs.branch }}...HEAD)
+
+          if [ -z "$CHANGED_FILES" ]; then
+            echo "No files changed in this PR"
+            exit 0
+          fi
+
+          echo "Changed files:"
+          echo "$CHANGED_FILES"
+          echo ""
+
+          # Check if .gitignore exists
+          if [ ! -f .gitignore ]; then
+            echo "✅ No .gitignore file found, nothing to check"
+            exit 0
+          fi
+
+          # Store violated files
+          VIOLATED_FILES=""
+
+          # Check each changed file against gitignore patterns
+          while IFS= read -r file; do
+            # Use git check-ignore to verify if file would be ignored
+            # Note: we use -v for verbose, and check if it returns 0 (means ignored)
+            if git check-ignore -q "$file" 2>/dev/null; then
+              VIOLATED_FILES="${VIOLATED_FILES}\n  - $file"
+            fi
+          done <<< "$CHANGED_FILES"
+
+          # Report results
+          if [ -n "$VIOLATED_FILES" ]; then
+            echo "❌ ERROR: The following files are ignored by .gitignore but were included in this PR:"
+            echo -e "$VIOLATED_FILES"
+            exit 1
+          else
+            echo "✅ No gitignored files found in this PR"
+          fi
