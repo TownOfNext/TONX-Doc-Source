@@ -1,0 +1,28 @@
+name: Auto Assign Pull Request
+
+on:
+  pull_request:
+    types: [ opened ]
+
+permissions:
+  pull-requests: write
+
+jobs:
+  assign:
+    name: Auto Assign Pull Request
+    runs-on: ubuntu-latest
+    steps:
+      - name: Auto Assign Pull Request
+        uses: actions/github-script@v8
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const assignee = "QingFeng-awa";
+            const issue_number = context.payload.pull_request.number;
+
+            await github.rest.issues.addAssignees({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: issue_number,
+              assignees: [assignee]
+            });
