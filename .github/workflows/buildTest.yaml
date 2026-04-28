@@ -2,7 +2,7 @@ name: Build Test
 
 on:
   pull_request:
-    types: [ ready_for_review, synchronize, review_requested ]
+    types: [ opened, synchronize ]
 
 permissions:
   contents: read
