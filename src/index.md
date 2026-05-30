@@ -9,20 +9,20 @@ config:
     effect: lightning
     hero:
       name: Town Of Next
-      text: 始于热爱旨在学习的 AmongUs 模组
-      tagline: 应不少玩家的要求，TOHE 将保持最基本的适配，并与 TOH 同步更新，以保证有需要的玩家仍然可以正常玩。 顺带一提，TOHE 已更名为 TONX。
+      text: An AmongUs mod with learning & love
+      tagline: At the request of many players, TOHE will maintain the most basic adaptation and synchronize updates with TOH to ensure that players in need can still play normally. By the way, TOHE has renamed TONX.
       image: /logo.png
       actions:
         -
           theme: brand
-          text: 下载安装
+          text: Installation
           link: docs/getting-started
         -
           theme: alt
-          text: 模组介绍
+          text: About
           link: docs/introduction
         -
           theme: alt
-          text: 职业列表
+          text: Roles
           link: docs/roles
 ---

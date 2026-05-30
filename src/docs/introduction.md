@@ -1,93 +1,94 @@
 ---
-title: 模组介绍
+title: About
 ---
 
 ![Cover](/image/cover.webp)
 
-:::important 声明
+:::important Regarding this mod
 
-该模组不隶属于我们之中或 Innersloth LLC，其中包含的内容未经 Innersloth LLC 认可或以其他方式赞助。\
-此处包含的部分材料是 Innersloth LLC 的财产。\
-© Innersloth LLC。
+This mod is not affiliated with Among Us or Innersloth LLC, and the content contained therein is not endorsed or otherwise sponsored by Innersloth LLC.\
+ Portions of the materials contained herein are property of Innersloth LLC.\
+ © Innersloth LLC.
 
 :::
 
-## 关于这个模组
+## About this mod
 
-一开始是为了帮群友解决模组损坏的问题，于是我从零摸索 C#，成功地解决这个问题后顺带加了点功能并修改了一些内容，于是有了这个版本并命名为 Town Of Host Edited 也就是 TOHE。
+In the beginning, I wanted to help my friend solve the problem of module damage, so I learned C# from scratch. After successfully solving this problem, I added some features and modified some content, so I released my version and named it Town Of Host Edited.
 
-这个模组存在的本质意义是让我学习一些新的知识，所以等我学习完成或退游后或许就会断更了。
+The purpose of this mod is to allow me to learn some new knowledge, so it may be discontinued after I finish my studies or quit the game.
 
-这是我第一次使用 C#，因此当时 TOHE 的代码很烂，存在着大量的 Bug。后来随着一个个版本更新，整整三次的完全重写后，目前我对于开发也逐渐熟练。即使没有什么人能协助我开发，或许开发效率很低，更新只能纯靠没日没夜地肝，但至少目前 TOHE 在技术力上没有太大的瓶颈了。
+This is my first time using C#, so TOHE's code was terrible and there were a lot of bugs. Later, as the versions were updated one by one, after three complete rewrites, I am now gradually proficient in development. Even if there is no one who can assist me in development, maybe the development efficiency is very low, and the update can only be done day and night, but at least TOHE does not have a big technical bottleneck at present.
 
-总之，很开心大家能支持我的学习成果！可以的话多在视频平台发发 TOHE 的视频，我真的会很开心。
+In short, I am very happy that you can support my learning results! If possible, post more videos of TOHE on the video platform, I will be really happy.
 
 :::note
 
-由 KARPED1EM 开发和维护的 TOHE 项目已于 2023 年 5 月 20 日停止开发，最终版本为 v2.3.6。\
-随后，SHAAARKY 基于新的基础从头重建了项目，并将其更名为 TONX，继续开发至 v3.0.1 版本后停止维护。\
-目前，该项目由 Sand-and-Beans 维护，基于主分支持续开发中。
+The TOHE project, developed and maintained by KARPED1EM, ceased development on May 20, 2023, with its final release being v2.3.6.\
+SHAAARKY subsequently rebuilt the project from the ground up using a new base and renamed it to TONX, continuing development until v3.0.1 before discontinuing maintenance.\
+The project is now maintained by Sand-and-Beans, with ongoing development based on the main branch.
 
 :::
 
-## 贡献者
+
+## Contributors
 
 <CardGrid>
   <LinkCard icon="simple-icons:github" title="KARPED1EM" href="https://github.com/KARPED1EM">
-    创建者
+    Creator
   </LinkCard>
   <LinkCard icon="simple-icons:github" title="Commandf1" href="https://github.com/commandf1">
-    功能&职业编程
+    Feature & Role Coding
   </LinkCard>
   <LinkCard icon="simple-icons:github" title="Slok·琐律" href="https://github.com/Slok7565">
-    职业编程&美术
+    Role Coding & Art
   </LinkCard>
   <LinkCard icon="simple-icons:github" title="ELinmei" href="https://github.com/HayashiUme">
-    职业编程&网站编程
+    Role Coding & Website Coding
   </LinkCard>
   <LinkCard icon="simple-icons:github" title="天寸梦初" href="https://github.com/TianMengLucky">
-    职业编程&技术支持
+    Role Coding & Tech Support
   </LinkCard>
   <LinkCard icon="simple-icons:github" title="Mousse" href="https://github.com/Sand-and-Beans">
-    职业编程&文档
+    Role Coding & Document
   </LinkCard>
   <Card title="NCSIMON">
-    职业编程
+    Role Coding
   </Card>
   <LinkCard icon="simple-icons:github" title="喜" href="https://github.com/Xieiawa">
-    职业编程
+    Role Coding
   </LinkCard>
   <LinkCard icon="simple-icons:github" title="SHAAARKY" href="https://github.com/SHAAARKY">
-    职业编程
+    Role Coding
   </LinkCard>
   <LinkCard icon="simple-icons:bilibili" title="IRIDESCENT" href="https://space.bilibili.com/434079598">
-    美术
+    Art
   </LinkCard>
   <LinkCard icon="simple-icons:github" title="Endrmen40409" href="https://github.com/endrmen9487">
-    美术
+    Art
   </LinkCard>
   <LinkCard icon="simple-icons:github" title="Tommy-XL" href="https://github.com/Tommy-XL">
-    英语&俄语翻译
+    English & Russian Translator
   </LinkCard>
   <LinkCard icon="simple-icons:github" title="Tem" href="https://github.com/mogekonik1">
-    英语&俄语翻译
+    English & Russian Translator
   </LinkCard>
   <Card title="SolarFlare">
-    英语翻译&文档
+    English Translator & Document
   </Card>
   <Card title="Gurge44">
-    英语翻译
+    English Translator
   </Card>
   <Card title="NetherDragon">
-    繁体中文翻译
+    Traditional Chinese Translator
   </Card>
   <Card title="法官">
-    繁体中文翻译
+    Traditional Chinese Translator
   </Card>
   <LinkCard icon="simple-icons:github" title="QingFeng" href="https://github.com/QingFeng-awa">
-    网站编程
+    Website Coding
   </LinkCard>
   <Card title="水木年华">
-    文档&联系支持
+    Document & Contact Support
   </Card>
 </CardGrid>

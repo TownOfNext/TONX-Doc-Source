@@ -36,12 +36,31 @@ export default defineThemeConfig({
   createTime: false,
   locales: {
     '/': {
+      navbar: enNavbar,
+      sidebar: {
+        "/docs/": [
+          "introduction",
+          "getting-started",
+          "advanced",
+          "game-modes",
+          "roles",
+          "faq"
+        ]
+      },
+      footer: {
+        message: "This site is licensed under <a href='https://creativecommons.org/licenses/by-nc-sa/4.0/' target='_blank'>CC-BY-NC-SA-4.0</a>."
+      },
+      sidebarMenuLabel: "Menu",
+      editLinkText: "View this page on GitHub"
+    },
+    '/zh/': {
       navbar: zhNavbar,
       sidebar: {
         "/docs/": [
           "introduction",
           "getting-started",
           "advanced",
+          "game-modes",
           "roles",
           "faq"
         ]
@@ -51,22 +70,6 @@ export default defineThemeConfig({
       },
       sidebarMenuLabel: "菜单",
       editLinkText: "在 GitHub 上查看此页"
-    },
-    '/en/': {
-      navbar: enNavbar,
-      sidebar: {
-        "/docs/": [
-          "introduction",
-          "getting-started",
-          "advanced",
-          "roles",
-          "faq"
-        ]
-      },
-      footer: {
-        message: "This site is licensed under <a href='https://creativecommons.org/licenses/by-nc-sa/4.0/' target='_blank'>CC-BY-NC-SA-4.0</a>."
-      },
-      editLinkText: "View this page on GitHub"
     }
   }
 })

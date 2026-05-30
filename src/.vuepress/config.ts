@@ -15,17 +15,17 @@ import { plumeTheme } from 'vuepress-theme-plume'
 
 export default defineUserConfig({
   base: "/",
-  lang: 'zh-CN',
+  lang: 'en-US',
   locales: {
     '/': {
       title: 'TONX',
-      lang: 'zh-CN',
-      description: "应不少玩家的要求，TOHE 将保持最基本的适配，并与 TOH 同步更新，以保证有需要的玩家仍然可以正常玩。 顺带一提，TOHE 已更名为 TONX。",
-    },
-    '/en/': {
-      title: 'TONX',
       lang: 'en-US',
-      description: 'At the request of many players, TOHE will maintain the most basic adaptation and synchronize updates with TOH to ensure that players in need can still play normally. By the way, TOHE has renamed TONX.',
+      description: 'An Among Us mod — Town Of Next (TONX). Formerly known as TOHE. Maintained by the community.',
+    },
+    '/zh/': {
+      title: 'TONX',
+      lang: 'zh-CN',
+      description: "应不少玩家的要求，TOHE 将保持最基本的适配，并与 TOH 同步更新，以保证有需要的玩家仍然可以正常玩。顺带一提，TOHE 已更名为 TONX。",
     },
   },
   head: [
