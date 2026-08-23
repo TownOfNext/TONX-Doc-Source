@@ -2,7 +2,7 @@
 title: Role List
 ---
 
-Count：128（include 2 hidden roles）
+Count：131（include 2 hidden roles）
 
 |              Impostor               |             Crewmate              |               Neutral               |             Add-on              |
 | :---------------------------------: | :-------------------------------: | :---------------------------------: | :-----------------------------: |
@@ -28,10 +28,10 @@ Count：128（include 2 hidden roles）
 |       [Arrogance](#arrogance)       |      [Bodyguard](#bodyguard)      |        [Follower](#follower)        |         [Reach](#reach)         |
 |          [Bomber](#bomber)          |       [Deceiver](#deceiver)       |        [Succubus](#succubus)        |          [Bait](#bait)          |
 |      [Booby Trap](#booby-trap)      |      [Grenadier](#grenadier)      | [Schrodinger Cat](#schrodinger-cat) |      [Beartrap](#beartrap)      |
-|    [Evil Tracker](#evil-tracker)    |          [Medic](#medic)          |   [Plague Doctor](#plague-doctor)   |                                 |
+|    [Evil Tracker](#evil-tracker)    |          [Medic](#medic)          |   [Plague Doctor](#plague-doctor)   |     [Colorblind](#colorblind)   |
 |       [Scavenger](#scavenger)       | [Fortune Teller](#fortune-teller) |         [Shifter](#shifter)         |                                 |
 |    [Shape Master](#shape-master)    |     [The Glitch](#the-glitch)     |       [Doomsayer](#doomsayer)       |                                 |
-|      [Capitalist](#capitalist)      |          [Judge](#judge)          |                                     |                                 |
+|      [Capitalist](#capitalist)      |          [Judge](#judge)          |          [Yandere](#yandere)        |                                 |
 |        [Gangster](#gangster)        |      [Mortician](#mortician)      |                                     |                                 |
 |         [Cleaner](#cleaner)         |         [Medium](#medium)         |                                     |                                 |
 |       [Lightning](#lightning)       |       [Observer](#observer)       |                                     |                                 |
@@ -40,7 +40,7 @@ Count：128（include 2 hidden roles）
 |    [Soul Catcher](#soul-catcher)    |        [Swapper](#swapper)        |                                     |                                 |
 |   [Quick Shooter](#quick-shooter)   |  [Criminologist](#criminologist)  |                                     |                                 |
 |       [Concealer](#concealer)       |        [Justice](#justice)        |                                     |                                 |
-|          [Eraser](#eraser)          |                                   |                                     |                                 |
+|          [Eraser](#eraser)          |   [Security Guard](#security-guard) |                                 |                                 |
 |         [Butcher](#butcher)         |                                   |                                     |                                 |
 |         [Hangman](#hangman)         |                                   |                                     |                                 |
 |         [Swooper](#swooper)         |                                   |                                     |                                 |
@@ -710,6 +710,13 @@ The balancing command is: /cmd bl [player id]\nYou can see the player's id befor
 
 > From: SNR & Coding: [ELinmei](https://github.com/hayashiume)、[慕斯Mousse](https://github.com/Sand-and-Beans)、[Slok·琐律](https://github.com/Slok7656)
 
+---
+
+### <font color=#4B6E8C>Security Guard</font>
+
+The Security Guard can block a vent by using it. Once a vent is blocked, other players who can use vents will be unable to enter it. The maximum number of vents that can be blocked is set by the host.
+
+> From: The Other Roles
 
 ## ⭐ Neutral
 
@@ -923,6 +930,16 @@ You can see the player's id before the player's name, or use the /cmd id command
 
 > From: TOH & Coding: [慕斯Mousse](https://github.com/Sand-and-Beans)
 
+---
+
+### <font color=#ff69b4>Yandere</font>
+
+The Yandere has a randomly assigned love interest. Players who stay near the Lover for a certain time are marked as Rivals. The Yandere can kill other players. Killing a Rival reduces the kill cooldown, while killing a non-Rival increases it. After the Lover dies, the Yandere's kill cooldown becomes fixed.
+
+Win when All players except the Yandere and the Lover are dead.
+
+> From: Extreme Roles
+
 ## ⭐ Add-on
 
 ### <font color=#ff9ace>Lovers</font>
@@ -1124,3 +1141,11 @@ When a Bait is killed, the murderer who killed the Bait will be forced to report
 When Beartrap is killed, Beartrap immobilize killer for a configurable amount of time.
 
 > From: TOH & Coding: [KARPED1EM](https://github.com/KARPED1EM)
+> 
+---
+
+### <font color=#8c8c8c>Colorblind</font>
+
+The Colorblind sees every player's color as a different color from their actual color.
+
+> From：[ELinmei](https://github.com/HayashiUme) & Coding：[ELinmei](https://github.com/HayashiUme)

@@ -43,6 +43,7 @@ export default defineThemeConfig({
           "getting-started",
           "advanced",
           "roles",
+          "game-modes",
           "faq"
         ]
       },
@@ -60,6 +61,7 @@ export default defineThemeConfig({
           "getting-started",
           "advanced",
           "roles",
+          "game-modes",
           "faq"
         ]
       },
