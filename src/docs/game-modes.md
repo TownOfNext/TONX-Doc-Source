@@ -1,114 +1,114 @@
 ---
-title: Game Modes
+title: 游戏模式
 ---
 
-TONX currently offers 5 game modes. You can switch between them in the lobby settings under **Mode Options**.
+TONX 目前提供 5 种游戏模式。您可以在大厅设置中的 **模式选项** 里切换。
 
-## Standard
+## 标准模式
 
-The default TONX game mode. Roles are assigned according to the host's role settings, including all custom roles, add-ons, and vanilla roles. Add-ons are assigned on top of main roles. This is the classic TONX experience with crewmate vs impostor vs neutral gameplay.
+TONX 的默认游戏模式。根据房主的职业设置随机分配职业，包括所有自定义职业、附加职业和原版职业。附加职业会在主职业之上额外分配。这是经典的 TONX 体验，船员 vs 内鬼 vs 中立的对抗玩法。
 
-> This is the default mode and requires no special configuration beyond the standard role options.
-
----
-
-## Role Draft
-
-In Role Draft mode, instead of roles being randomly assigned, players take turns choosing their role from a set of randomized options. The draft happens during a special meeting at the start of the game.
-
-### How It Works
-
-1. At the start of the game, a meeting is automatically called
-2. Players are arranged in random order and take turns drafting
-3. On your turn, you receive a list of role options (configurable count, default 3) plus a "Random" option
-4. Use `/cmd ch [number]` to select your desired role
-5. If time runs out, a role is automatically chosen for you
-6. After everyone has picked, the meeting ends and the game begins normally
-
-### Commands
-
-| Command | Function |
-| ------- | -------- |
-| `/cmd ch` / `/cmd choose` | Show your available role options |
-| `/cmd ch [number]` | Select a role by its number (e.g. `/cmd ch 2`) |
-
-### Settings
-
-| Setting | Description |
-| ------- | ----------- |
-| Number of Options | How many role choices each player gets (2-5, default 3) |
-| Drafting Time | Time limit per player to choose (15-60s, default 25s) |
-| Show Players Selections | Whether to announce each player's chosen role to everyone |
-
-> **Note:** Role Draft selects a main role for each player, then assigns add-ons according to the room's add-on settings. Director Mode can still be used to pre-assign roles.
+> 这是默认模式，除标准职业设置外无需额外配置。
 
 ---
 
-## Solo PVP
+## 轮抽选角
 
-In Solo PVP mode, there are no teams and no role assignments. Every player becomes a **Challenger** with HP (health points) and ATK (attack power). Everyone can use the kill button to deal damage to other players. The player with the highest score when time runs out wins.
+在轮抽选角模式中，职业不再是随机分配，而是玩家轮流从随机生成的选项中自行选择。轮抽在游戏开始时通过特殊会议进行。
 
-### How It Works
+### 玩法流程
 
-- All players spawn with the same HP and ATK
-- Hitting a player with the kill button deals ATK damage to their HP
-- When a player's HP reaches 0, they die and the killer gets a score bonus
-- Dead players respawn after a configurable waiting time
-- HP slowly recovers over time after not taking damage for a while
-- The game ends when the timer runs out; highest score wins
+1. 游戏开始时自动召开会议
+2. 玩家随机排序后轮流进行选角
+3. 轮到您时，会收到一组职业选项（数量可设，默认 3 个）外加一个「随机」选项
+4. 使用 `/cmd ch [编号]` 选择您想要的职业
+5. 若超时未选择，系统将自动为您随机分配
+6. 所有玩家选完后，会议结束，游戏正常开始
 
-### Task Panel Display
+### 指令
 
-During the game, the task panel shows:
-- Your current ATK, DF (defense), and RCO (HP recovery rate)
-- A live scoreboard of all players ranked by score
+| 指令 | 功能 |
+| ---- | ---- |
+| `/cmd ch` / `/cmd choose` / `/cmd 选` / `/cmd 选择` | 显示当前可选的职业列表 |
+| `/cmd ch [编号]` | 按编号选择职业（例如 `/cmd ch 2`） |
 
-### Kill Bonus
+### 设置
 
-Each kill grants a score multiplier bonus, increasing the killer's ATK and HP recovery, making them stronger as they rack up kills.
+| 设置项 | 说明 |
+| ------ | ---- |
+| 选项数量 | 每位玩家可选的职业数量（2-5，默认 3） |
+| 轮抽时间 | 每位玩家的选择时间限制（15-60秒，默认 25秒） |
+| 公布选择结果 | 是否向所有人公布每位玩家选择的职业 |
 
-### Settings
-
-| Setting | Description |
-| ------- | ----------- |
-| Game Duration | Total game time (30-300s, default 180s) |
-| Default HP | Starting health for all players (10-990, default 100) |
-| Default Attack | Damage per hit (1-100, default 8) |
-| Attack Cooldown | Time between attacks (1-10s, default 1s) |
-| Recover Cooldown | Seconds without taking damage before HP regen starts (0-60s, default 8s) |
-| Recover Per Second | HP recovered per second (1-180, default 2) |
-| Resurrection Waiting Time | Time before dead players respawn (5-990s, default 15s) |
-| Kill Bonus Multiplier | Score/stat multiplier per kill (0.25x-5x, default 1.25x) |
+> **注意：** 轮抽选角会为每位玩家选择一个主职业，之后仍会按照房间的附加职业设置进行分配。导演模式仍可用于预分配职业。
 
 ---
 
-## Hot Potato
+## 个人竞技模式
 
-Players begin as **Cold Potatoes**. At the end of each countdown, the current Hot Potatoes explode and are eliminated; a new group of living players receives the Hot Potato. The number of Hot Potatoes is limited by a lobby setting and automatically reduced in smaller lobbies. The last survivor wins. Body reports are disabled.
+在个人竞技模式中，没有阵营、没有职业分配。所有玩家都变为 **挑战者**，拥有 HP（生命值）和 ATK（攻击力）。所有人都可以使用击杀键对其他玩家造成伤害。游戏结束时，分数最高的玩家获胜。
 
-Press kill on a Cold Potato to pass the Hot Potato to them and become Cold yourself; the transfer does not kill anyone. Everyone can see the holders. The first distribution follows a preparation period of the explosion countdown plus 9 seconds; subsequent rounds use the configured countdown. Players spawn randomly, move at 1.75x speed, receive no add-ons, and cannot vent or sabotage.
+### 玩法流程
 
-### Settings
+- 所有玩家出生时拥有相同的 HP 和 ATK
+- 使用击杀键命中玩家会对其 HP 造成 ATK 点伤害
+- 当玩家 HP 降至 0 时死亡，击杀者获得分数加成
+- 死亡玩家在设定的等待时间后复活
+- 一段时间未受伤后，HP 会缓慢自动恢复
+- 计时结束后游戏结束，分数最高者获胜
 
-| Setting | Description |
-| ------- | ----------- |
-| Maximum Hot Potatoes | Maximum number assigned at each explosion (1-64, default 2); the game reduces this for smaller groups |
-| Explosion Countdown | Time between Hot Potato explosions (10-60s, default 15s) |
+### 任务面板显示
+
+游戏过程中，任务面板会显示：
+- 您当前的 ATK（攻击）、DF（防御）和 RCO（恢复速度）
+- 所有玩家的实时分数排名
+
+### 击杀加成
+
+每次击杀会获得分数倍率加成，提升击杀者的 ATK 和 HP 恢复速度，使其越战越强。
+
+### 设置
+
+| 设置项 | 说明 |
+| ------ | ---- |
+| 游戏时长 | 游戏总时长（30-300秒，默认 180秒） |
+| 默认血量 | 所有玩家的初始 HP（10-990，默认 100） |
+| 默认攻击 | 每次攻击造成的伤害（1-100，默认 8） |
+| 攻击冷却 | 攻击间隔（1-10秒，默认 1秒） |
+| 恢复冷却 | 受伤后多久开始恢复 HP（0-60秒，默认 8秒） |
+| 每秒恢复 | 每秒恢复的 HP 量（1-180，默认 2） |
+| 复活等待时间 | 死亡后复活所需时间（5-990秒，默认 15秒） |
+| 击杀加成倍率 | 每次击杀的分数/属性加成倍率（0.25x-5x，默认 1.25x） |
 
 ---
 
-## Doom Tag
+## 烫手山芋
 
-Every player is assigned a target in a cycle. Kill your target to inherit their target and continue hunting. Attacking someone else triggers the configured punishment: with suicide, the attack proceeds and the attacker dies shortly afterward; with reduced vision, the attack is blocked and the attacker keeps the vision penalty. When the living player count reaches the frenzy threshold, all survivors enter Frenzy mode with the configured movement speed and kill cooldown (faster movement and shorter cooldown by default). The last survivor wins. No add-ons are assigned; players cannot vent or sabotage.
+所有玩家以**冷土豆**身份开始。每轮倒数结束时，当前持有热土豆的玩家会爆炸淘汰，系统会从存活玩家中重新选择一批热土豆。热土豆数量受大厅设置限制，并会在人数较少时自动下调。最后存活的玩家获胜。此模式禁用报告尸体。
 
-### Settings
+热土豆持有者使用击杀键即可把热土豆传给冷土豆，自己变回冷土豆；传递本身不会杀人。所有人都能看到热土豆持有者。开局先经过「爆炸倒数 + 9 秒」的准备时间，之后每轮使用设置的倒数。玩家随机出生，移动速度为 1.75 倍，不分配附加职业，不能钻管或破坏。
 
-| Setting | Description |
-| ------- | ----------- |
-| Base Kill Cooldown | Kill cooldown outside Frenzy (2.5-60s, default 15s) |
-| Wrong Target Punishment | Suicide (default) or reduced vision |
-| Reduced Vision Multiplier | Vision multiplier applied after a wrong-target kill (0-10x, default 0.5x) |
-| Frenzy Player Count | Living-player threshold that activates Frenzy (1-127, default 3; at least 2 survivors are required) |
-| Frenzy Kill Cooldown | Kill cooldown during Frenzy (2.5-60s, default 5s) |
-| Frenzy Speed Multiplier | Multiplier relative to the lobby's initial speed (0.25-10x, default 2x) |
-| Show Target Arrow | Whether to display an arrow pointing to your target (off by default) |
+### 设置
+
+| 设置项 | 说明 |
+| ------ | ---- |
+| 热土豆最大数量 | 每次爆炸后分配的热土豆上限（1-64，默认 2）；人数较少时会自动减少 |
+| 爆炸倒数 | 两次热土豆爆炸之间的时间（10-60秒，默认 15秒） |
+
+---
+
+## 末日猎杀
+
+所有玩家组成一个目标循环，每人都有自己的追猎目标。击杀正确目标后，会继承该目标的目标并继续追猎。攻击其他玩家会触发房间设置的惩罚：自杀模式允许本次攻击继续，攻击者随后死亡；降低视野模式会阻止本次攻击，并让攻击者持续受到视野惩罚。当存活人数达到狂暴阈值时，所有存活玩家进入狂暴模式，使用设定的速度倍率和击杀冷却，默认移动更快、冷却更短。最后存活的玩家获胜。此模式不分配附加职业，不能钻管或破坏。
+
+### 设置
+
+| 设置项 | 说明 |
+| ------ | ---- |
+| 基础击杀冷却 | 狂暴模式外的击杀冷却（2.5-60秒，默认 15秒） |
+| 误杀惩罚 | 自杀（默认）或降低视野 |
+| 惩罚视野倍率 | 攻击错误目标后套用的视野倍率（0-10倍，默认 0.5倍） |
+| 狂暴触发人数 | 触发狂暴模式的存活人数阈值（1-127，默认 3；至少还需 2 人存活） |
+| 狂暴击杀冷却 | 狂暴期间的击杀冷却（2.5-60秒，默认 5秒） |
+| 狂暴速度倍率 | 相对于房间初始速度的倍率（0.25-10倍，默认 2倍） |
+| 显示目标箭头 | 是否显示指向目标的箭头（默认关闭） |

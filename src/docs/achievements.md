@@ -1,238 +1,238 @@
 ---
-title: Achievements
+title: 成就
 ---
 
-This page covers the v4.0.2 development branch and lists **203 achievements**, unlocked through valid role events or end-of-game checks.
+本页记录自 v4.0.2 后加入的成就，收录 **203 项成就**，可通过对应职业的有效技能事件或游戏结算解锁。
 
-## Viewing Achievements and Wearing Titles
+## 查看与佩戴
 
-Use the in-game achievement panel to browse categories, rarity and unlock status, and to select a title.
+通过游戏内的成就面板查看分类、稀有度、解锁状态并选择称号。
 
-| Command | Function |
-| ------- | -------- |
-| `/cmd ach [achievement ID]` | View an achievement's details |
-| `/cmd achid` | List your achievements |
-| `/cmd wach [achievement ID]` | Wear an unlocked achievement title in the lobby |
-| `/cmd wach 0` | Remove your achievement title |
+| 指令 | 功能 |
+| ---- | ---- |
+| `/cmd ach [成就编号]` | 查看指定成就详情 |
+| `/cmd achid` | 查看自己的成就列表 |
+| `/cmd wach [成就编号]` | 在大厅佩戴已解锁的成就称号 |
+| `/cmd wach 0` | 移除成就称号 |
 
-The host records achievements against a valid friend code. Freeplay does not record achievements.
+成就由房主记录，需要有效的好友代码。自由练习不记录成就。
 
-## Achievement List
+## 成就列表
 
-### Impostor (84)
+### 内鬼 (84)
 
-| ID | Name | Rarity | Unlock condition |
-| -- | ---- | ------ | ---------------- |
-| 100101 | Bounty Strike | Common | Personally kill the current bounty target within the bounty time limit. |
-| 100102 | Chain Manhunt | Epic | Complete 3 bounty kills in one round and win with the Impostors. |
-| 100201 | Blood Debt Still Warm | Common | Complete a kill before the suicide countdown expires. |
-| 100202 | Bloodthirsty Endless Night | Epic | Complete 3 kills in one round, avoid the countdown suicide, and win with the Impostors. |
-| 100301 | Delayed Death | Common | Land a successful bite and have that bite cause the target to die later. |
-| 100302 | Blood Moon Feast | Epic | Have at least 2 bites cause delayed deaths in one round and win with the Impostors. |
-| 100401 | Curse Takes Effect | Common | Successfully curse a player and have a Warlock-triggered curse kill cause another player's death. The cursed player's own ordinary kills do not count. |
-| 100402 | Kill by Proxy | Epic | Have 2 curse kills actually take effect in one round and win with the Impostors. |
-| 100501 | Mark and Execute | Common | Successfully mark a target and kill that target through your shapeshift teleport. |
-| 100502 | Silent Arrival | Epic | Kill 2 different targets with the Assassin's teleport strike in one round and survive to an Impostor win. |
-| 100601 | Slow Advance | Common | Kill a player after the Zombie mechanic has actually reduced your movement speed. |
-| 100602 | Undying Destination | Epic | Lose at least 0.3 base speed cumulatively to the Zombie mechanic, then complete a kill and win with the Impostors. |
-| 100701 | Forced Report | Common | Successfully hack a player and make them report the body of your kill this round. |
-| 100801 | Old Pipe, New Exit | Common | Through shapeshift or revert, successfully teleport to the last vent you used. |
-| 100802 | Vent Shuttle | Epic | Trigger 3 Miner teleports in one round and land a kill within 10 seconds of one of them. |
-| 100901 | Exit from Origin | Common | After marking a spot, reach 8 world units from it, then teleport back to the marked spot. |
-| 100902 | Nowhere Trail | Epic | Kill a player within 10 seconds of teleporting back to your marked spot, then win with the Impostors. |
-| 101001 | Only Knows Killing | Common | As the Killing Machine, complete one valid kill. |
-| 101002 | Killing Instinct | Common | Get 3 kills in one round and win with the Impostors. |
-| 101101 | After-Meeting Effect | Common | Have a cursed target die from the curse after the meeting ends. |
-| 101102 | Unfinished Judgment | Epic | Have 2 curses each cause an after-meeting death in one round and win with the Impostors. |
-| 101201 | Business After Death | Rare | After you die, successfully kill a player with your revenge command. |
-| 101301 | Fireworks Test | Common | Successfully place and detonate at least one firework bomb, and have the blast kill a player. |
-| 101302 | Sky Full of Fireworks | Legendary | Kill at least 3 other players with a single detonation and win with the Impostors. |
-| 101401 | Straight Shot | Common | Snipe a player with the ray formed by your shapeshift start and end points. |
-| 101402 | One Arrow Through the Round | Epic | Complete 2 kills with the snipe ray in one round and win with the Impostors. |
-| 101501 | Opening Strings | Common | Successfully mark a player and have the automatic puppet kill actually take down a valid target. |
-| 101502 | Invisible Manipulation | Epic | Have the automatic puppet kill take down 2 different targets in one round and win with the Impostors; your own direct kills do not count. |
-| 101601 | Blackout Hunt | Common | Complete a kill during a blackout. |
-| 101602 | Dark Acceleration | Epic | Complete 2 kills during blackouts in one round and win with the Impostors. |
-| 101701 | Time Eroded | Common | Complete a kill and have your time-thief effect actually shorten the final duration of the following meeting. |
-| 101702 | No Time to Talk | Epic | Have at least 2 valid kills produce the time-thief effect in one round, with at least one meeting's final duration actually reduced, then win with the Impostors. |
-| 101801 | Identity Guessed | Common | Correctly guess the role of a player during a meeting and successfully kill them. |
-| 101802 | Every Guess Hits | Epic | Land 2 correct valid guesses in a row in one round with no wrong guesses, then win with the Impostors. |
-| 101901 | Someone Near the Device | Common | Have the presence state of a monitored device change from false to true and successfully generate the watcher notice. |
-| 102001 | Cooldown Shortened | Common | Complete a valid kill and have the kill cooldown actually shortened by the role mechanic. |
-| 102002 | Faster the More You Fight | Epic | Complete 3 valid kills in one round, with no meeting between at least 2 of them and the later kill landing while your cooldown was already shortened, then win with the Impostors. |
-| 102101 | Mutual Destruction | Common | Trigger your self-destruct and kill at least one other player. |
-| 102102 | The Last Blast | Legendary | Kill at least 3 other players with a single self-destruct and be judged an Impostor win. |
-| 102201 | Do Not Touch That Body | Common | After a kill, plant a trap and have the player who reports that body trigger the trap and die. |
-| 102301 | Target Locked | Common | Set or switch a tracking target through shapeshift. |
-| 102302 | Kill Flashing | Rare | After the host sends you a teammate kill flash, complete a kill before the next meeting and win with the Impostors. |
-| 102401 | No Body to Report | Common | Successfully kill a player and leave no reportable body thanks to the Scavenger mechanic. |
-| 102402 | All Traces Gone | Epic | Complete 3 bodyless Scavenger kills in one round and win with the Impostors. |
-| 102501 | Endless Faces | Common | Successfully shapeshift into at least 2 different players in one round. |
-| 102502 | A Thousand Faces | Epic | Shapeshift into at least 4 different players in one round and land a kill within 10 seconds of one of those shifts ending. |
-| 102601 | Forced Overtime | Common | Successfully give a short extra task to a player who meets the skill condition. |
-| 102602 | Task Debt | Epic | Successfully add short tasks at least 3 times in one round, with at least one target completing a task traceable to you, then win with the Impostors. |
-| 102701 | Recruitment Success | Common | Successfully turn a recruitable player into a Madmate. |
-| 102702 | Expanding the Family | Epic | Recruit 2 traitors in one round and keep at least one of them alive until the Impostors win. |
-| 102801 | Clean the Scene | Common | Successfully clean a body so it cannot be reported. |
-| 102802 | No Witnesses | Epic | Clean the bodies of 2 different dead players in one round and win with the Impostors. |
-| 102901 | Quantization | Common | Successfully turn a target into a quantum ghost. |
-| 102902 | Even Ghosts Vanish | Epic | Have 2 targets you quantized actually die from the quantum ghost contact mechanic in one round and win with the Impostors. |
-| 103001 | Odd-Even Cycle | Common | After a meeting reset, complete the first valid kill and have the cooldown update under the odd-kill rule. |
-| 103002 | Never Empty-Handed | Epic | Complete at least 3 valid kills in one round with both odd and even cooldown updates actually applied, and win with the Impostors. |
-| 103101 | Curse Counter | Common | When hit by a normal kill attempt, spend a counter charge, prevent your death, and kill the attacker. |
-| 103201 | Swap Places | Common | Complete a valid position swap through shapeshift. |
-| 103202 | Soul Shift | Epic | Kill within 5 seconds of a successful position swap twice in one round, then win with the Impostors. |
-| 103301 | Locked and Loaded | Common | As Quick Shooter, successfully store a bullet by shapeshifting when your kill cooldown is ready. |
-| 103302 | Relentless Volley | Epic | Complete 3 valid kills in a row in one round, with the last two each actually spending a stored bullet to offset cooldown. |
-| 103401 | Everyone in Black | Common | Successfully trigger the camouflage skill and have the host apply the unified appearance setup to eligible players. |
-| 103501 | Skill Erased | Common | After a meeting vote, successfully erase an eligible crewmate's role skill. |
-| 103502 | Blank Slate Era | Epic | Erase 2 different crewmates' roles in one round, then win with the Impostors. |
-| 103601 | More Than One Body | Common | Have a valid kill trigger the dismember mechanic and complete the multi-body generation for the victim. |
-| 103701 | Ignore Protection | Rare | While shapeshifted, successfully strangle a target that had a normal protective state before the attack. |
-| 103702 | No Trace Left | Epic | Complete valid strangles on 2 different targets in one round, at least one of which had a death passive that a strangle can bypass and that passive did not trigger. A target with no passive does not count as bypassing one. |
-| 103801 | In and Out Unseen | Common | Enter invisibility through a vent and successfully exit the invisibility state. |
-| 103802 | Invisible Execution | Rare | Complete a kill before invisibility ends and win with the Impostors. |
-| 103901 | Task Takes a Life | Common | Complete a task and have the crewpostor task skill actually kill a target. |
-| 104001 | Blinding Scene | Common | Kill a player and put at least one other player who matches the assassin room check into a blinded state. |
-| 104002 | Second Blade in the Dark | Epic | Blind at least one other player with each of at least 2 kills in one round and win with the Impostors. |
-| 104101 | Pre-Meeting Intel | Common | At the start of a meeting, have the host successfully send you at least one room report marked with dead bodies. |
-| 104201 | Dragged Into a Corner | Common | Successfully drag a target and kill them with the drag countdown or by pressing the button again. |
-| 104202 | No One Can Find Them | Epic | Drag a target at least 5 world units from the drag start and kill them with the Penguin skill on 2 different targets in one round, then win with the Impostors. |
-| 104301 | All Identities in View | Common | Within what the config allows, have the host successfully provide you another player's role or skill information. |
-| 104302 | Traitor Revealed | Epic | After reaching the set kill count, be successfully provided identification of a real Madmate for the first time and win with the Impostors. Does not count when the identification option is off or there is no Madmate. |
-| 104401 | Write a Verse | Common | As Bard, have your kill cooldown halved after a meeting exiles a player. |
-| 104501 | Flashbang Effective | Common | Fire the evil grenadier flashbang and make at least one eligible non-Impostor player actually suffer vision restriction. |
-| 104502 | Darkness for Enemies Only | Epic | Have one flashbang actually affect at least 3 non-Impostor players and land a kill while their vision restriction lasts, then win with the Impostors. |
-| 500101 | No One Saw Through | Rare | Win with the Impostors with no player exiled by a meeting while validly on the Impostor side. |
-| 500102 | No Comrades Lost | Rare | When the Impostors win, every valid opening Impostor is still alive and never left the side. Does not count with only one opening Impostor. |
-| 500104 | Sabotage Expert | Rare | Have your base win source be a sabotage timeout that can end the game, with the final win not converted or overridden by Jackal or other roles, and win with the Impostors. |
-| 500106 | Kill With Another's Blade | Rare | Win with the Impostors with at least one explicit manipulation source, such as an Impostor Warlock or Puppeteer, making a non-Impostor cause another non-Impostor's death. An ordinary Sheriff misfire does not count. |
+| 编号 | 名称 | 稀有度 | 解锁条件 |
+| ---- | ---- | ------ | -------- |
+| 100101 | 正中悬赏 | 普通 | 在悬赏时限内亲自击杀当前悬赏目标 |
+| 100102 | 连环通缉 | 史诗 | 同一局内成功完成3次悬赏击杀，并且内鬼阵营获胜 |
+| 100201 | 血债未冷 | 普通 | 在自杀倒计时结束前完成一次击杀 |
+| 100202 | 嗜血终夜 | 史诗 | 同一局完成3次击杀并随内鬼阵营获胜，且未因倒计时自杀 |
+| 100301 | 迟来的死亡 | 普通 | 一次吸血成功，并由该次吸血造成目标延迟死亡 |
+| 100302 | 血月盛宴 | 史诗 | 同一局中至少2次吸血造成延迟死亡，且内鬼阵营获胜 |
+| 100401 | 咒令生效 | 普通 | 成功诅咒一名玩家，并由术士发动的诅咒击杀造成另一名玩家死亡；不计被诅咒者自己的普通击杀 |
+| 100402 | 借手除敌 | 史诗 | 同一局中2次诅咒击杀实际生效，且内鬼阵营获胜 |
+| 100501 | 标记与处决 | 普通 | 成功标记目标，并通过变形传送完成对该目标的击杀 |
+| 100502 | 无声抵达 | 史诗 | 同一局以刺客传送刺杀成功击杀2名不同目标，并存活到内鬼阵营获胜结算 |
+| 100601 | 缓慢逼近 | 普通 | 僵尸机制至少实际降低一次移动速度后，仍成功击杀一名玩家；不计单纯重复计算冷却 |
+| 100602 | 不死的终点 | 史诗 | 本人的速度已因僵尸机制累计下降至少0.3倍基础速度，之后仍完成一次击杀，并随内鬼阵营获胜 |
+| 100701 | 强制报告 | 普通 | 成功骇入一名玩家，并使其报告骇客本轮击杀的尸体 |
+| 100801 | 旧管道新出口 | 普通 | 通过变形或解除变形，成功传送到上一次使用的通风管道 |
+| 100802 | 管道穿梭 | 史诗 | 同一局中成功触发3次矿工传送，并在其中一次传送后10秒内完成击杀 |
+| 100901 | 原点撤离 | 普通 | 标记位置后，与标记点的世界坐标距离达到8单位，再成功传送回标记点；距离与屏幕尺寸无关 |
+| 100902 | 来去无踪 | 史诗 | 一次成功传送回标记点后10秒内完成击杀，且内鬼阵营获胜 |
+| 101001 | 只懂杀戮 | 普通 | 以杀戮机器身份完成一次有效击杀；职业天然限制只作为机制说明，不额外当作挑战条件 |
+| 101002 | 纯粹的杀意 | 普通 | 同一局完成3次击杀并随内鬼阵营获胜 |
+| 101101 | 会后生效 | 普通 | 诅咒目标后，该目标在会议结束后因诅咒死亡 |
+| 101102 | 未竟的审判 | 史诗 | 同一局中2次诅咒均造成会后死亡，且内鬼阵营获胜 |
+| 101201 | 死后仍有生意 | 稀有 | 死亡后使用指定玩家编号指令成功击杀一名玩家 |
+| 101301 | 烟火试放 | 普通 | 成功放置并引爆至少一枚烟花炸弹，且炸弹造成击杀 |
+| 101302 | 满天焰火 | 传说 | 一次引爆造成至少3名其他玩家死亡，并且内鬼阵营获胜 |
+| 101401 | 直线命中 | 普通 | 用变形起点与终点构成的射线成功狙杀一名玩家 |
+| 101402 | 一箭穿局 | 史诗 | 同一局中以狙击射线完成2次击杀，并随内鬼阵营获胜 |
+| 101501 | 提线开场 | 普通 | 成功标记一名玩家，并由傀儡自动击杀机制实际造成一名有效目标死亡 |
+| 101502 | 看不见的操纵 | 史诗 | 同一局中傀儡自动击杀机制实际造成2名不同目标死亡，且内鬼阵营获胜；不计傀儡本人的普通击杀 |
+| 101601 | 停电狩猎 | 普通 | 在停电期间完成一次击杀 |
+| 101602 | 黑暗加速 | 史诗 | 同一局在停电期间完成2次击杀，并随内鬼阵营获胜 |
+| 101701 | 时间被蚀 | 普通 | 完成击杀，且由本人蚀时效果使随后一次会议的最终可用时长实际减少 |
+| 101702 | 没有时间讨论 | 史诗 | 同一局中至少2次有效击杀产生蚀时效果，且至少一次会议的最终时长确实因此减少，并随内鬼阵营获胜 |
+| 101801 | 猜中身份 | 普通 | 会议中正确猜测一名玩家的职业并成功将其击杀 |
+| 101802 | 百发百中 | 史诗 | 同一局连续2次有效猜测正确并造成目标死亡，期间没有错误猜测，并随内鬼阵营获胜 |
+| 101901 | 有人靠近设备 | 普通 | 一次受监测设备的“有人靠近”状态从假变为真，并成功生成监管者提示；不统计具体玩家身份 |
+| 102001 | 冷却缩短 | 普通 | 成功击杀后，击杀冷却按职业机制实际缩短 |
+| 102002 | 越战越快 | 史诗 | 同一局完成3次有效击杀，其中至少2次之间未召开会议，且后一次击杀时冷却已因本职业缩短，并随内鬼阵营获胜 |
+| 102101 | 同归于尽 | 普通 | 发动自爆并至少炸死一名其他玩家 |
+| 102102 | 最后的爆响 | 传说 | 一次自爆杀死至少3名其他玩家，且本局按规则判定内鬼阵营获胜 |
+| 102201 | 别碰那具尸体 | 普通 | 击杀后布下诡雷，并由报告该尸体的玩家触发诡雷死亡 |
+| 102301 | 锁定目标 | 普通 | 通过变形成功设置或切换一次追踪目标 |
+| 102302 | 杀戮闪烁 | 稀有 | 房主向本人发送一次队友击杀闪烁后，本人在下一次会议前完成一次击杀，且内鬼阵营获胜 |
+| 102401 | 无尸可报 | 普通 | 成功击杀一名玩家且因清道夫机制未留下可报告尸体 |
+| 102402 | 踪迹尽灭 | 史诗 | 同一局完成3次清道夫无尸体击杀，并随内鬼阵营获胜 |
+| 102501 | 变脸不停 | 普通 | 同一局成功变形成至少2名不同玩家 |
+| 102502 | 千面难辨 | 史诗 | 同一局成功变形成至少4名不同玩家，并在其中一次变形结束后10秒内完成击杀 |
+| 102601 | 强制加班 | 普通 | 成功给一名符合技能条件的玩家增加短任务 |
+| 102602 | 任务债务 | 史诗 | 同一局至少3次成功增加短任务，且至少一名目标完成了可追溯至本人的新增任务，最终内鬼阵营获胜 |
+| 102701 | 招募成功 | 普通 | 成功将一名可招募玩家转为叛徒 |
+| 102702 | 扩张组织 | 史诗 | 同一局成功招募2名叛徒，且至少一名被招募者存活到内鬼阵营获胜结算 |
+| 102801 | 清理现场 | 普通 | 成功清理一具尸体，使其无法被报告 |
+| 102802 | 没有目击者 | 史诗 | 同一局成功清理2名不同死者的尸体，并随内鬼阵营获胜 |
+| 102901 | 量子化 | 普通 | 成功使一名目标进入量子幽灵状态 |
+| 102902 | 幽灵也会消失 | 史诗 | 同一局有2名由本人量子化的目标因量子幽灵接触机制实际死亡，且内鬼阵营获胜 |
+| 103001 | 奇偶循环 | 普通 | 在一次会议重置后完成首次有效击杀，并使其按奇数次击杀规则更新冷却 |
+| 103002 | 永不空手 | 史诗 | 同一局完成至少3次有效击杀，且奇数次与偶数次冷却更新均实际生效，并随内鬼阵营获胜 |
+| 103101 | 诅咒反击 | 普通 | 遭遇常规击杀尝试时消耗反击额度、阻止自身死亡并成功杀死凶手 |
+| 103201 | 交换位置 | 普通 | 通过变形完成一次有效的位置交换 |
+| 103202 | 夺魂瞬移 | 史诗 | 成功交换位置后5秒内完成击杀，同一局达成2次，并随内鬼阵营获胜 |
+| 103301 | 储弹完毕 | 普通 | 以快枪手身份，在击杀冷却结束后通过变形成功储存一颗子弹。 |
+| 103302 | 连射不歇 | 史诗 | 同一轮内连续完成3次有效击杀，其中后两次均实际消耗储存子弹抵消冷却 |
+| 103401 | 全员黑影 | 普通 | 成功发动隐蔽技能，房主完成对符合条件玩家的统一外观设置 |
+| 103501 | 技能抹除 | 普通 | 会议投票后成功抹除一名符合技能条件的船员的职业技能 |
+| 103502 | 白板时代 | 史诗 | 同一局成功抹除2名不同船员的职业技能，并随内鬼阵营获胜 |
+| 103601 | 尸体不止一具 | 普通 | 一次有效击杀触发肢解机制，且该受害者的多尸体生成已完成；重复尸体不计多次死亡 |
+| 103701 | 无视防护 | 稀有 | 变形期间成功绞杀一名在该次攻击前具有常规防护状态的目标 |
+| 103702 | 不留痕迹 | 史诗 | 同一局对2名不同目标完成有效绞杀，其中至少一名目标具有可被绞杀绕过的死亡被动，且该被动实际未执行；不把目标本来没有被动视作成功绕过 |
+| 103801 | 进出无形 | 普通 | 通过通风管道进入并成功退出隐身状态 |
+| 103802 | 隐身处决 | 稀有 | 隐身状态结束前完成一次击杀，并随内鬼阵营获胜 |
+| 103901 | 任务夺命 | 普通 | 完成一项任务，并由此次船鬼任务技能实际造成目标死亡 |
+| 104001 | 失明现场 | 普通 | 击杀一名玩家并使至少一名符合暗杀者技能房间判断的其他玩家进入失明状态 |
+| 104002 | 黑暗中的第二刀 | 史诗 | 同一局至少2次击杀成功使至少一名其他玩家失明，并随内鬼阵营获胜 |
+| 104101 | 会前情报 | 普通 | 会议开始时房主成功向本人发送至少一条带尸体标记的房间情报 |
+| 104201 | 拖到角落 | 普通 | 成功拖拽一名目标，并由拖拽倒计时或再次按键将其杀死 |
+| 104202 | 谁也找不到 | 史诗 | 将拖拽目标带到距开始拖拽位置至少5个世界坐标单位处并以企鹅技能击杀，同一局对2名不同目标达成，且内鬼阵营获胜；不累计来回走动路程 |
+| 104301 | 身份尽收眼底 | 普通 | 在配置允许的范围内，房主成功向本人提供至少一名其他玩家的职业或技能信息；不要求存在全员信息面板 |
+| 104302 | 叛徒现形 | 史诗 | 达到设定击杀数后，首次成功向本人提供一名实际叛徒的识别信息，并随内鬼阵营获胜；识别选项关闭或没有叛徒时不参与 |
+| 104401 | 写下一句 | 普通 | 以吟游诗人身份经历一次有人被放逐的结算，使自身击杀冷却实际减半。 |
+| 104501 | 闪光弹生效 | 普通 | 发动邪恶掷雷兵闪光弹，并使至少一名符合技能条件的非内鬼玩家实际受到视野限制 |
+| 104502 | 黑暗只属于敌人 | 史诗 | 一次闪光弹实际影响至少3名非内鬼玩家，并在其视野限制持续期间完成击杀，且内鬼阵营获胜 |
+| 500101 | 无人识破 | 稀有 | 内鬼阵营获胜，且本局没有玩家以当时有效内鬼阵营身份被会议放逐 |
+| 500102 | 同袍无损 | 稀有 | 内鬼阵营获胜时，所有开局有效内鬼仍存活且未转离阵营；仅有一名开局内鬼时不参与 |
+| 500104 | 破坏专家 | 稀有 | 基础胜利来源为可终结对局的破坏超时，且最终胜利没有被豺狼等转换或被其他角色覆盖，内鬼阵营最终获胜 |
+| 500106 | 借刀杀人 | 稀有 | 内鬼阵营获胜，且至少一次由内鬼术士或傀儡师等明确操纵来源，使非内鬼执行者造成另一名非内鬼死亡；普通警长误杀不算内鬼借刀 |
 
-### Crewmate (66)
+### 船员 (66)
 
-| ID | Name | Rarity | Unlock condition |
-| -- | ---- | ------ | ---------------- |
-| 200101 | Righteous Guess | Common | Correctly guess the role of an evil target your skill allows during a meeting and successfully kill the target. |
-| 200102 | Double Hit in One Round | Epic | Land 2 correct valid guesses in a row in one round with no wrong guesses and win with the Crewmates. |
-| 200201 | Narrow Escape | Common | As Luckey, successfully trigger the chance block when hit by an ordinary kill attempt. |
-| 200301 | Just One Task | Common | Complete the single task assigned to the Lazy Guy at game start. Extra role-generated tasks do not matter. |
-| 200302 | Lazy to the End | Rare | Complete your opening task, survive at least 2 actual meetings, and win with the Crewmates. |
-| 200401 | In Broad Daylight | Common | Have a third living player other than the killer and the Super Star within 2 world units of the Super Star, actually blocking an ordinary kill. |
-| 200402 | Never Alone | Epic | Survive two different ordinary kill attempts in one round thanks to the distance guard, then win with your actual side. |
-| 200501 | Everyone Got the News | Common | After the Celebrity dies, successfully send the death notice to at least one eligible player. |
-| 200502 | Headline Counterattack | Epic | At the next meeting after the Celebrity's death, exile the killer who killed them and win with the Crewmates. |
-| 200601 | Multipurpose Vote | Common | Have the Mayor's own vote actually counted as more than 1 in a valid vote resolution. |
-| 200602 | Decisive Majority | Epic | Have your extra votes actually change a tie or exile result, with the result being an Impostor exiled. |
-| 200701 | One-Click Repair | Common | Trigger the Repairman's fast repair with a single repair action, for example one tap for a sabotage normally needing several, or one switch to fix the lights. |
-| 200702 | Repair King | Epic | Terminate 3 different sabotages in one round, at least one using the Repairman's fast repair, and win with the Crewmates. Door fixes do not count. |
-| 200801 | Precise Enforcement | Common | Successfully kill an Impostor with the Sheriff's shot. |
-| 200802 | A Gun That Does Not Misfire | Epic | Kill 2 different Impostors with the Sheriff's shot in one round with no wrong shots, then win with the Crewmates. |
-| 200901 | Bodiless Report | Common | Use a vent to fake a body report and successfully start a meeting. |
-| 201001 | Mystery of the Red Name | Common | Have the host-generated red-name list include at least one real Impostor during a meeting. Only information generation counts. |
-| 201002 | Real and Fake Red Names | Epic | In two different meetings, vote for a real Impostor from your red-name list each time, with both different Impostors exiled in their meetings. |
-| 201101 | All Tasks Cleared | Common | Complete all tasks and successfully reveal at least one Impostor's red name. |
-| 201102 | The Last Piece of Evidence | Rare | After completing all tasks, vote for a revealed Impostor at the next meeting, get them exiled, and win with your actual side. |
-| 201201 | Faster the More You Do | Common | After completing a task, have the Speed Booster mechanic actually raise your movement speed once. |
-| 201202 | Speedrun Complete | Epic | Trigger the speed boost 3 times from completing tasks in one round and survive to a Crewmate win. Does not count when the config or task count cannot trigger 3 boosts. |
-| 201301 | Cause of Death Confirmed | Common | Have the host successfully generate and provide you the cause of death for a real dead player through the Doctor ability. |
-| 201302 | Two Cases Solved | Epic | Get valid cause-of-death information for 2 different dead players in one round, then at a later meeting vote for an Impostor, get them exiled, and win with the Crewmates. |
-| 201401 | One for One | Common | Use the Dictator's skill to force an exile, then die from the skill's cost. |
-| 201402 | Condemn at the Cost of Your Life | Epic | Use the Dictator skill to successfully exile an Impostor and trigger a Crewmate base win in the win check after that meeting's full death queue resolution, then win with the Crewmates. |
-| 201501 | Reported Clue | Common | After you report a body, have the host successfully deliver the Detective clue to you. |
-| 201502 | Follow the Trail to the Killer | Epic | Receive Detective clues in two different report meetings in one round, vote for each victim's real killer, get them exiled, and win with the Crewmates. The two killers must be different players. |
-| 201601 | One Single Strike | Common | Successfully kill an evil target allowed by the Vigilante's justice shot. |
-| 201602 | One Strike Decides | Epic | Land a Vigilante kill on an Impostor and trigger a Crewmate base win in the next win check after that skill's death queue, then win with the Crewmates. |
-| 201701 | Position Scrambled | Common | Complete a task and successfully trigger a position swap of two different players. |
-| 201702 | Teleport Chain | Epic | Trigger 3 valid position swaps in one round and win with the Crewmates. |
-| 201801 | Meeting Extended | Common | Complete tasks and have your time-manipulation effect actually increase the following meeting's available duration. |
-| 201802 | Time You Fought For | Epic | Have a meeting's final available duration increase by at least 30 seconds from your task bonus, then vote for an Impostor at that meeting and get them exiled. |
-| 201901 | Counter Ambush | Common | Successfully counter-kill a player who tries to kill you while on guard. |
-| 201902 | Touch Me and Die | Epic | Trigger 2 valid guard counter-kills in one round, at least one on an Impostor, and win with the Crewmates. |
-| 202001 | Taking the Blade | Common | When a nearby player is about to be killed, block that kill and die together with the killer. |
-| 202002 | Last Line of Defense | Rare | Block a kill on a Crewmate and take down an Impostor killer, then win with the Crewmates. |
-| 202101 | Counterfeit Sold | Common | Successfully hand a counterfeit to a player. |
-| 202201 | Blind the Impostors | Common | Use a vent to trigger your flashbang and make at least one Impostor actually suffer vision restriction. |
-| 202202 | Win While They Are Blind | Epic | Have one flashbang actually affect at least 2 Impostors and kill one of them with a Crewmate skill before a meeting starts while the vision restriction is still active. |
-| 202301 | Shield Issued | Common | As Medic, successfully give a player a shield. |
-| 202302 | Savior | Epic | Shields you granted absorb 2 ordinary kill attempts in one round and the Crewmates win. A repeated prompt for the same attack does not count. |
-| 202401 | Divination Fulfilled | Common | Successfully use your divination during a meeting and have the host deliver information about a target to you. |
-| 202402 | Truth Revealed | Rare | After completing all tasks, be successfully provided divination information about a real Impostor, vote for that target at that meeting, get them exiled, and win with the Crewmates. |
-| 202501 | Not Counted Among the Living | Common | As The Glitch, complete a valid game without your body dying. |
-| 202601 | Correct Verdict | Common | Successfully kill a target that meets the Judge's evil criteria with your trial command. |
-| 202602 | Gavel Falls | Epic | Land 2 successful valid trials in a row in one round with no wrong trials, then win with the Crewmates. |
-| 202701 | Last Contact | Common | After you report a body, have the host successfully send you the victim's last-contact player information. |
-| 202702 | Death Testimony | Epic | Have the last contact you received be the real killer of the corresponding victim, vote for that killer at that or the next meeting, get them exiled, and win with your actual side. |
-| 202801 | Answer from the Dead | Common | After reporting a body, establish contact and have the host deliver a valid yes/no answer to you. |
-| 202802 | One Last Question | Rare | Successfully receive an answer from the dead in a meeting, vote for the corresponding victim's real killer at that meeting, get them exiled, and win with the Crewmates. |
-| 202901 | Shield Break Spotted | Common | Have the host send you a valid shield-break notice about another player through the Observer ability. |
-| 203001 | Song of Peace | Common | Use a vent to sing and successfully reset the cooldown of at least one valid player. |
-| 203002 | After Peace | Rare | Reset the cooldowns of at least 2 different players with a kill button in one song, and survive to a Crewmate win. |
-| 203101 | Sample Collected | Common | Collect samples from two different players in one round. |
-| 203102 | Sample Points to the Killer | Rare | After your sample information is generated and sent, vote for the real Impostor matching the sample at that or the next meeting, get them exiled, and win with the Crewmates. |
-| 203201 | Vote Swap | Common | Successfully execute a vote swap on two different players in one meeting. |
-| 203202 | Reversed Vote | Epic | Have your vote swap actually change the exile target and exile an Impostor, then win with the Crewmates. |
-| 203301 | Special Meeting | Common | Successfully convene a special meeting where votes may only target your two chosen players. |
-| 203302 | Both Are Guilty | Legendary | Have the special meeting you started exile two different evil targets at once by the skill rule, and win with the Crewmates. |
-| 203401 | Vent Sealed | Common | As Security Guard, successfully lock a vent that was not already locked. |
-| 203402 | No Way Out | Epic | Lock at least 3 different vents in one round, with at least one enemy attempt to enter your locked vent explicitly blocked by the host, then win with the Crewmates. |
-| 500201 | Task Loop Closed | Rare | Have the task-win judgment actually take effect with all valid tasks counted toward the round's crew progress completed, and win with the Crewmates. |
-| 500202 | No Misjudgment | Rare | Win with the Crewmates, with at least one meeting actually exiling an Impostor and no valid crewmate exiled by a meeting in the round. A round with no exiles does not count. |
-| 500208 | No One Left Behind | Legendary | When the Crewmates win, all valid opening crewmates are alive, connected and never left the Crewmate side. Requires at least 4 valid opening crewmates. |
+| 编号 | 名称 | 稀有度 | 解锁条件 |
+| ---- | ---- | ------ | -------- |
+| 200101 | 正义猜测 | 普通 | 会议中正确猜测一名技能允许的邪恶目标职业并成功击杀目标 |
+| 200102 | 一局双中 | 史诗 | 同一局连续2次有效猜测正确并造成目标死亡，期间没有错误猜测，最终船员阵营获胜 |
+| 200201 | 死里逃生 | 普通 | 幸运儿遭遇常规击杀尝试时成功触发概率抵挡死亡 |
+| 200301 | 任务只做一个 | 普通 | 完成摆烂人开局分配的唯一任务；职业生成的新增任务不影响这项 |
+| 200302 | 懒到最后 | 稀有 | 开局任务完成后存活经历至少2次实际会议，且最终船员阵营获胜 |
+| 200401 | 众目睽睽 | 普通 | 因凶手与大明星之外的第三名存活玩家距大明星小于2个世界坐标单位，实际阻止一次常规击杀 |
+| 200402 | 不能独处 | 史诗 | 同一局在两次不同常规击杀尝试中，均因上述距离保护而免死，并随本局实际所属阵营获胜 |
+| 200501 | 全员收到快讯 | 普通 | 网红死亡后成功向至少一名符合条件的其他玩家发送网红死亡提示 |
+| 200502 | 头条反击 | 史诗 | 网红死亡后的下一次会议将直接击杀网红的凶手放逐，且船员阵营获胜；此项不要求已死网红本人投票 |
+| 200601 | 一票多用 | 普通 | 一次有效投票结算中，市长的票实际按多于1票计入 |
+| 200602 | 关键多数 | 史诗 | 本人额外票数实际改变一次平票或放逐结果，且结果为放逐内鬼 |
+| 200701 | 一键修复 | 普通 | 用一次修复动作成功触发修理工专属快速修复，例如单点完成原需多处操作的破坏，或单一开关修复照明 |
+| 200702 | 船上维修王 | 史诗 | 同一局成功终止3次不同的破坏实例，其中至少一次使用修理工专属快速修复，最终船员阵营获胜；修门不计破坏实例 |
+| 200801 | 精准执法 | 普通 | 以警长技能成功击杀一名内鬼 |
+| 200802 | 不走火的枪 | 史诗 | 同一局以警长技能成功击杀2名不同内鬼，期间没有错误执法，最终船员阵营获胜 |
+| 200901 | 凭空报案 | 普通 | 使用通风管道触发一次虚假尸体报告并成功召开会议 |
+| 201001 | 红名之谜 | 普通 | 会议期间房主向本人提供的红名列表中，包含至少一名实际内鬼 |
+| 201002 | 真假红名 | 史诗 | 本人在两次不同会议中，分别投票给当次本人红名列表中的实际内鬼，且两名不同内鬼均在对应会议被放逐 |
+| 201101 | 任务全清 | 普通 | 完成所有任务并成功解锁至少一名内鬼的红名提示 |
+| 201102 | 最后一项证据 | 稀有 | 完成全部任务后，在下一次会议投票给已获提示的内鬼并将其放逐，且随本局实际所属阵营获胜 |
+| 201201 | 越做越快 | 普通 | 完成任务后因增速者机制实际提升一次移动速度 |
+| 201202 | 极速完成 | 史诗 | 同一局因完成任务实际触发3次增速，并存活到船员阵营获胜结算；配置或任务数不足以触发3次时不参与 |
+| 201301 | 死因确认 | 普通 | 房主通过法医能力成功生成并向本人提供一名实际死者的死因信息 |
+| 201302 | 还原两起案件 | 史诗 | 同一局获得2名不同死者的有效死因信息，并在之后一次会议投票给内鬼并将其放逐，最终船员阵营获胜 |
+| 201401 | 一换一 | 普通 | 发动独裁技能并强制放逐目标，随后独裁者按技能代价死亡 |
+| 201402 | 以命定罪 | 史诗 | 发动独裁技能成功放逐内鬼，在该次完整会议死亡队列结算后的胜负检查中触发船员基础胜利，且最终船员阵营获胜 |
+| 201501 | 报告线索 | 普通 | 本人报告尸体后，房主成功向本人发送侦探线索 |
+| 201502 | 循线追凶 | 史诗 | 同一局在两次不同的报告会议中收到侦探线索，且本人分别投票给对应死者的实际凶手并将其放逐，最终船员阵营获胜；凶手须为两名不同玩家 |
+| 201601 | 只此一剑 | 普通 | 使用侠客正义击杀成功击杀一名技能允许的邪恶目标 |
+| 201602 | 一剑定局 | 史诗 | 侠客击杀命中内鬼，该次技能死亡队列处理后的下一次胜负检查触发船员基础胜利，且最终船员阵营获胜 |
+| 201701 | 位置错乱 | 普通 | 完成任务并成功触发两名不同玩家的位置交换 |
+| 201702 | 传送连锁 | 史诗 | 同一局触发3次有效位置交换，并在对局结束时船员阵营获胜；交换前两人位置相同的无效传送不计 |
+| 201801 | 会议延长 | 普通 | 完成任务，且其时间操纵效果使随后会议的最终可用时长实际增加 |
+| 201802 | 争取来的时间 | 史诗 | 一次会议的最终可用时长因本人任务增益增加至少30秒，并在该会议投票给内鬼并将其放逐；超过时长上限被截断的部分不计 |
+| 201901 | 戒备反杀 | 普通 | 进入戒备状态后成功反杀一名尝试击杀自己的玩家 |
+| 201902 | 谁动谁死 | 史诗 | 同一局触发2次有效戒备反杀，且至少一名被反杀者属于内鬼阵营，最终船员阵营获胜 |
+| 202001 | 替人挡刀 | 普通 | 在附近玩家将被击杀时成功阻止该次击杀并与凶手同归于尽 |
+| 202002 | 最后一道防线 | 稀有 | 成功阻止对船员的击杀并带走内鬼凶手，且船员阵营获胜 |
+| 202101 | 卖出赝品 | 普通 | 成功将赝品交给一名玩家 |
+| 202201 | 闪瞎内鬼 | 普通 | 使用通风管道发动闪光弹，并使至少一名内鬼实际受到视野限制 |
+| 202202 | 趁盲制胜 | 史诗 | 一次闪光弹实际影响至少2名内鬼，且在会议开始前、视野限制仍生效时，由船员技能击杀其中一名；不把会议中的放逐计作失明期间击杀 |
+| 202301 | 护盾发放 | 普通 | 以医生身份，成功给一名玩家发放护盾。 |
+| 202302 | 救命恩人 | 史诗 | 同一局由本人发放的护盾实际抵挡2次常规击杀，且船员阵营获胜；重复发送同一次攻击提示不计 |
+| 202401 | 占卜有果 | 普通 | 会议中成功发动占卜，房主向本人提供一名目标的信息 |
+| 202402 | 真相揭示 | 稀有 | 完成全部任务后，对一名实际内鬼的占卜信息成功提供给本人，且本人在该次会议投票给该目标并将其放逐，最终船员阵营获胜 |
+| 202501 | 不计入生者 | 普通 | 以活死人身份肉体未死亡地完成一次有效对局 |
+| 202601 | 正确审判 | 普通 | 使用审判指令成功击杀一名符合技能邪恶判定的目标 |
+| 202602 | 法槌落下 | 史诗 | 同一局连续2次有效审判成功，期间没有错误审判，最终船员阵营获胜 |
+| 202701 | 最后接触者 | 普通 | 本人报告尸体后，房主成功向本人发送被害者生前最后接触玩家的信息 |
+| 202702 | 死亡证词 | 史诗 | 本人获得的最后接触者恰为对应死者的实际凶手，并在该次或下一次会议投票给该凶手并将其放逐，最终随本局实际所属阵营获胜 |
+| 202801 | 逝者回应 | 普通 | 报告尸体后成功建立联系，且房主成功向本人发送一次有效的亡者是/否回答 |
+| 202802 | 问完最后一问 | 稀有 | 在一次会议中成功收到亡者回答，并在该会议投票给对应死者的实际凶手并将其放逐，最终船员阵营获胜 |
+| 202901 | 看见碎盾 | 普通 | 房主通过观察者能力向本人发送一次针对其他玩家的有效碎盾提示 |
+| 203001 | 歌颂时刻 | 普通 | 使用通风管道发动歌颂，并对至少一名有效玩家成功执行冷却重置 |
+| 203002 | 和平之后 | 稀有 | 一次歌颂对至少2名拥有击杀键的不同玩家成功执行冷却重置，且本人存活到船员阵营获胜结算 |
+| 203101 | 采集样本 | 普通 | 同一轮成功采集两名不同玩家的样本 |
+| 203102 | 样本指向凶手 | 稀有 | 本人样本信息生成并发送后，在该次或下一次会议投票给样本对应的实际内鬼并将其放逐，且船员阵营获胜 |
+| 203201 | 票数互换 | 普通 | 一次会议中对两名不同玩家成功执行换票结算 |
+| 203202 | 逆转票局 | 史诗 | 本人换票实际改变放逐对象并放逐内鬼，最终船员阵营获胜 |
+| 203301 | 特殊会议 | 普通 | 成功召开仅能投票给指定两名玩家的特殊会议 |
+| 203302 | 两人皆有罪 | 传说 | 本人召开的特殊会议最终按技能规则同时放逐两名不同的邪恶目标，且船员阵营获胜 |
+| 203401 | 封锁管道 | 普通 | 以保安身份，成功封锁一条此前未锁定的通风管道。 |
+| 203402 | 无路可逃 | 史诗 | 同一局由本人封锁至少3条不同管道，且至少一次敌方进入本人封锁管道的尝试被房主明确阻止，最终船员阵营获胜 |
+| 500201 | 任务闭环 | 稀有 | 任务胜利判定实际生效，计入本局船员总进度的全部有效任务均完成，且最终船员阵营获胜；不要求完成不计总进度的中立或其他专属任务 |
+| 500202 | 没有误判 | 稀有 | 船员阵营获胜，至少一次会议实际放逐了内鬼，且本局没有有效船员被会议放逐；没有任何放逐的对局不计 |
+| 500208 | 无人掉队 | 传说 | 船员阵营获胜时，所有开局有效船员都存活、未断线且未转离船员阵营；开局有效船员至少4人，不通过转阵营缩小统计集合 |
 
-### Neutral (53)
+### 中立 (53)
 
-| ID | Name | Rarity | Unlock condition |
-| -- | ---- | ------ | ---------------- |
-| 300101 | Dousing Complete | Common | As Arsonist, successfully finish dousing a living player. |
-| 300102 | Burn It All | Epic | Douse every eligible living player, ignite successfully, trigger your Arsonist win source and be a final winner. |
-| 300201 | Vote for Me, Please | Common | Get voted out at a meeting, trigger your Jester win source and be a final winner. |
-| 300202 | Opening Curtain Call | Common | Get exiled at the first actual meeting of the round, trigger your Jester win source and be a final winner. |
-| 300301 | Riding the Victory Train | Common | Survive to settlement and enter the final winner list through your own Opportunist additional-win rule. Shared neutral wins do not count. |
-| 300401 | Exit After the Tasks | Common | Die after completing all tasks, trigger your Terrorist win source and be a final winner. |
-| 300501 | Target Eliminated | Common | Have your assigned Exile target exiled and win through your own Executioner win rule. |
-| 300502 | Convicted at the Next Meeting | Epic | Have your Exile target exiled before the end of the round's second actual meeting, vote for that target in the exile meeting, and win by the Executioner win rule. |
-| 300601 | Headcount Overtake | Common | Trigger the Jackal base win based on headcount advantage or parity and finish as a Jackal-side winner. |
-| 300602 | Growing Pack | Rare | Successfully recruit a Sidekick, with neither of you leaving the Jackal side, and both surviving to a Jackal win. |
-| 300701 | Loyal Sidekick | Common | Survive as the Sidekick until the Jackal side wins and be in the final winner list. |
-| 300702 | Successor | Epic | After the original Jackal dies, actually become the Jackal under the enabled succession rule and achieve a Jackal-side win. |
-| 300801 | Knows Everything | Common | Survive through an actual meeting as God and be successfully provided other players' identity information by the host. |
-| 300802 | The Last Winner | Epic | Survive through at least 3 actual meetings as God, then have your God snatch-victory rule override the existing base win and finish as a winner. |
-| 300901 | Vent Hop Practice | Common | Reach half of the host's win threshold in valid vent hops, rounded up, in one round. |
-| 300902 | Plumbing Champion | Rare | Reach the host's win threshold in valid vent hops, trigger your Mario win source from it and be a final winner. |
-| 301001 | Frame-Up Success | Common | Have the Innocent skill actually record a valid frame target. |
-| 301101 | Swallowed One | Common | Successfully swallow a player alive. |
-| 301102 | Come Back Full | Epic | Swallow at least 3 different players alive in one round and finish with a Pelican-side win. |
-| 301201 | Win Over Success | Common | Successfully complete a win-over record on a player. |
-| 301202 | Revolution Succeeded | Epic | Reach the recruit count set by the host before the countdown ends, vent successfully, trigger your Revolutionist win source and be a final winner. |
-| 301301 | Couples Only | Common | Successfully kill a Lovers or Neptune target allowed by the current code. |
-| 301302 | Single Victory | Rare | Successfully kill at least one allowed target and win by your own FFF additional-win rule at settlement. |
-| 301401 | Health Depleted | Common | Use the player health mechanic to reduce a target's health to zero and kill them. |
-| 301402 | Head On | Epic | Complete at least 3 valid kills through the health mechanic in one round and win with your player side. |
-| 301601 | Extra Tasks | Common | Complete half of your total Workaholic-assigned tasks, rounded up. |
-| 301602 | Never Clock Out | Epic | Complete all of the Workaholic's required tasks, actually trigger your Workaholic win source and be a final winner. Whether death can win follows the host option. |
-| 301701 | Collecting Votes | Common | Vote for a player and actually increase your collected vote count. |
-| 301801 | Shared Fate | Common | Use the Provocateur skill and die together with a target. |
-| 301901 | Shield After Kill | Common | After a valid kill, successfully gain the Blood Knight's role shield. |
-| 302001 | Bet Placed | Common | As Follower, successfully place a valid bet on a player. |
-| 302101 | Charm Success | Common | Successfully charm an eligible non-neutral player and actually turn them to the Succubus side. |
-| 302102 | Charm Majority | Epic | Successfully charm at least 2 different players, trigger the Succubus headcount base win, and finish as a winner. |
-| 302201 | Choosing a Side | Common | Take a valid attack as the cat, have the cat mechanic prevent that death and actually convert your role. |
-| 302202 | The Other Side of the Cat | Rare | After converting through the cat's hit reaction, enter the final winner list with the role or faction gained from that conversion. |
-| 302301 | Infection Spreads | Common | Make a valid target actually reach the Plague Doctor's infection-complete state. |
-| 302302 | Plague Endgame | Epic | Infect every eligible living player and win through your own Plague Doctor win source. |
-| 302401 | Swap Identities | Common | As the Shifter, choose a target and actually complete the role swap in the following meeting-end processing phase. |
-| 302402 | Fate Shuffle | Epic | Complete a swap as the Shifter, be swapped back into the Shifter by another Shifter, then complete a second swap gaining a different main role each time, and survive to settlement. |
-| 302501 | Correct Guess | Common | Have one valid guess actually recorded as correct for the Doomsayer. |
-| 302502 | Undefeated Guess Streak | Epic | Complete the correct guesses required to win under the host settings with no wrong guesses and win through your own Doomsayer win source. |
-| 302601 | Rival Appears | Common | Have a player actually marked as your rival for staying near your crush long enough. |
-| 302701 | Cheerful Exit | Common | After you die, enter the final winner list through the Sunnyboy additional-win rule. Neutral shared wins do not count. |
-| 302702 | The Show Goes On | Rare | Die before the first meeting of the round starts, then see through at least 2 actual meetings and still win through your own Sunnyboy additional-win rule. |
-| 302801 | Proxy After Death | Common | Have a valid client assigned, die as the Lawyer without changing roles, and at settlement win through the Lawyer rule with both you and the client in the winner list. |
-| 302802 | Client Takes Priority | Common | Survive to settlement as the Lawyer with your client having already earned winner status before your Lawyer additional-win check, then have your Lawyer rule remove the client's winner status and add you. |
-| 302901 | Blanks Useful | Common | Have a blank-round state you spent a use to issue actually make the corresponding player's next non-suicide kill fail. |
-| 302902 | Two Rejections | Common | Have blanks you issued actually block two different players' non-suicide kills once each in one round, survive as the Prosecutor, and win through your own Prosecutor additional-win rule. |
-| 500301 | Independent Endgame | Rare | Actually trigger a dedicated base win source as a neutral role and finish as a winner; not merely added by a shared-win rule. |
-| 500303 | Without a Side | Legendary | Trigger a neutral role's dedicated base win and, after all additional and shared-win rules, have the final winner list contain only you. |
-| 500304 | Win by Association | Rare | After you die, actually win through a target-linked additional win rule such as the Follower or Lawyer. All neutral shared wins do not count. |
-| 500305 | Famous After Death | Rare | Have your death or exile be the necessary trigger event of your dedicated win rule, with that win source actually holding and you finishing as a winner. |
-| 500307 | Turning the Tables | Epic | After an Impostor or Crewmate base-win candidate has been generated, have your neutral snatch rule actually change the win source to your own role and finish as a winner. |
+| 编号 | 名称 | 稀有度 | 解锁条件 |
+| ---- | ---- | ------ | -------- |
+| 300101 | 完成涂油 | 普通 | 以纵火犯身份，成功将一名存活玩家涂油完成。 |
+| 300102 | 焚尽全场 | 史诗 | 将所有符合点火条件的存活玩家全部涂油并成功点火，触发本人的纵火犯专属胜利来源，且本人最终获胜 |
+| 300201 | 请投我一票 | 普通 | 在会议中被投票放逐，触发本人的小丑胜利来源且本人最终获胜 |
+| 300202 | 开场谢幕 | 普通 | 在本局第一场实际会议中被放逐，触发本人的小丑胜利来源且本人最终获胜 |
+| 300301 | 搭上胜利列车 | 普通 | 存活至结算，并由本人投机者追加胜利规则进入最终赢家名单；仅中立共同胜利不计 |
+| 300401 | 任务完成后退场 | 普通 | 完成全部任务后死亡，触发本人的恐怖分子胜利来源且本人最终获胜 |
+| 300501 | 目标出局 | 普通 | 指定的处刑目标被会议放逐，并由本人处刑人专属胜利规则获胜 |
+| 300502 | 次会定罪 | 史诗 | 处刑目标在本局第二场实际会议结束前被放逐，本人在放逐会议投票给该目标，并由处刑人专属胜利规则获胜 |
+| 300601 | 人数反超 | 普通 | 触发以豺狼人数优势或平衡人数为依据的基础胜利，且本人最终以豺狼阵营获胜；具体人数关系按当前规则判断，不写死为严格大于 |
+| 300602 | 狼群壮大 | 稀有 | 成功招募一名跟班，本人与该跟班均未离开豺狼阵营，且两人存活到豺狼阵营获胜结算 |
+| 300701 | 忠实副手 | 普通 | 以跟班身份存活到豺狼阵营获胜结算，且本人在最终赢家名单中 |
+| 300702 | 接班人 | 史诗 | 原豺狼死亡后，本人按启用的接班规则实际转为豺狼，并最终取得豺狼阵营胜利；须保留跟班身份历史 |
+| 300801 | 知道一切 | 普通 | 以神身份存活经历一次实际会议，且房主成功向本人提供其他玩家身份信息；不以开局分配角色直接赠送 |
+| 300802 | 最后的胜利者 | 史诗 | 以神身份存活经历至少3次实际会议，随后由本人的神抢夺胜利规则覆盖既有基础胜利，且本人最终获胜；神本身只要求存活，不要求全场只剩自己 |
+| 300901 | 跳管练习 | 普通 | 同一局有效跳管次数达到房主胜利门槛的一半向上取整 |
+| 300902 | 水管冠军 | 稀有 | 本人有效跳管次数达到房主胜利门槛，并由此触发马里奥专属胜利来源且本人最终获胜 |
+| 301001 | 栽赃成功 | 普通 | 冤罪师技能实际记录一名有效栽赃目标，且本人因该次栽赃机制死亡 |
+| 301101 | 吞下一个 | 普通 | 成功活吞一名玩家 |
+| 301102 | 满腹而归 | 史诗 | 同一局活吞至少3名不同玩家，并最终取得鹈鹕阵营胜利 |
+| 301201 | 拉拢成功 | 普通 | 成功完成对一名玩家的拉拢记录；不等同于目标的主职业或阵营立即转换 |
+| 301202 | 革命成功 | 史诗 | 在倒计时结束前达到房主设定拉拢人数并成功跳管，触发本人的革命家胜利来源且本人最终获胜 |
+| 301301 | 只拆情侣 | 普通 | 以FFF团技能成功击杀一名按当前代码允许的恋人或海王目标 |
+| 301302 | 单身的胜利 | 稀有 | 至少成功击杀一名FFF团允许目标，并在结算时由本人FFF团专属追加胜利规则获胜 |
+| 301401 | 血量见底 | 普通 | 用玩家专属血量机制将一名目标的血量消耗至零并成功击杀 |
+| 301402 | 硬碰硬 | 史诗 | 同一局通过血量机制完成至少3次有效击杀，并取得玩家阵营胜利 |
+| 301601 | 加量任务 | 普通 | 完成本人工作狂分配任务总数的一半向上取整 |
+| 301602 | 永不下班 | 史诗 | 完成工作狂当前全部必需任务，实际触发本人的工作狂胜利来源且本人最终获胜；死亡能否获胜遵循房主选项 |
+| 301701 | 收集选票 | 普通 | 投票给一名玩家并实际增加本人收集票数 |
+| 301801 | 同命目标 | 普通 | 使用自爆卡车技能与一名目标同归于尽 |
+| 301901 | 击杀后护盾 | 普通 | 一次有效击杀后成功获得嗜血骑士职业护盾 |
+| 302001 | 下注完成 | 普通 | 以赌徒身份，通过一次有效下注建立目标记录。 |
+| 302101 | 魅惑成功 | 普通 | 成功魅惑一名技能允许的非中立玩家，使其实际转入魅魔阵营 |
+| 302102 | 魅惑多数 | 史诗 | 本人成功魅惑至少2名不同玩家，并以魅魔阵营人数规则触发基础胜利，且本人最终获胜 |
+| 302201 | 选择阵营 | 普通 | 以猫身份遭遇有效攻击，由猫机制阻止本次死亡并实际转换职业；不写作先死亡后加入阵营 |
+| 302202 | 猫的另一面 | 稀有 | 由猫受击机制完成职业转换后，以该次转换获得的职业或阵营资格进入最终赢家名单；须保留原猫身份及转换来源，不以结束时是否仍为猫判断 |
+| 302301 | 感染扩散 | 普通 | 使一名有效目标实际达到疫医感染完成状态 |
+| 302302 | 瘟疫终局 | 史诗 | 感染全部符合条件的存活玩家，由本人的疫医专属胜利来源获胜 |
+| 302401 | 交换身份 | 普通 | 以连环交换师身份选定目标，且在随后的会议结束处理阶段实际完成职业交换；只选目标不计 |
+| 302402 | 命运洗牌 | 史诗 | 本人以连环交换师身份完成交换，之后又被其他交换师换回交换师身份，再主动完成第二次交换，两次获得不同主职业，并存活至结算；按同一玩家的身份历史统计，不要求一直持有交换师职业 |
+| 302501 | 猜测正确 | 普通 | 一次有效猜测实际获得末日预言家正确记录 |
+| 302502 | 连猜不败 | 史诗 | 按房主设置完成获胜所需正确猜测，期间没有错误猜测，并由本人的末日预言家专属胜利来源获胜 |
+| 302601 | 出现情敌 | 普通 | 一名玩家因在暗恋对象附近停留达到时长而被实际标记为本人的情敌 |
+| 302701 | 退场也开朗 | 普通 | 本人死亡后，通过阳光开朗大男孩专属追加胜利规则进入最终赢家名单；仅中立共同胜利不计 |
+| 302702 | 谢幕不散场 | 稀有 | 在本局第一场会议开始前死亡，之后又完成至少2场实际会议，最终仍通过本人的阳光开朗大男孩追加胜利规则获胜 |
+| 302801 | 身后代理 | 普通 | 本人已获分配有效客户，且以律师身份死亡后未转换职业；结算时客户在律师追加胜利检查前已取得赢家资格，本人通过律师规则追加获胜，最终本人和客户均在赢家名单中 |
+| 302802 | 代理人优先 | 普通 | 本人以律师身份存活至胜利结算，客户在本人律师追加胜利检查前已取得赢家资格；由本人律师规则实际移除客户赢家资格并追加本人，且最终本人获胜、客户不在赢家名单；中立共同胜利或恋人规则把客户重新加入时不满足 |
+| 302901 | 空包有用 | 普通 | 由本人消耗次数发放的空包弹状态，实际使对应玩家的下一次非自杀击杀失效；只命中、不触发拦截不计 |
+| 302902 | 两次驳回 | 普通 | 同一局本人发放的空包弹实际阻止两名不同玩家各一次非自杀击杀，且本人以起诉人身份存活，并通过起诉人专属追加胜利规则最终获胜；配置至少允许两次使用，会议清除未生效空包弹不计次数 |
+| 500301 | 独立终局 | 稀有 | 本人以中立职业实际触发一次专属基础胜利来源，且最终获胜；不是单纯被共同胜利规则加入 |
+| 500303 | 不靠阵营 | 传说 | 本人触发中立职业专属基础胜利，且全部追加与共同胜利规则处理后，最终赢家名单仅本人一人；不能只通过内鬼与船员没获胜来推断 |
+| 500304 | 借势而胜 | 稀有 | 本人死亡后，通过赌徒、律师等目标关联的专属追加胜利规则实际获胜；不计所有中立共享胜利 |
+| 500305 | 死后成名 | 稀有 | 本人死亡或被放逐是其专属胜利规则的必要触发事件，且该胜利来源实际成立、本人最终获胜 |
+| 500307 | 反客为主 | 史诗 | 已生成内鬼或船员基础胜利候选后，本人的中立抢夺规则实际将胜利来源改为自身职业，且最终获胜 |

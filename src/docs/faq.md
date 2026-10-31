@@ -1,117 +1,140 @@
 ---
-title: Frequently Asked Questions
+title: 常见问题
 ---
 
-## How to install mod on mobile phones and tablets
+::: important 提示
 
-In theory, only Windows PCs will be able to install mods until our mod is released on Starlight.
-If TONX is listed on Starlight following negotiations with the AOU development team, players using Android devices will be able to install the mod.
-If you have no Windows, you don’t need to worry, the Host-only mods such as TONX, TOH, TOHR, TOHY, SHR, etc. are all compatible with the vanilla. You can find the lobbys of these mods to join and play.
+模组的开发并不会修改任何对于服务器连接方面的代码，从角色制作、功能增加到 Reactor 加密都不会影响到客户端与服务端的连接。事实上，TONX、TOR、TOU-R、TOH-TOR、IdeaShip、LM 等模组都会使用 Reactor 对库文件进行混淆、加密或优化。因此，TONX 的新版本没有任何可能导致您频繁掉线。
 
-## You have been kicked by room
+此外，Innersloth 对您向服务器传输的数据包有着严格的大小和延迟要求，稍有偏差就会强制将您踢出并显示断连提示。所以请确保您使用的加速器不会丢包。
 
-It may be because the room prohibits sending messages such as forbidden words and reminders to start. Or ban players who are not logged in, have illegal nicknames, have been banned, and have Android systems. It may also be kicked out by EAC anti-cheat.\
-If none of the above is true, you may have been kicked out manually by the host or voted anonymously by other players.
+值得一提的是，TONX 会对 RPC 包进行分割以降低网络压力。您可以理解成，如果您在频繁掉线后依然认为这是 TONX 的问题，那么您可以滚去玩别的模组了。
 
-## You have been kicked by Among Us official anti-cheating
+:::
 
-The official Among Us anti-cheat system often treats mods as cheats and kicks you out of the game.\
-This situation is unavoidable, and all Host-only mods have this problem. If you still want to enter this lobby to play, you can only contact the host to reopen the lobby.
+## 手机、平板怎么装模组
 
-## Your connection to the server has been interrupted
+理论上来说，在我们的模组于Starlight发行之前，只有 Windows 电脑能安装模组。
+如果TONX与AOU开发组协商后，将TONX上架到了Starlight，使用安卓设备的玩家就可以安装模组了
+如果你不是 Windows 电脑，其实也不用担心，H系模组例如：TONX、TOH、TOHR、TOHY、SHR 等都是兼容原版的，您可以在群内寻找这些模组的房间加入并游玩。
 
-If you find that other people can play normally, there are two possibilities:
+## 您已被此房间踢出
 
-1. Among Us official servers are overloaded, this situation cannot be avoided.
-2. It's time for you to replace the accelerator.
+可能是因为该房间禁止发送违禁词、催开始等消息，或是禁止未登录、违规昵称、曾被封禁、安卓系统等玩家，也可能是被 EAC 反作弊踢出。\
+若以上皆不是，则可能为房主手动踢出或全员匿名投票踢出了您。
 
-If a large number of players are reporting this problem, it may be because of a bug in the mod, please wait patiently for the fix and update.
+## 您被 Among Us 官方反作弊系统踢出
 
-## Unable to connect to your Among Us account
+Among Us 官方的反作弊系统经常把模组当成作弊程序，然后把您踢出游戏。\
+这种情况是无法避免的，所有的 H 系模组都存在这个问题。如果您还想进入该房间游玩，只能联系房主重开房间。
 
-AFK, bad network, or VPN changing or instability may also cause this problem.\
-The solution is to restart the game, restart the VPN or restart the computer.
+## 您与服务器的连接已中断
 
-## An unknown error has occurred and your connection to the server has been interrupted
+如果您发现其他人都可以正常游玩的话，则有两种可能性：
+1. Among Us 官方的服务器过载了，这种情况无法避免。
+2. 您该换加速器了。
 
-Unfortunately, this is a disconnection caused by a mod error or server error. If possible, please send the log to dev to solve the problem as soon as possible. Of course this does not rule out your network reasons.
+如果大量玩家都在反馈该问题，则可能是因为模组出现了 Bug，请耐心等待修复更新。
 
-## The mod file is damaged, please restart the game or reinstall the mod
+## 无法连上您的 Among Us 账号
 
-There are two possibilities:
+如果您使用的是懒人包，可以尝试使用安装包然后从 Steam 或 Epic 启动游戏。\
+Epic 在第一次启动游戏的时候会弹出浏览器进行关联账号的操作，请不要跳过该步骤。\
+此外，长时间挂机、网络波动或加速器节点更换或不稳定也可能导致该问题，解决方法是重启游戏、重启加速器或重启电脑。
 
-1. There is a problem with your network that causes the mod to fail to check the integrity.
-2. The files of the mod or game are deleted or modified artificially or by a program, anti-virus software, etc.
+## 发生未知错误，您与服务器的连接已中断
 
-First, please check whether your network is normal, and then please make sure that your network proxy software is not a global proxy. Then please restart the game, if you still get the same prompt, please try to reinstall the vanilla and reinstall the mod.
+这可能是由于模组错误或服务器错误导致的断连，如果可以的话请发送日志给开发者以尽快解决该问题。\
+当然这并不排除您的网络原因。
 
-## We have an important update, please update this mod
+## 模组文件损坏，请重启游戏或重装本模组
 
-Please return to the main menu of the game. There is an `Update` button in the lower left corner, please click this button and wait for the update.
+存在两种可能性：
+1. 您的网络出了问题导致模组检查完整性失败。
+2. 模组或游戏的文件被人为或被某个程序、杀毒软件等删除或修改。
 
-## After installing the mod, it is still the vanilla
+首先请您检查您的网络是否正常，然后请确保您的网络代理软件不是全局代理。随后请重启游戏，若还是同样的提示，请尝试重装游戏并重装模组。
 
-1. This may be caused by your antivirus software identifying the mod as a virus and automatically deleting it. Please try to close the antivirus software and reinstall it.
-2. Please make sure that your game path does not contain any non-english, any characters other than English and numbers in the path may cause the mod to fail to load.
+## 我们有一个重要的更新，请更新本模组
 
-## How to get the log file
+请返回游戏的主菜单，左下角有个 `一键更新` 按钮，请点击此按钮并等待更新。
 
-You have three methods to get log files:
+## 安装模组后打开还是原版
 
-1. Press <kbd>Ctrl</kbd> + <kbd>F1</kbd> in the game, then you can find the log file on your desktop, the file name starts with `TONX...`.
-2. Send the message `/dump` in the game, then you can find the log file on your desktop, the file name starts with `TONX...`.
-3. Open your Among Us game directory, enter the `Among Us/BepInEx` folder, and then you will see a file called `LogOutput.log`, this is the log file.
+1. 这可能是因为您的杀毒软件将模组识别成病毒而自动删除导致的，请尝试关闭杀毒软件然后重新安装模组。
+2. 请确保您的游戏路径没有任何中文，路径包含任何中文都可能导致模组加载失败。
 
-## Test Error Lv.x
+## 如何得到日志文件
 
-Please restart the game.
+您有三种方法得到日志文件：
 
-## The meeting cannot be ended, and the lower left corner displays an error: Please terminate the meeting manually
+1. 游戏里按 <kbd>Ctrl</kbd> + <kbd>F1</kbd> ，然后您可以在您的桌面上找到日志文件，文件名开头为 `TONX...`。
+2. 游戏里发送消息 `/dump` ，然后您可以在您的桌面上找到日志文件， 文件名开头为 `TONX...`。
+3. 找到您的 Among Us 的游戏目录，进入到 `Among Us/BepInEx` 文件夹，然后您会看到一个叫做 `LogOutput.log` 的文件，这个就是日志文件。
 
-This is due to some bugs in the conference billing that prevent the conference from ending normally. Please press <kbd>Shift</kbd> + <kbd>M</kbd> + <kbd>Enter</kbd> to end the conference forcefully. If possible, please send the log file to dev to solve the problem as soon as possible.
+## 测试错误Lv
 
-## I am a Crewmate, but the opening shows that I am a Impostor
+请重启游戏。
 
-In order to be compatible with the vanilla, Host-only mods have to give you a Impostor role so that you can have the kill button. So for players who don't have the mod installed, you will see that you are an Impostor with no teammates.\
-Please refer to the name on your head.
+## 会议无法结束，左下角显示 错误：请手动终止会议
 
-## What are the Host-only mods
+这是由于会议结算出现了一些 Bug 导致会议无法正常结束，请按 <kbd>Shift</kbd> + <kbd>M</kbd> + <kbd>Enter</kbd> 以强制结束会议。\
+如果可以的话请发送日志文件给开发者以尽快解决该问题。
 
-H refers to Host, which is a mod that is compatible with the original version. It only needs to be installed by the host, and other players can play without installing the mod.\
-In order to be compatible with the original version, the H-series mods have many functions and roles that cannot be realized. Even if they are realized, the way of realization is very strange. For example, the sheriff is shown as a Impostor, and the instructions of gambling monsters cannot be hidden.
+## 我是船员，但是开局显示我是内鬼
 
-## The game ends inexplicably
+H 系模组为了兼容原版而不得不给您一个内鬼身份好让您有击杀键。所以对于没有安装模组的玩家来说，您会看到您是内鬼身份且没有队友。\
+一切请以您头上的名字为准。
 
-Game ends suddenly, If there are still imps alive and the victory conditions of the neutrals are not met. There are two possibilities:
+## 什么是 H 系模组
 
-1. You have turned on the option `Ghost ignores tasks`, if the only crew who did not complete the tasks dies suddenly, it will be considered a task win for the crew.
+H 是指 Host，也就是兼容原版的模组，只需要房主安装，其他玩家不需要安装模组也可以游玩的模组。\
+H 系模组为了兼容原版有很多功能和角色无法实现，就算实现，实现方式也很诡异。例如警长显示为内鬼，赌怪指令无法隐藏等问题。
 
-2. You have turned on the option `No Voting/Skipping Voting is tantamount to suicide`. After the meeting, most players will die, and then the game will be judged to be over.
+## 游戏莫名其妙地结束
 
-3. The host or a certain player made a fatal error, and the mod forcibly ended the game to prevent the game from stucking.
+如果在场上还有内鬼存在并且没有符合中立阵营胜利条件时，游戏突然结束。有两种可能性：
 
-## Just after the start, it shows that the host has forced the end of the game
+1. 您开启了`幽灵无视任务`的选项，如果唯一没做任务的船员突然死亡，则会视为船员任务胜利。
 
-There is a bug in the H-series mod that fails to assign roles. When the bug occurs in the original TOH, the homeowner will not be able to see the start button, and other players will be loaded with an infinite black screen. In this case, everyone can only exit the game.\
-In TONX, in order to avoid this situation, it will automatically detect whether other players are stuck in loading, and if detected, the game will be automatically terminated to prevent everyone from being stuck. So it's a protection mechanism, just ignore it and keep playing.
+2. 您开启了`不投票/跳过投票等于自杀`的选项，会议结束后大部分玩家就会死亡，然后判定游戏结束。
 
-## Most of the screen is black, but the sound can be heard and there is a setting button
+3. 房主或某位玩家发生了致命错误，为防止游戏卡死故模组强制结束了游戏。
 
-A situation that may suddenly appear at the beginning or during the game: Most of the screen is black, only the top part of the screen is visible, the sound can be heard, and the setting button can be clicked, and the meeting will not be displayed.\
-This is caused by the failure of the client to assign roles, and it is also one of the unavoidable problems of the H-series mods. Unfortunately, when this happens, you have to quit the game.
+## 刚开局就显示房主强制结束了游戏
 
-## The role I got is different from the one seen by /m, and the skill doesn't work
+H 系模组都存在一个角色分配失败的 Bug，原生 TOH 出现该 Bug 的时候房主会看不到开始按钮，其它玩家则会无限黑屏加载，遇到这种情况只能所有人退出游戏。\
+而在 TONX 里，为了避免这种情况，会自动检测其他玩家是否卡在加载，如果检测到则会自动终止游戏以防止所有人卡死。所以这是一种保护机制，无视并继续游玩即可。
 
-This issue will occur if your mod is of a different version than the host, please make sure the host name is not red or yellow before starting the game. If yes, please exit the game and check if there is an update button in the lower left corner of the main menu, if not, please restart the game and check if there is a update button again. If it still doesn't then it's not your problem, it's the host who needs an update.
+## 大半个屏幕都是黑色，但能听见声音也有设置按钮
 
-## There are a lot of duplicate characters in the game without setting
+这是在刚开局或游戏过程中，可能突然出现的一种情况：大半个屏幕都是黑色，只有最上面有一部分屏幕可见，能够听到声音，也能点击设置按钮，会议也不会显示。\
+这是由于客户端分配角色失败导致的，也是 H 系模组无法避免的问题之一，很不幸，当遇到这种情况时只能退游戏了。
 
-Don't worry, we don't have this kind of bug, so please go to the settings and change the 15 max of this role back to 1 person.
+## 我显示的角色和 /m 看到的角色不同，且技能无效
 
-## I got vanilla roles
+如果您模组的版本与房主不同则会出现这个问题，请在游戏开始前确保房主名字不是红色或黄色。如果是，请退出游戏并检查主菜单左下角是否有更新按钮，如果没有请重启游戏再次检查是否有更细按钮。如果还是没有则说明这不是您的问题，而是那个房主需要更新了。
 
-Turn on the " `Disable vanilla roles` option, and enable more roles.
+## 一键安装程序提示错误
 
-## The game never ends
+请尝试使用别的方法安装模组。
 
-Please turn off `No Game End` in settings.
+## 一键安装程序提示启动游戏后点击确认，但是没有反应
+
+请尝试使用别的方法安装模组。
+
+## 在没有设置的情况下游戏中出现了大量重复角色
+
+请放心，我们没有这种 Bug，所以请去设置里把该角色的 15人 改回 1人。
+
+## 游戏出现白板职业或原版工程师、科学家、变形者
+
+打开`禁用原版职业`选项，并多开一些职业。
+
+## 游戏一直不结束
+
+请在设置关闭`测试模式`。
+
+## 怎么制作生草翻译
+
+一般是使用 [dnSpy](https://github.com/dnSpy/dnSpy) 软件修改 dll 文件里的 csv 资源，总之请去网上查找相关教程。

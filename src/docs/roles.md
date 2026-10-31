@@ -1,1171 +1,1160 @@
 ---
-title: Role List
+title: 职业列表
 ---
 
-This page introduces custom roles and add-ons.
+本页介绍自定义职业及附加职业。
 
-|              Impostor               |                     Crewmate                      |               Neutral               |             Add-on              |
-|:-----------------------------------:|:-------------------------------------------------:|:-----------------------------------:|:-------------------------------:|
-|   [Bounty Hunter](#bounty-hunter)   |           [Nice Guesser](#nice-guesser)           |        [Arsonist](#arsonist)        |        [Lovers](#lovers)        |
-|   [Serial Killer](#serial-killer)   |                 [Luckey](#luckey)                 |          [Jester](#jester)          | [Last Impostor](#last-impostor) |
-|         [Vampire](#vampire)         |               [Lazy Guy](#lazy-guy)               |     [Opportunist](#opportunist)     |       [Neptune](#neptune)       |
-|         [Warlock](#warlock)         |             [Super Star](#super-star)             |       [Terrorist](#terrorist)       |       [Watcher](#watcher)       |
-|        [Assassin](#assassin)        |              [Celebrity](#celebrity)              |     [Executioner](#executioner)     |       [Lighter](#lighter)       |
-|          [Zombie](#zombie)          |                  [Mayor](#mayor)                  |          [Jackal](#jackal)          |          [Seer](#seer)          |
-|          [Hacker](#hacker)          |              [Repairman](#repairman)              |        [Sidekick](#sidekick)        |         [Flash](#flash)         |
-|           [Miner](#miner)           |                [Sheriff](#sheriff)                |             [God](#god)             |    [Tiebreaker](#tiebreaker)    |
-|        [Escapist](#escapist)        |               [Paranoid](#paranoid)               |           [Mario](#mario)           |     [Oblivious](#oblivious)     |
-| [Killing Machine](#killing-machine) |                [Psychic](#psychic)                |        [Innocent](#innocent)        |      [Bewilder](#bewilder)      |
-|           [Witch](#witch)           |                 [Snitch](#snitch)                 |         [Pelican](#pelican)         |       [Madmate](#madmate)       |
-|           [Mafia](#mafia)           |          [Speed Booster](#speed-booster)          |   [Revolutionist](#revolutionist)   |          [Fool](#fool)          |
-|      [Fireworker](#fireworker)      |                 [Doctor](#doctor)                 |           [Hater](#hater)           |     [Workhorse](#workhorse)     |
-|          [Sniper](#sniper)          |               [Dictator](#dictator)               |           [Demon](#demon)           |       [Avenger](#avenger)       |
-|       [Puppeteer](#puppeteer)       |              [Detective](#detective)              |         [Stalker](#stalker)         |      [YouTuber](#youtuber)      |
-|            [Mare](#mare)            |              [Vigilante](#vigilante)              |      [Workaholic](#workaholic)      |        [Egoist](#egoist)        |
-|      [Time Thief](#time-thief)      |            [Transporter](#transporter)            |       [Collector](#collector)       |       [Stealer](#stealer)       |
-|    [Evil Guesser](#evil-guesser)    |           [Time Manager](#time-manager)           |     [Provocateur](#provocateur)     | [Schizophrenic](#schizophrenic) |
-|    [Anti Adminer](#anti-adminer)    |                [Veteran](#veteran)                |    [Blood Knight](#blood-knight)    |         [Mimic](#mimic)         |
-|       [Arrogance](#arrogance)       |              [Bodyguard](#bodyguard)              |        [Follower](#follower)        |         [Reach](#reach)         |
-|          [Bomber](#bomber)          |               [Deceiver](#deceiver)               |        [Succubus](#succubus)        |          [Bait](#bait)          |
-|      [Booby Trap](#booby-trap)      |              [Grenadier](#grenadier)              | [Schrodinger Cat](#schrodinger-cat) |      [Beartrap](#beartrap)      |
-|    [Evil Tracker](#evil-tracker)    |                  [Medic](#medic)                  |   [Plague Doctor](#plague-doctor)   |    [Colorblind](#colorblind)    |
-|       [Scavenger](#scavenger)       |         [Fortune Teller](#fortune-teller)         |         [Shifter](#shifter)         |                                 |
-|    [Shape Master](#shape-master)    |             [The Glitch](#the-glitch)             |       [Doomsayer](#doomsayer)       |                                 |
-|      [Capitalist](#capitalist)      |                  [Judge](#judge)                  |         [Yandere](#yandere)         |                                 |
-|        [Gangster](#gangster)        |              [Mortician](#mortician)              |          [Lawyer](#lawyer)          |                                 |
-|         [Cleaner](#cleaner)         |                 [Medium](#medium)                 |      [Prosecutor](#prosecutor)      |                                 |
-|       [Lightning](#lightning)       |               [Observer](#observer)               |                                     |                                 |
-|          [Greedy](#greedy)          |          [Dove of Peace](#dove-of-peace)          |                                     |                                 |
-|      [CursedWolf](#cursedwolf)      |               [Collator](#collator)               |                                     |                                 |
-|    [Soul Catcher](#soul-catcher)    |                [Swapper](#swapper)                |                                     |                                 |
-|   [Quick Shooter](#quick-shooter)   |                [Justice](#justice)                |                                     |                                 |
-|       [Concealer](#concealer)       |         [Security Guard](#security-guard)         |                                     |                                 |
-|          [Eraser](#eraser)          |                                                   |                                     |                                 |
-|         [Butcher](#butcher)         |                                                   |                                     |                                 |
-|         [Hangman](#hangman)         |                                                   |                                     |                                 |
-|         [Swooper](#swooper)         |                                                   |                                     |                                 |
-|      [CrewPostor](#crewpostor)      |                                                   |                                     |                                 |
-|         [Stealth](#stealth)         |                                                   |                                     |                                 |
-|       [Messenger](#messenger)       |                                                   |                                     |                                 |
-|         [Penguin](#penguin)         |                                                   |                                     |                                 |
-|         [Insider](#insider)         |                                                   |                                     |                                 |
-|            [Bard](#bard)            |                                                   |                                     |                                 |
-|  [Evil Grenadier](#evil-grenadier)  |                                                   |                                     |                                 |
-|                                     |                                                   |                                     |                                 |
+|       内鬼阵营        |      船员阵营       |      中立阵营       |      附加职业       |
+|:-----------------:|:---------------:|:---------------:|:---------------:|
+|   [赏金猎人](#赏金猎人)   |  [正义赌怪](#正义赌怪)  |   [纵火犯](#纵火犯)   |    [恋人](#恋人)    |
+|   [嗜血杀手](#嗜血杀手)   |   [幸运儿](#幸运儿)   |    [小丑](#小丑)    |   [绝境者](#绝境者)   |
+|    [吸血鬼](#吸血鬼)    |   [摆烂人](#摆烂人)   |   [投机者](#投机者)   |    [海王](#海王)    |
+|     [术士](#术士)     |   [大明星](#大明星)   |  [恐怖分子](#恐怖分子)  |   [窥视者](#窥视者)   |
+|     [刺客](#刺客)     |    [网红](#网红)    |   [处刑人](#处刑人)   |   [执灯人](#执灯人)   |
+|     [僵尸](#僵尸)     |    [市长](#市长)    |    [豺狼](#豺狼)    |    [灵媒](#灵媒)    |
+|     [骇客](#骇客)     |   [修理工](#修理工)   |    [跟班](#跟班)    |   [闪电侠](#闪电侠)   |
+|     [矿工](#矿工)     |    [警长](#警长)    |     [神](#神)     |   [破平者](#破平者)   |
+|    [逃逸者](#逃逸者)    | [被害妄想症](#被害妄想症) |   [马里奥](#马里奥)   |   [胆小鬼](#胆小鬼)   |
+|   [杀戮机器](#杀戮机器)   |    [愚者](#愚者)    |   [冤罪师](#冤罪师)   |   [迷幻者](#迷幻者)   |
+|     [女巫](#女巫)     |   [告密者](#告密者)   |    [鹈鹕](#鹈鹕)    |    [叛徒](#叛徒)    |
+|    [黑手党](#黑手党)    |   [增速者](#增速者)   |   [革命家](#革命家)   |    [蠢蛋](#蠢蛋)    |
+|   [烟花商人](#烟花商人)   |    [法医](#法医)    |  [FFF团](#fff团)  |   [加班狂](#加班狂)   |
+|    [狙击手](#狙击手)    |   [独裁者](#独裁者)   |    [玩家](#玩家)    |   [复仇者](#复仇者)   |
+|    [傀儡师](#傀儡师)    |    [侦探](#侦探)    |   [潜藏者](#潜藏者)   |   [UP主](#up主)   |
+|     [梦魇](#梦魇)     |    [侠客](#侠客)    |    [工作狂](#工作狂)  | [利己主义者](#利己主义者) |
+|    [蚀时者](#蚀时者)    |   [传送师](#传送师)   |   [集票者](#集票者)   |   [窃票者](#窃票者)   |
+|   [邪恶赌怪](#邪恶赌怪)   | [时间操纵者](#时间操纵者) |  [自爆卡车](#自爆卡车)  |  [双重人格](#双重人格)  |
+|    [监管者](#监管者)    |    [老兵](#老兵)    |  [嗜血骑士](#嗜血骑士)  |   [宝箱怪](#宝箱怪)   |
+|   [狂妄杀手](#狂妄杀手)   |    [保镖](#保镖)    |    [赌徒](#赌徒)    |    [持枪](#持枪)    |
+|    [自爆兵](#自爆兵)    |   [赝品商](#赝品商)   |    [魅魔](#魅魔)    |    [诱饵](#诱饵)    |
+|     [诡雷](#诡雷)     |   [掷雷兵](#掷雷兵)   | [薛定谔的猫](#薛定谔的猫) |   [陷阱师](#陷阱师)   |
+|    [追踪者](#追踪者)    |    [医生](#医生)    |    [疫医](#疫医)    |    [色盲](#色盲)    |
+|    [清道夫](#清道夫)    |   [占卜师](#占卜师)   | [连环交换师](#连环交换师) |                 |
+|    [千面鬼](#千面鬼)    |   [活死人](#活死人)   | [末日预言家](#末日预言家) |                 |
+|    [资本家](#资本家)    |    [法官](#法官)    |    [病娇](#病娇)    |                 |
+|     [教父](#教父)     |   [入殓师](#入殓师)   |    [律师](#律师)    |                 |
+|    [清理工](#清理工)    |   [通灵师](#通灵师)   |   [起诉人](#起诉人)   |                 |
+|   [球状闪电](#球状闪电)   |   [观察者](#观察者)   |                 |                 |
+|    [贪婪者](#贪婪者)    |  [和平之鸽](#和平之鸽)  |                 |                 |
+|     [呪狼](#呪狼)     |  [基因学家](#基因学家)  |                 |                 |
+|    [夺魂者](#夺魂者)    |   [换票师](#换票师)   |                 |                 |
+|    [快枪手](#快枪手)    |   [大神官](#大神官)   |                 |                 |
+|    [隐蔽者](#隐蔽者)    |    [保安](#保安)    |                 |                 |
+|    [抹除者](#抹除者)    |                 |                 |                 |
+|    [肢解者](#肢解者)    |                 |                 |                 |
+|    [刽子手](#刽子手)    |                 |                 |                 |
+|    [隐匿者](#隐匿者)    |                 |                 |                 |
+|     [船鬼](#船鬼)     |                 |                 |                 |
+|    [暗杀者](#暗杀者)    |                 |                 |                 |
+|   [情报贩子](#情报贩子)   |                 |                 |                 |
+|     [企鹅](#企鹅)     |                 |                 |                 |
+|    [内幕人](#内幕人)    |                 |                 |                 |
+|   [吟游诗人](#吟游诗人)   |                 |                 |                 |
+| [邪恶的掷雷兵](#邪恶的掷雷兵) |                 |                 |                 |
 
-## ⭐ Impostor
 
-### <font color=red>Bounty Hunter</font>
+## ⭐ 内鬼阵营
 
-If you kill your assigned target, your next kill cooldown will be shortened. If you kill anyone other than your target, your next kill cooldown will be increased. The target swaps after a certain amount of time.
+### <font color=red>赏金猎人</font>
 
-> From: TOH
+赏金猎人会被随机分配一个悬赏目标，若在规定时间内击杀了悬赏目标，则击杀CD会变得很短，能立刻进行下一次击杀。若赏金猎人击杀的人不是赏金目标，则击杀CD会被延长。若赏金猎人在规定时间内没有完成任何击杀，则目标会被随机切换为另一个人。
 
+> 来源：TOH
+
 ---
 
-### <font color=red>Serial Killer</font>
+### <font color=red>嗜血杀手</font>
 
-You have a shorter kill cooldown than other impostors, but you will die if you don't kill before the end of your shapeshift cooldown.
+嗜血杀手的击杀CD很短，但是如果在限定时间内没有进行击杀则会自杀。
 
-> From: TOH
+> 来源：TOH
 
 ---
 
-### <font color=red>Vampire</font>
+### <font color=red>吸血鬼</font>
 
-The bitten target of the Vampire will not die immediately, but will die suddenly after a delay. If a meeting is called within this time, the target will die immediately. If you bite a Bait, you make a normal kill and you're forced to self-report.
+吸血鬼可以通过击杀键对目标进行吸血，被吸血的目标不会立刻死亡也不会知道自己被吸血。延迟一段时间后，目标会原地死亡。
 
-> From: TOH
+> 来源：TOH
 
 ---
 
-### <font color=red>Warlock</font>
+### <font color=red>术士</font>
 
-The Warlock can curse another players while not Shapeshifted. When they Shapeshift after cursing, the player closest to the cursed player is killed no matter how far away they are. While Shapeshifting, you can perform normal kills. Only 1 player can be cursed at a time.
+术士可以使用击杀键给目标下咒，出现盾牌破碎则是下咒成功（放心，只有你能看见）。当术士变形时，被下咒的玩家会自动击杀离自己最近的玩家。请注意，摆烂人不会替你办事，诅咒摆烂人只会浪费你的时间。
 
-> From: TOH
+> 来源：TOH
 
 ---
 
-### <font color=red>Assassin</font>
+### <font color=red>刺客</font>
 
-The Assassin can use the kill button to mark a target, and if the mark is successful, a shield-animation will displayed as a reminder. The Assassin can then use shapeshift to teleport to the marked person and kill the marked person. Assassin cannot kill regularly, but may be able to kill regularly after assassination according to the host's settings.
+刺客可以使用击杀键标记一个目标，标记成功则自己身上会出现碎盾动画作为提示。之后刺客可以使用变形传送至被标记者的身边并击杀被标记者。刺客不可以进行常规击杀，但根据房主设定可能可以在刺杀后进行常规击杀。
 
-> From: TOHR & Coding: [KARPED1EM](https://github.com/KARPED1EM)
+> 来源：TOHR & 程序设计：[咔皮呆](https://github.com/KARPED1EM)
 
 ---
 
-### <font color=red>Zombie</font>
+### <font color=red>僵尸</font>
 
-Zombie has a short kill cooldown, but moves very slowly and has very little vision. Zombie will not be voted out by anyone other than the Dictator, and the movement speed of Zombie will gradually slow down as they make kills or time passes.
+僵尸的击杀冷却很短，但移动速度很慢且视野极小。僵尸不会被独裁者以外的人票出，僵尸的移动速度会随着击杀或时间流逝逐渐变慢。
 
-> From: [KARPED1EM](https://github.com/KARPED1EM) & coding：[KARPED1EM](https://github.com/KARPED1EM)
+> 来源：[咔皮呆](https://github.com/KARPED1EM) & 程序设计：[咔皮呆](https://github.com/KARPED1EM)
 
 ---
 
-### <font color=red>Hacker</font>
+### <font color=red>骇客</font>
 
-The Hacker can use shapeshift to hack the shapeshifting target. The hacked target will immediately report the body killed by the Hacker in this round. If there is no dead body, the target will report its own dead body (the effect is similar to Paranoid). Note: hacking ignores whether a body can be reported. Also, hacking Lazy Guy won't do anything for you, hacking Lazy Guy just wastes your time.
+骇客可以使用变形骇入变形的目标，被骇入的目标会立刻报告骇客本轮击杀的尸体，若本轮骇客没有击杀，则随机报告场上存在的尸体，若场上不存在尸体则目标报告自己的尸体（效果类似被害妄想症）。请注意：骇客技能无视尸体是否可以被报告，此外，摆烂人不会替你办事，骇入摆烂人只会浪费你的时间。
 
-> From: [KARPED1EM](https://github.com/KARPED1EM) & Coding: [KARPED1EM](https://github.com/KARPED1EM)
+> 来源：[咔皮呆](https://github.com/KARPED1EM) & 程序设计：[咔皮呆](https://github.com/KARPED1EM)
 
 ---
 
-### <font color=red>Miner</font>
+### <font color=red>矿工</font>
 
-Miner can shapeshift to teleport back to the last vent they were in.
+矿工使用变形以及解除变形的时候，会传送至上一个自己使用过的通风管道。若没有上一个使用过的通风管道，则技能不会生效。
 
-> From: TOHR & Coding: [KARPED1EM](https://github.com/KARPED1EM)
+> 来源：TOHR & 程序设计：[咔皮呆](https://github.com/KARPED1EM)
 
 ---
 
-### <font color=red>Escapist</font>
+### <font color=red>逃逸者</font>
 
-Escapist can mark a location by shapeshifting, and they will be teleported to the marked location when they shapeshift again (not when unshifting).
+逃逸者可以使用变形标记当前所在位置，解除变形不会有任何效果，当逃逸者下次进行变形的时候会传送至上一次标记的位置。
 
-> From: TOU & Coding: [KARPED1EM](https://github.com/KARPED1EM)
+> 来源：TOU & 程序设计：[咔皮呆](https://github.com/KARPED1EM)
 
 ---
 
-### <font color=red>Killing Machine</font>
+### <font color=red>杀戮机器</font>
 
-The Killing Machine has a very short kill cooldown, but cannot vent, has lower vision, cannot sabotage, cannot report, and cannot call emergency meetings. The Killing Machine also has the same vision as Crewmates.
+杀戮机器的击杀冷却很短，但杀戮机器无法使用管道、无法报告尸体、无法召开紧急会议、无法进行破坏。
 
-> From: SNR & Coding: [KARPED1EM](https://github.com/KARPED1EM)
+> 来源：SNR & 程序设计：[咔皮呆](https://github.com/KARPED1EM)
 
 ---
 
-### <font color=red>Witch</font>
+### <font color=red>女巫</font>
 
-Witch have two attack methods: Normal kill and curse. Click the kill button twice quickly to make a normal kill, and click the kill button only once to cast a curse. During the next meeting, the cursed target will have a curse mark 「†」 visible to everyone. If the Witch is not voted out at the meeting, the cursed target(s) will die after the meeting.
+女巫拥有两种攻击方式：直接击杀与诅咒。快速连续点击两次击杀键为正常击杀，只按一次击杀键则是诅咒。会议时，被诅咒的目标会带有对全员可见的诅咒标记「†」。如果女巫未在会议时被投票放逐，被诅咒的目标将会在会议结束后死亡。
 
-> From: TOH
+> 来源：TOH
 
 ---
 
-### <font color=red>Mafia</font>
+### <font color=red>黑手党</font>
 
-Mafia can't kill while there are other Impostors alive in the game, but can use command /cmd rv [player id] after death to kill the specified player.
+黑手党在游戏中有其他内鬼存活时不可以进行击杀，但死亡后可以输入 /cmd rv [玩家编号] 以击杀指定玩家。
 
-> From: TOH & Coding: [KARPED1EM](https://github.com/KARPED1EM)
+> 来源：TOH & 程序设计：[咔皮呆](https://github.com/KARPED1EM)
 
 ---
 
-### <font color=red>Fireworker</font>
+### <font color=red>烟花商人</font>
 
-Fireworker can place firework bombs to cause area damage. The Fireworker can plant up to three firework bombs using shapeshift. When only the Fireworker is left among the imporstor team players and the firework bombs is placed, the Fireworker can use shapeshift to detonate the bomb. The firework bombs can also kill the Fireworker himself. But if the firework bombs kills all surviving players, it is also considered a victory for the imporstors.
+烟花商人可以安放烟花炸弹，造成范围性杀伤。烟花商人使用变形可以安放至多三个烟花炸弹。当存活的内鬼阵营玩家仅剩烟花商人且烟花炸弹安置完毕时，烟花商人可以使用变形下引爆炸弹。烟花炸弹可以同样炸死烟花商人自己。但如果烟花炸弹炸死所有存活玩家，那也算内鬼阵营胜利。
 
-> From: TOH
+> 来源：TOH
 
 ---
 
-### <font color=red>Sniper</font>
+### <font color=red>狙击手</font>
 
-You can shoot players from far away.You have to shapeshift twice to make a successful snipe. Imagine an arrow pointing from your first shapeshift location towards your unshift location. That will be the direction in which the snipe will be made. The snipe kills the first person in its path. You cannot kill normally until you use up all of your ammos.
+狙击手拥有远距离射杀的能力。方法为：进入变形到解除变形的位置连成一条线，这条线包括这条线的射线上距离最近的玩家会被狙杀。狙击手在子弹用完后可以进行正常击杀。
 
-> From: TOH
+> 来源：TOH
 
 ---
 
-### <font color=red>Puppeteer</font>
+### <font color=red>傀儡师</font>
 
-The player controlled by the Puppeteer will kill the next non-impostor player that shows up closest to them. If the latter dies on contact, the former dies. Puppeteers cannot kill normally. Note that Lazy Guy will not do things for you, controlling Lazy Guy will only waste your time.
+傀儡师可以通过击杀键对目标进行标记，若标记成功，傀儡师自己身上会出现护盾破碎的动画作为提示（只有傀儡师自己能看到）。被标记的目标不会知道自己被标记。而被标记的玩家会自动击杀其遇到的下一个船员。若后者在接触的同时死亡，则前者死亡。傀儡师不可以正常击杀。（对摆烂人标记无效）
 
-> From: TOH
+> 来源：TOH
 
 ---
 
-### <font color=red>Mare</font>
+### <font color=red>梦魇</font>
 
-You can only kill during the Lights Sabotage. Your Kill Cooldown is shorter though. During Fix Lights, you can move faster, but your name will be displayed in red for everyone.
+梦魇只能在停电时下进行击杀。若梦魇击杀成功，梦魇的击杀冷却将变成原来的一半。此外，停电持续的时间内梦魇的移动速度也会增加，但是请注意，停电时间内内所有玩家都能看到梦魇的名字以红色表示。
 
-> From: TOH
+> 来源：TOH
 
 ---
 
-### <font color=red>Time Thief</font>
+### <font color=red>蚀时者</font>
 
-Every time the Time Thief kills a player, the meeting time will be reduced by a certain amount of time. If the Time Thief dies, the meeting time will return to normal.
+蚀时者每击杀一个人，会议时间就将减少一定时间。如果蚀时者死亡，会议时间会恢复正常。
 
-> From: TOH
+> 来源：TOH
 
 ---
 
-### <font color=red>Evil Guesser</font>
+### <font color=red>邪恶赌怪</font>
 
-The Evil Guesser can guess the role of a certain player during the meeting. If it is correct, the target dies, and if it is wrong, the Evil Guesser dies.
+邪恶赌怪可以在会议时猜测某位玩家的职业，正确则击杀目标，错误则会自杀。
 
-The guessing command is: /cmd bt [player id] [role]
+猜测指令为：/cmd bt [玩家编号] [职业名]。
 
-You can see the player's id before the player's name, or use the /cmd id command to view the id of all players.
+您可以在玩家名字前看到该玩家的编号，或者使用/cmd id指令查看所有玩家的编号。
 
-> From: idk & Coding: [KARPED1EM](https://github.com/KARPED1EM)、[Commandf1](https://github.com/commandf1)
+> 来源：不知道 & 程序设计：[咔皮呆](https://github.com/KARPED1EM)、[Commandf1](https://github.com/commandf1)
 
 ---
 
-### <font color=red>Anti Adminer</font>
+### <font color=red>监管者</font>
 
-The Anti Adminer can at any time find out if there are crewmates or neutrals near Cameras, Admin Table, Vitals, DoorLog and/or other devices. Note: Anti Adminer does not know for sure if the player is using the device while near it, they only know that someone is near the device.
+监管者可以随时知道是否有船员阵营玩家或中立阵营玩家靠近监控面板、管理室地图、生命检测、通行记录等设备。请注意：监管者并不知道靠近的人是否真的在使用设备，只是知道有人靠近设备。
 
-> From: TOHY & Coding: [Yumenopai](https://github.com/Yumenopai)
+> 来源：TOHY & 程序设计：[Yumenopai](https://github.com/Yumenopai)
 ---
 
-### <font color=red>Arrogance</font>
+### <font color=red>狂妄杀手</font>
 
-The Arrogance reduces their kill cooldown with each successful kill of theirs.
+狂妄杀手每次成功击杀都会减少他的击杀冷却。
 
-> From: TOU & Coding: [KARPED1EM](https://github.com/KARPED1EM)、[天寸梦初](https://github.com/Huier-Huang)
+> 来源：TOU & 程序设计：[咔皮呆](https://github.com/KARPED1EM)、[天寸梦初](https://github.com/Huier-Huang)
 
 ---
 
-### <font color=red>Bomber</font>
+### <font color=red>自爆兵</font>
 
-The Bomber can use the shapeshift button to self-explode, killing players within a certain range. But as a price, the Bomber will also die. Note: All players will see a kill-flash when the Bomber explodes.
+自爆兵可以使用变形按钮来进行自爆，炸死一定范围里的玩家。但是作为代价，自爆兵自己也会被炸死。请注意：自爆兵爆炸的时候全体玩家会看到杀戮闪烁。
 
-> From: SNR & Coding: [KARPED1EM](https://github.com/KARPED1EM)
+> 来源：SNR & 程序设计：[咔皮呆](https://github.com/KARPED1EM)
 
 ---
 
-### <font color=red>Booby Trap</font>
+### <font color=red>诡雷</font>
 
-The Booby Trap will put a booby trap on the victim's body after killing, and the player who reports the dead body with the booby trap will be killed immediately (the body doesn't get reported), and the player who is killed will also have the effect of booby traps, and so on. But as a price, the booby trap will die immediately after making a kill. Note: The Booby Trap doesn't have a booby trap effect on their own dead body.
+诡雷在进行击杀后会在受害者尸体上装上诡雷，报告该尸体的玩家会立刻被炸死，被炸死的玩家也会附带诡雷的效果，以此类推。但作为代价，诡雷在进行击杀后会立刻自杀。请注意：诡雷自身的尸体并不附带诡雷效果。
 
-> From: [KARPED1EM](https://github.com/KARPED1EM) & Coding: [KARPED1EM](https://github.com/KARPED1EM)
+> 来源：[咔皮呆](https://github.com/KARPED1EM) & 程序设计：[咔皮呆](https://github.com/KARPED1EM)
 
 ---
 
-### <font color=red>Evil  Tracker</font>
+### <font color=red>追踪者</font>
 
-The Evil Tracker can track other people, and the tracker can shapeshift into someone to switch the tracking target to the shapeshift target (You will immediately unshift after performing shapeshift). The arrow below the Evil Tracker's name indicates the direction of the target. When the Evil Tracker's teammate kills, the Evil Tracker will see a kill-flash.
+追踪者可以追踪其他人，追踪者可以变形为某个人以切换追踪目标为变形的目标。玩家名称下面的箭头代表着目标的方向。当内鬼队友杀人时，追踪者将会看到杀戮闪烁。
 
-> From: TOH
+> 来源：TOH
 
 ---
 
-### <font color=red>Scavenger</font>
+### <font color=red>清道夫</font>
 
-Scavenger kills do not leave dead bodies behind. In addition, if the victim is a bait, no self-report will be made.
+清道夫击杀不会留下尸体。此外若受害者为诱饵，则诱饵的技能不会发动。
 
-> From: [喜](https://space.bilibili.com/443432765) & Coding: [喜](https://space.bilibili.com/443432765)、[KARPED1EM](https://github.com/KARPED1EM)
+> 来源：[喜](https://space.bilibili.com/443432765) & 程序设计：[喜](https://space.bilibili.com/443432765)、[咔皮呆](https://github.com/KARPED1EM)
 
 ---
 
-### <font color=red>Shape Master</font>
+### <font color=red>千面鬼</font>
 
-The Shape Master has no Shapeshift cooldown, but their default Shapeshift duration is shorter.
+千面鬼没有变形冷却，但千面鬼默认的变形持续时间更短。
 
-> From: TOH
+> 来源：TOH
 
 ---
 
-### <font color=red>Capitalist</font>
+### <font color=red>资本家</font>
 
-Capitalists can add a short task to a player by pressing the kill button. Note: using this ability on players who have no tasks or have completed tasks will not take effect.
+资本家可以通过击杀按键给某位玩家增加一个短任务。请注意：对没有任务或已完成任务的玩家使用技能则不会生效。
 
-> From: [NCSIMON](https://github.com/NCSIMON) & Coding: [KARPED1EM](https://github.com/KARPED1EM)、[NCSIMON](https://github.com/NCSIMON)
+> 来源：[NCSIMON](https://github.com/NCSIMON) & 程序设计：[咔皮呆](https://github.com/KARPED1EM)、[NCSIMON](https://github.com/NCSIMON)
 
 ---
 
-### <font color=red>Gangster</font>
+### <font color=red>教父</font>
 
-The Gangster can attempt to recruit a player to a Madmate by pressing the kill button. If the recruitment is successful, both the Gangster and the target will see the shield animation on each other as a reminder (only visible to each other). The remaining number of available recruits is displayed next to the Gangster's name (the max is set by the host). If the Gangster tries to recruit players who cannot be recruited, such as neutrals or some special crews, they will kill the target normally instead. When the Gangster has no remaining recruitments, they can only make normal kills from that point on.
+教父可以通过击杀键尝试招募一位玩家成为叛徒。若招募成功，双方都会看到彼此身上出现护盾破碎的动画作为提示（仅互相可见）。剩余可以招募的次数会显示在教父名字旁的括号内（数量根据房主设置）。若教父尝试招募无法被招募的玩家例如中立阵营或一些特殊船员阵营玩家时，则会改为正常击杀目标。当教父没有剩余招募次数时击杀则为正常击杀。
 
-> From: [KARPED1EM](https://github.com/KARPED1EM) & Coding: [KARPED1EM](https://github.com/KARPED1EM)
+> 来源：[咔皮呆](https://github.com/KARPED1EM) & 程序设计：[咔皮呆](https://github.com/KARPED1EM)
 
 ---
 
-### <font color=red>Cleaner</font>
+### <font color=red>清理工</font>
 
-Cleaner can press the Report body button to clean up a dead body. If the cleanup is successful, the Cleaner will see a shield-animation on his body as a reminder (only visible to himself). The cleaned up body cannot be reported (including bait's).
+清理工可以通过报告尸体按钮以清理一具尸体，若清理成功则清理工会看到自己身上出现护盾破碎动画作为提示（仅自己可见），被清理的尸体无法被报告（包括诱饵）。
 
-> From: idk & Coding: [KARPED1EM](https://github.com/KARPED1EM)
+> 来源：不知道 & 程序设计：[咔皮呆](https://github.com/KARPED1EM)
 
 ---
 
-### <font color=red>Lightning</font>
+### <font color=red>球状闪电</font>
 
-The Lightning cannot do regular kills. After the Lightning uses their kill button on the target, the target will vaporize into a quantum ghost after a set time, and everyone can see the 「■」 next to the name of the quantum ghost as a reminder. If there is non-spherical lightning and a player who is not a quantum ghost touches the quantum ghost, the quantum ghost will be quantized immediately and die. If the quantum ghost survives until a meeting, they will die after the meeting ends. During this time, any active interaction (kill button) with the quantum ghost has no effect. According to the host's settings, killing the Lightning may cause the killer to vaporize into a quantum ghost.
+球状闪电无法进行常规击杀。球状闪电对目标使用击杀按键后，目标会在设定时间后汽化为量子幽灵，所有人都可以看到量子幽灵的名字旁有「■」作为提示。若期间有非球状闪电且非量子幽灵的玩家接触量子幽灵，量子幽灵会立刻量子化而死亡。若量子幽灵存活到会议则会在会议结束后死亡。任何对量子幽灵的主动互动（击杀按键）均无效。根据房主设定，击杀球状闪电可能导致凶手汽化为量子幽灵。
 
-> From: [提米SaMa-](https://space.bilibili.com/1677307793) & Coding: [KARPED1EM](https://github.com/KARPED1EM)
+> 来源：[提米SaMa-](https://space.bilibili.com/1677307793) & 程序设计：[咔皮呆](https://github.com/KARPED1EM)
 
 ---
 
-### <font color=red>Greedy</font>
+### <font color=red>贪婪者</font>
 
-The Greedy has different kill cooldowns after Odd-Numbered kills and Even-Numbered kills. The Greedy's kill cooldown is reset every meeting, and the Greedy's first kill after a meeting is always an odd kill (1st). Example of the Greedy's kill cooldown changing after kills: 30s → 15s → 30s → Meeting → 30s → 15s
+贪婪者奇数次和偶数次的击杀，会拥有不同的击杀冷却。每次开会都会重置贪婪者的击杀冷却，贪婪者的第一次击杀永远是奇数击杀。
 
-> From: TOHY
+> 来源：TOHY
 
 ---
 
-### <font color=red>CursedWolf</font>
+### <font color=red>呪狼</font>
 
-When the CursedWolf is about to be killed, the CursedWolf will curse the killer to death. (The max of times you can counterattack is set by the host)
+当呪狼即将被击杀时，呪狼会将凶手诅咒致死。（可以反击的次数根据房主设定）
 
-> From: TOHY
+> 来源：TOHY
 
 ---
 
-### <font color=red>Soul Catcher</font>
+### <font color=red>夺魂者</font>
 
-Soul Catcher can swap places with the shapeshift target after shapeshifting. (If the target is in an abnormal state such as dead, swallowed by pelican, venting, etc., then nothing will happen)
+夺魂者完成变形后可以与变形目标交换位置。（若目标处于非正常状态例如死亡、被吞、管道内等则无事发生）
 
-> From: [法师](https://space.bilibili.com/511107305) & Coding: [NCSIMON](https://github.com/NCSIMON)
+> 来源：[法师](https://space.bilibili.com/511107305) & 程序设计：[NCSIMON](https://github.com/NCSIMON)
 
 ---
 
-### <font color=red>Quick Shooter</font>
+### <font color=red>快枪手</font>
 
-When the kill cooldown is over, the Quick Shooter can reset the kill cooldown by shapeshift and store a bullet (when the storage is successful, a shield-animation visible only to himself will appear on the his body as a reminder). After a Quick Shooter completes a kill, he can offset the kill cooldown with bullets until he runs out of bullets. At the beginning of each meeting, the Quick Shooter can only keep a certain number of bullets (the number is set by the host).
+当击杀冷却结束时，快枪手可以通过变形重置击杀冷却并储存一颗子弹（储存成功时快枪手身上会出现仅自己可见的护盾破碎动画作为提示）。快枪手完成击杀后可以用子弹抵消击杀冷却，直到子弹耗尽。每次会议开始快枪手只能保留一定数量的子弹（数量根据房主设定）。
 
-> From: idk & Coding: [NCSIMON](https://github.com/NCSIMON)、[KARPED1EM](https://github.com/KARPED1EM)
+> 来源：不知道 & 程序设计：[NCSIMON](https://github.com/NCSIMON)、[咔皮呆](https://github.com/KARPED1EM)
 
 ---
 
-### <font color=red>Concealer</font>
+### <font color=red>隐蔽者</font>
 
-The camouflage effect occurs when the Concealer shapeshift, and everyone looks exactly the same in this state. This state ends when the Concealer revert its shapeshifting. Note: the skills of communication sabotage camouflage and Concealer can be superimposed. Note: the skill will be invalid if a meeting is held during the skill activation of the Concealer.
+隐蔽者变形后会让所有人变成小黑人，这个状态下所有人都看起来得一模一样。隐蔽者恢复变形后技能失效。请注意：通讯破坏小黑人与隐蔽者的技能可以叠加。请注意：隐蔽者发动技能期间召开会议则技能失效。
 
-> From: idk & Coding: [KARPED1EM](https://github.com/KARPED1EM)
+> 来源：不知道 & 程序设计：[咔皮呆](https://github.com/KARPED1EM)
 
 ---
 
-### <font color=red>Eraser</font>
+### <font color=red>抹除者</font>
 
-Eraser can vote for any crew target at the meeting to erase the target's roles, and the erasure will take effect after the meeting ends. Note: Players whose skills are erased will always be considered a vanilla role, including the game result page.
+抹除者可以在会议上投票给任意船员阵营目标以抹除目标的职业技能，抹除将在会议结束后生效。请注意：被抹除技能的玩家将被永远视为白板，包括游戏结算页面。
 
-> From: TOR:GMH & Coding: [KARPED1EM](https://github.com/KARPED1EM)
+> 来源：TOR:GMH & 程序设计：[咔皮呆](https://github.com/KARPED1EM)
 
 ---
 
-### <font color=red>Butcher</font>
+### <font color=red>肢解者</font>
 
-Butcher kills (including passive kills) have multiple dead bodies on targets, making it impossible to accurately identify other dead body when reporting. Note: Due to the principle of implementation, the killed target has to repeatedly display the animation of being killed. This animation cannot be skipped and cannot participate in the meeting normally during this period. In addition, if the Butcher kills the Avenger, the Avenger will revenges everyone in anger.
+肢解者击杀（包括被动击杀）的目标会出现多具尸体，以至于报告尸体时无法准确分辨其他受害者。请注意：因实现原理，被击杀的目标不得不重复地显示自己被击杀的动画，此动画无法跳过且期间无法正常参与会议。此外，若肢解者肢解了复仇者，则复仇者会因愤怒带走全场所有人。
 
-This role may cause serious lag to the host when activating the skill, please enable it with caution.
+该职业在发动技能时可能造成房主严重卡顿，请谨慎开启。
 
-> From: SNR & Coding: [KARPED1EM](https://github.com/KARPED1EM)
+> 来源：SNR & 程序设计：[咔皮呆](https://github.com/KARPED1EM)
 
 ---
 
-### <font color=red>Hangman</font>
+### <font color=red>刽子手</font>
 
-The killing method of the Hangman during the shapeshifting is strangling. Strangling ignores any status of the target, such as the shield of the Medic, the protection of the Bodyguard, the skills of the Super Star, etc. The strangled player will not leave a dead body, nor will it trigger any of its skills For example, Veteran kill back, Luckey stay alive, etc. (including additional roles), in addition, Seer will not be prompted.
+刽子手在变形期间的击杀方式为绞杀，绞杀无视目标的任何状态例如医生的护盾、保镖的守护、大明星的技能等，被绞杀的玩家不会留下尸体，也不会触发其任何技能例如老兵反杀、幸运儿挡伤等（包括附加职业），此外，灵媒也不会得到提示。
 
-> From: [草暖](https://b23.tv/kTnVK2c) & Coding: [KARPED1EM](https://github.com/KARPED1EM)
+> 来源：[草暖](https://b23.tv/kTnVK2c) & 程序设计：[咔皮呆](https://github.com/KARPED1EM)
 
 ---
 
-### <font color=red>Swooper</font>
+### <font color=red>隐匿者</font>
 
-The Swooper can Vent to temporarily turn invisible and vent again to cancel their invisibility phase. This means the Swooper can never vent normally, even when swooping is on cooldown. (Note: The game will forcibly make you turn visible when the swoop duration ends, no matter if you vent or not.)
+隐匿者无法正常使用管道。但可以通过跳管进入隐身状态，再次跳管则取消隐身状态。
 
-> From: TOHR & Coding：[KARPED1EM](https://github.com/KARPED1EM)
+> 来源：TOHR & 程序设计：[咔皮呆](https://github.com/KARPED1EM)
 
 ---
 
-### <font color=red>CrewPostor</font>
+### <font color=red>船鬼</font>
 
-You kill the nearest player whenever you complete a task.
+船鬼拥有任务，每当船鬼完成任务时，距离船鬼最近的玩家就会死亡。
 
-> From: TOHR & Coding：[KARPED1EM](https://github.com/KARPED1EM)
+> 来源：TOHR & 程序设计：[咔皮呆](https://github.com/KARPED1EM)
 
 ---
 
-### <font color=red>Stealth</font>
+### <font color=red>暗杀者</font>
 
-When the Stealth kills, players in the same room are blinded for a short while.
+暗杀者击杀后，所在房间的其他玩家会失明一段时间。
 
-> From: TOH & Coding：[KARPED1EM](https://github.com/KARPED1EM)
+> 来源: TOH & 程序设计：[咔皮呆](https://github.com/KARPED1EM)
 
 ---
 
-### <font color=red>Messenger</font>
+### <font color=red>情报贩子</font>
 
-The Messenger can get the last-minute admin information at the meeting beginning.
-Unoccupied rooms are not shown.
-A '★' marks rooms with impostors.
-Rooms with dead-bodies are marked with the number of bodies.
+每次会议开始时，情报贩子都可以受到一条记录了所有人位置的信息。
+存在内鬼的房间会标记「★」，存在尸体的房间会标记尸体数量。当其他内鬼击杀时，情报贩子可以看到杀戮闪烁。
+根据房主设定，情报贩子可能可以在杀戮发生后看到谋杀发生的地点。
 
-> From: TOH & Coding：[KARPED1EM](https://github.com/KARPED1EM)
+> 来源: TOH & 程序设计：[咔皮呆](https://github.com/KARPED1EM)
 
 ---
 
-### <font color=red>Penguin</font>
+### <font color=red>企鹅</font>
 
-Penguins can restrain target by pressing the kill button, and drag around.
-While dragging, the target dies by pressing the kill button again or after a certain period of time.
-Press the kill button twice for a direct kill.
+企鹅可以通过击杀键将目标拖到任何地方，并在倒计时结束或再次按下击杀键后杀死目标。
 
-> From: TOH & Coding：[KARPED1EM](https://github.com/KARPED1EM)
+> 来源: TOH & 程序设计：[KARPED1EM](https://github.com/KARPED1EM)
 
 ---
 
-### <font color=red>Insider</font>
+### <font color=red>内幕人</font>
 
-Insiders can see the profession, skill state and number of tasks for all people everywhere. By setting it is possible for insiders to see traitors after completing the specified number of killings.
+内幕人可以看到全场所有人的职业、技能状态与任务数量。
+并根据设定，内幕人可能可以在完成指定的击杀数后看到叛徒。
 
-> From: TOH & Coding：[KARPED1EM](https://github.com/KARPED1EM)
+> 来源: TOH & 程序设计：[KARPED1EM](https://github.com/KARPED1EM)
 
 ---
 
-### <font color=red>Bard</font>
+### <font color=red>吟游诗人</font>
 
-When a bard is alive, the exile confirmation will display a sentence composed by the bard. Whenever the bard completes a creation, the bard's kill cooldown is permanently halved.
+吟游诗人在场时，驱逐确认将会显示为吟游诗人创作的句子。
+每当吟游诗人完成一次创作，则吟游诗人的击杀冷却永久减半。
 
-> From: TOH & Coding：[KARPED1EM](https://github.com/KARPED1EM)
+> 来源: TOH & 程序设计：[KARPED1EM](https://github.com/KARPED1EM)
 
 ---
 
-### <font color=red>Evil Grenadier</font>
+### <font color=red>邪恶的掷雷兵</font>
 
-The Evil Grenadier can vanish to use the flashbang, which will cause players who are not impostors to lose all of the vision. All impostors will receive a notification when the flashbang takes effect or becomes inactive.
+邪恶的掷雷兵可以通过使用隐身投掷闪光弹，闪光弹会导致范围内非内鬼阵营玩家失去视野。闪光弹生效以及失效时全体内鬼会看到提示。
 
-> From: TOU & Coding：[ELinmei](https://github.com/hayashiume)、[慕斯Mousse](https://github.com/Sand-and-Beans)
+> 来源: TOU & 程序设计：[ELinmei](https://github.com/hayashiume)、[慕斯Mousse](https://github.com/Sand-and-Beans)
 
-## ⭐ Crewmate
+## ⭐ 船员阵营
 
-### <font color=#eede26>Nice Guesser</font>
+### <font color=#eede26>正义赌怪</font>
 
-The Nice Guesser can guess the role of a certain player during the meeting. If it is correct, it will kill the target, and if it is wrong, Nice Guesser will suicide.
+正义赌怪可以在会议时猜测某位玩家的职业，正确则击杀目标，错误则会自杀。
 
-The guessing command is: /cmd bt [player id] [role]
+猜测指令为：/cmd bt [玩家编号] [职业名]
 
-You can see the player's id before the player's name, or use the /cmd id command to view the id of all players.
+您可以在玩家名字前看到该玩家的编号，或者使用/cmd id指令查看所有玩家的编号。
 
-Nice Guesser can guess crewmate when become madmate.
+当正义赌怪成为叛徒时可以猜测船员。
 
-> From: idk & Coding: [KARPED1EM](https://github.com/KARPED1EM)、[Commandf1](https://github.com/commandf1)
+> 来源：不知道 & 程序设计：[咔皮呆](https://github.com/KARPED1EM)、[Commandf1](https://github.com/commandf1)
 
 ---
 
-### <font color=#b8d7a3>Luckey</font>
+### <font color=#b8d7a3>幸运儿</font>
 
-When a player attempts to kill the Luckey, there is a probability for the Luckey to evade the kill, and the specific probability is set by the host. When the evasion takes effect, the killer will see the shield-animation on Luckey's body, but Luckey themselves will not know anything.
+幸运儿被击杀时，有概率抵挡这次死亡，具体概率根据房主设定。抵挡生效时凶手会看到幸运儿的身上出现护盾破碎的效果，但幸运儿自己什么都不会知道。
 
-> From: SNR & Coding: [KARPED1EM](https://github.com/KARPED1EM)
+> 来源：SNR & 程序设计：[咔皮呆](https://github.com/KARPED1EM)
 
 ---
 
-### <font color=#a4dffe>Lazy Guy</font>
+### <font color=#a4dffe>摆烂人</font>
 
-Lazy Guy only have one task. In addition, Impostor's abilities can't affect the Lazy Guy, such as being a scapegoat for a Hacker, marked by a Warlock or Puppeteer, and more. Lazy Guy will not have additional role.
+摆烂人只有一个任务。另外，懒得要死的摆烂人并不会参与那些繁琐的事情，比如当黑客的替罪羊、给术士或者傀儡师办事之类的。摆烂人也不会拥有附加职业。
 
-> From: [KARPED1EM](https://github.com/KARPED1EM) & Coding: [KARPED1EM](https://github.com/KARPED1EM)
+> 来源：[咔皮呆](https://github.com/KARPED1EM) & 程序设计：[咔皮呆](https://github.com/KARPED1EM)
 
 ---
 
-### <font color=#f6f657>Super Star</font>
+### <font color=#f6f657>大明星</font>
 
-There will be a star logo next to the Super Star's name, so everyone knows who the Super Star is. The Super Star can only be killed when the Murderer is alone with the Super Star (regular kills only). In addition, Super Star is unable to be guessed by the Guesser.
+明星的名字旁会有星星的标识，所以大家都知道谁是大明星。只有凶手与大明星独处的时候才可以击杀大明星（仅限常规击杀）。此外，大明星不会参与赌博这种事情哦。（无法被赌怪猜测）
 
-> From: Goose Goose Duck & Coding: [KARPED1EM](https://github.com/KARPED1EM)
+> 来源：鹅鸭杀 & 程序设计：[咔皮呆](https://github.com/KARPED1EM)
 
 ---
 
-### <font color=#ee4a55>Celebrity</font>
+### <font color=#ee4a55>网红</font>
 
-All Crewmates see the kill-flash when the Celebrity dies (same as the Seer sees the kill-flash) and get a news at the next meeting. The Impostor didn't know anything about this.
+网红死亡时所有船员会看到杀戮闪烁（和灵媒看到的杀戮闪烁一样）并在下次会议时收到新闻报告，而内鬼则全程什么都不知道。
 
-> From: Goose Goose Duck & Coding: [KARPED1EM](https://github.com/KARPED1EM)
+> 来源：鹅鸭杀 & 程序设计：[咔皮呆](https://github.com/KARPED1EM)
 
 ---
 
-### <font color=#204d42>Mayor</font>
+### <font color=#204d42>市长</font>
 
-When the Mayor votes, one vote counts as multiple votes. In addition, depending on the settings of the host, the Mayor may also have the ability to vent to trigger an emergency meeting.
+市长再投票时一票算作多票。此外根据房主设置，市长还可能拥有跳通风管道触发紧急会议的技能。
 
-> From: TOH
+> 来源：TOH
 
 ---
 
-### <font color=#0000ff>Repairman</font>
+### <font color=#0000ff>修理工</font>
 
-The Repairman can use the vent at any time. They can also fix Reactors, O2, Communications by using only one side. Lights can be fixed by flicking only one switch. Opening a door will open all doors in the map.
+修理工可以随意使用通风管道，你甚至可以把通风管当成自己的家永远不出来。氧气泄露、核反应堆熔毁以及米拉总部的通讯破坏修理工只需要修复一边则另一边即可同时被修复。修理工只需要按一个开关便可以修复照明破坏。修理工打开波鲁斯与飞艇地图的门时修理工所在房间的所有门同时打开。
 
-> From: TOH
+> 来源：TOH
 
 ---
 
-### <font color=#f8cd46>Sheriff</font>
+### <font color=#f8cd46>警长</font>
 
-Sheriff has no task. The sheriff can kill the Impostor (according to the host settings, the sheriff can also kill neutrals). If the Sheriff tries to kill a crewmate, the Sheriff will kill himself. The sheriff can kill anyone when he becomes a madmate (also according to the host settings).
+警长没有船员任务。警长可以击杀内鬼（根据房间设置，警长也可以击杀中立阵营玩家）。警长若尝试击杀船员阵营的玩家，警长将会走火自杀。警长成为叛徒时可以击杀任何人。
 
-> From: TOH
+> 来源：TOH
 
 ---
 
-### <font color=#c993f5>Paranoid</font>
+### <font color=#c993f5>被害妄想症</font>
 
-Paranoid can call a meeting by venting. The report animation will show a dead body with Paranoid's color, but the Paranoid is not actually dead.
+被害妄想症使用通风管后会幻想出一个尸体并报告，实际上并不会死人，但的确可以召开会议。
 
-> From: [KARPED1EM](https://github.com/KARPED1EM) & Coding: [KARPED1EM](https://github.com/KARPED1EM)
+> 来源：[咔皮呆](https://github.com/KARPED1EM) & 程序设计：[咔皮呆](https://github.com/KARPED1EM)
 
 ---
 
-### <font color=#6F698C>Psychic</font>
+### <font color=#6F698C>愚者</font>
 
-The Psychic can see the names of several players highlighted in red during the meeting, at least one of them is evil. The Psychic will correctly see all Neutrals and Killing Crewmates displayed as red names when becoming a Madmate.
+愚者能够在会议期间看到数名玩家的名字以红色突出显示，其中至少一名是邪恶的。愚者成为叛徒时将准确地看到所有中立以及带刀船员玩家显示为红名。
 
-> From: TOHR & Coding: [KARPED1EM](https://github.com/KARPED1EM)
+> 来源：TOHR & 程序设计：[咔皮呆](https://github.com/KARPED1EM)
 
 ---
 
-### <font color=#b8fb4f>Snitch</font>
+### <font color=#b8fb4f>告密者</font>
 
-After the Snitch completes all tasks, they can see Impostors names being displayed in red on meeting. When the Snitch has only one task left, the Impostors will see a 「★」 mark next to the name of themselves and the Snitch. When a Snitch becomes a Madmate, the 「★」 mark turns red.
+告密者完成所有任务后，将可以看到以红色昵称表示的所有内鬼。当告密者仅剩一个任务的时候，内鬼将会看到自己以及告密者的昵称旁边有「★」作为提示。告密者成为叛徒时，「★」标记变为红色。
 
-> From: TOH
+> 来源：TOH
 
 ---
 
-### <font color=#00ffff>Speed Booster</font>
+### <font color=#00ffff>增速者</font>
 
-Speed Booster increase their movement speed every time they complete a task. Note: due to technical limitations, the Speed Booster appears to be at a normal speed to others, so they look like glitch.
+增速者每次完成任务都会增加自己的移动速度。请注意：由于技术限制，增速者在其他人眼中为正常速度，所以会以闪现的方式移动。
 
-> From: TOH & Coding: [KARPED1EM](https://github.com/KARPED1EM)
+> 来源：TOH & 程序设计：[咔皮呆](https://github.com/KARPED1EM)
 
 ---
 
-### <font color=#80ffdd>Doctor</font>
+### <font color=#80ffdd>法医</font>
 
-Doctor can see the cause of death for all players. In addition, Doctor can access vitals wherever you are while he still have battery.
+法医可以查看生命监测装置并确认死亡玩家的死因。查看的时间长短与设备的充能数挂钩。
 
-> From: TOH
+> 来源：TOH
 
 ---
 
-### <font color=#df9b00>Dictator</font>
+### <font color=#df9b00>独裁者</font>
 
-When Dictator vote someone, the meeting will end on the spot and the player he voted will be ejected. The moment Dictator vote someone out, Dictator will also die.
+当独裁者在会议阶段投票给玩家后，会议会被强制结束并放逐其投票对象。该技能发动的代价是独裁者会自杀。说白了就是一换一。
 
-> From: TOH
+> 来源：TOH
 
 ---
 
-### <font color=#7160e8>Detective</font>
+### <font color=#7160e8>侦探</font>
 
-After the Detective reports the body, he will receive a clue message, which will tell the Detective what the victim's role is. According to the host's settings, the Detective may know what the murderer's role is. Note: Detective won't be Oblivious.
+侦探报告尸体后，会收到一条线索消息，该消息会告诉侦探被害者的职业是什么，根据房主设定，侦探可能知道凶手的职业是什么。请注意：侦探不会成为胆小鬼。
 
-> From: TOHR & Coding: [KARPED1EM](https://github.com/KARPED1EM)
+> 来源：TOHR & 程序设计：[咔皮呆](https://github.com/KARPED1EM)
 
 ---
 
-### <font color=#f0e68c>Vigilante</font>
+### <font color=#f0e68c>侠客</font>
 
-The Vigilante has no tasks. They can kill any person but they can only do it once the whole game.
+侠客可以正义击杀任何阵营的人，不过机会只有一次。侠客没有船员任务。
 
-> From: Goose Goose Duck & Coding: [Commandf1](https://github.com/commandf1)
+> 来源：鹅鸭杀 & 程序设计：[Commandf1](https://github.com/commandf1)
 
 ---
 
-### <font color=#42d1ff>Transporter</font>
+### <font color=#42d1ff>传送师</font>
 
-Whenever the Transporter completes the task, two random players will switch positions, but if there are not enough players left, nothing will happen. Note: Players in the vent will not be selected.
+每当传送师完成任务，就会有随机两位玩家交换位置，但若剩余玩家不足将什么都不会发生。请注意：管道中的玩家不会被选中。
 
-> From: [Tommy-XL](https://github.com/KARPED1EM/TownOfHostEdited/issues/18) & Coding: [KARPED1EM](https://github.com/KARPED1EM)
+> 来源：[Tommy-XL](https://github.com/KARPED1EM/TownOfHostEdited/issues/18) & 程序设计：[咔皮呆](https://github.com/KARPED1EM)
 
 ---
 
-### <font color=#6495ed>Time Manager</font>
+### <font color=#6495ed>时间操纵者</font>
 
-The more tasks the Time Manager does, the longer the meeting time will be. When the Time Manager dies, the meeting time will return to normal. When the Time Manager becomes a Madmate, the skill changes to reducing the meeting time instead of increasing it.
+时间操控者做的任务越多，会议时间就会越长，当时间操控者死亡则会议时间恢复正常。当时间操控者成为叛徒时则技能变为减少会议时长而不是增加会议时长。
 
-> From: TOH
+> 来源：TOH
 
 ---
 
-### <font color=#a77738>Veteran</font>
+### <font color=#a77738>老兵</font>
 
-Veteran can enter the alert state by venting. If a player tries to kill the veteran in the alert state, the veteran will kill the murderer instead. Veteran will see a shield-animation on their body and a text displayed above their heads as a reminder when they enter and exit the alert state.
+老兵可以通过使用通风管道进入戒备状态，如果戒备状态下有玩家尝试击杀老兵，则老兵反杀凶手。老兵进入以及退出戒备状态时会看到自己身上有护盾破碎作为提示。
 
-> From: TOU & Coding: [KARPED1EM](https://github.com/KARPED1EM)
+> 来源：TOU & 程序设计：[咔皮呆](https://github.com/KARPED1EM)
 
 ---
 
-### <font color=#185abd>Bodyguard</font>
+### <font color=#185abd>保镖</font>
 
-If a player is about to be killed near the Bodyguard, the Bodyguard will prevent the kill and die with the murderer. Bodyguard's skills will affect players of any team. When the Bodyguard becomes a Madmate and the murderer is not an Impostor, the Bodyguard will not activate the skill.
+在保镖附近如果有玩家将被击杀，则保镖会阻止这次击杀并与凶手同归于尽。保镖的技能会作用在任何阵营的玩家上。当保镖成为叛徒且凶手不是内鬼的时候，保镖不会发动技能。
 
-> From: [NCSIMON](https://github.com/NCSIMON) & Coding: [NCSIMON](https://github.com/NCSIMON)
+> 来源：[NCSIMON](https://github.com/NCSIMON) & 程序设计：[NCSIMON](https://github.com/NCSIMON)
 
 ---
 
-### <font color=#e0e0e0>Deceiver</font>
+### <font color=#e0e0e0>赝品商</font>
 
-The Deceiver can sell the counterfeit to other players through the kill button. If the counterfeit is sold successfully, the Deceiver will see a shield-animation on his body as a reminder. The counterfeit will take effect after the end of the next meeting. If the player with no kill ability holds the counterfeit, he will kill himself immediately. If the player with the kill ability has the counterfeit, he will suicide when he tries to kill someone next time.
+赝品商可以通过击杀键将赝品卖给其他玩家，如贩卖成功赝品商将会看到自己身上出现护盾破碎动画作为提示。赝品将在下一次会议结束后生效，若无击杀能力的玩家持有赝品会立刻走火自杀，若有击杀能力的玩家持有赝品将在他下次尝试击杀时走火自杀。
 
-> From: 罗寄 & Coding: [KARPED1EM](https://github.com/KARPED1EM)
+> 来源：罗寄 & 程序设计：[咔皮呆](https://github.com/KARPED1EM)
 
 ---
 
-### <font color=#3c4a16>Grenadier</font>
+### <font color=#3c4a16>掷雷兵</font>
 
-The Grenadier can use the vent to use the flashbang, which will cause the Impostor to lose most of the vision (depending on the host's settings, the flashbang may affect neutrals). When the flashbang takes effect and fails, the Grenadier will see the shield-animation on his body as a reminder. Flashbangs only work on the Crewmate when the Grenadier becomes a Madmate.
+掷雷兵可以通过使用通风管道使用闪光弹，闪光弹会导致内鬼失去大部分视野（根据房主设置闪光弹可能影响到中立阵营玩家）。闪光弹生效以及失效时掷雷兵会看到自己身上有护盾破碎作为提示。当掷雷兵成为叛徒时闪光弹只对船员生效。
 
-> From: TOHR & Coding: [NCSIMON](https://github.com/NCSIMON)
+> 来源：TOHR & 程序设计：[NCSIMON](https://github.com/NCSIMON)
 
 ---
 
-### <font color=#00a4ff>Medic</font>
+### <font color=#00a4ff>医生</font>
 
-The Medic can release a shield to the target by using the kill button. If the shield is successfully issued, the doctor will see the shield-animation on the target as a reminder, and a blue 「●」 will be displayed next to the target's name (only Medic can see). The amount of shields a Medic can release is shown in brackets next to the Medic's name. Each player can hold at most one shield from the Medic. Depending on the host's settings, you may be able to see whether you have a shield (shows a blue 「●」 next to your name).
+医生可以通过使用击杀按键给目标发放一个护盾，若护盾发放成功则医生会看到目标身上出现护盾破碎动画作为提示，同时目标的名字旁会显示一个蓝色的「●」（仅医生可见）。医生可以发放护盾的数量会显示在医生的名字旁的括号内。每位玩家最多只能持有一个来自医生的护盾。根据房主设定目标可能可以看到自己是否持有护盾（显示在名字旁的蓝色「●」）。
 
-> From: idk & Coding: [KARPED1EM](https://github.com/KARPED1EM)
+> 来源：不知道 & 程序设计：[咔皮呆](https://github.com/KARPED1EM)
 
 ---
 
-### <font color=#882c83>Fortune Teller</font>
+### <font color=#882c83>占卜师</font>
 
-Fortune Teller can vote for a player at the meeting to obtain relevant information about that player, which is associated with the player's main role. If the Fortune Teller completes all tasks, he can directly know the specific role of the player when divination. A Fortune Teller can only do one fortune-telling per meeting, and the max of fortune-tellings is set by the host.
+占卜师可以通过在会议上投票给一位玩家以获得该玩家的相关信息，信息与该玩家的主职业关联。若占卜师完成所有任务，占卜时可以直接知道该玩家的具体职业。占卜师每次会议只能占卜一次，占卜次数根据房主设定。
 
-> From: TOU & Coding: [KARPED1EM](https://github.com/KARPED1EM)
+> 来源：TOU & 程序设计：[咔皮呆](https://github.com/KARPED1EM)
 
 ---
 
-### <font color=#dcdcdc>The Glitch</font>
+### <font color=#dcdcdc>活死人</font>
 
-The program does not treat the The Glitch as alive. btw I don't know what's going to happen.
+模组的程序不会将活死人视为存活状态，不过我不知道这样会导致什么。
 
-> From: 湛蓝色 & Coding: [KARPED1EM](https://github.com/KARPED1EM)
+> 来源：湛蓝色 & 程序设计：[咔皮呆](https://github.com/KARPED1EM)
 
 ---
 
-### <font color=#f8d85a>Judge</font>
+### <font color=#f8d85a>法官</font>
 
-The judge can judge a certain player during the meeting. If the target is evil, the target will be killed (whether it is evil or not is set by the host), and if it is wrong, the judge gonna suicide.
+法官可以在会议时审判某位玩家的，若目标为邪恶角色则击杀目标（是否邪恶根据房主设定），错误则会自杀。
 
-The judgment command is: /cmd tl [player id]
+审判指令为：/cmd tl [玩家编号]
 
-You can see the player's id before the player's name, or use the /cmd id command to view the id of all players.
+您可以在玩家名字前看到该玩家的编号，或者使用/cmd id指令查看所有玩家的编号。
 
-Judges can judge all players when they become Madmate.
+当法官成为叛徒时可以随意审判。
 
-> From: SNR & Coding: [KARPED1EM](https://github.com/KARPED1EM)
+> 来源：SNR & 程序设计：[咔皮呆](https://github.com/KARPED1EM)
 
 ---
 
-### <font color=#333c49>Mortician</font>
+### <font color=#333c49>入殓师</font>
 
-The Mortician can see arrows pointing to all dead bodies, and the Mortician reports that the body can know the last player the victim had contact with during the meeting. Note: Mortician won't be Oblivious.
+入殓师可以看到指向所有尸体的箭头，入殓师报告尸体可以在会议上得知被害者生前最后一个接触的玩家。请注意：入殓师不会成为胆小鬼。
 
-> From: [草暖](https://b23.tv/kTnVK2c) & Coding: [KARPED1EM](https://github.com/KARPED1EM)
+> 来源：[草暖](https://b23.tv/kTnVK2c) & 程序设计：[咔皮呆](https://github.com/KARPED1EM)
 
 ---
 
-### <font color=a200ff>Medium</font>
+### <font color=a200ff>通灵师</font>
 
-The Medium can establish contact with a dead player after reporting their dead body. The dead player can answer once with a YES or a NO to the Medium's question which only the Medium will see (the dead player can use /ms yes or /ms no). Note: Medium won't be Oblivious.
+当场上有玩家被击杀，通灵师会收到提示。通灵师报告尸体后可以与被害者建立联系，在本次会议结束前，被害者拥有一次机会回答通灵师的问题，只能回答是或否。请注意：通灵师不会成为胆小鬼。
 
-> From: [KARPED1EM](https://github.com/KARPED1EM) & Coding: [KARPED1EM](https://github.com/KARPED1EM)
+> 来源：[咔皮呆](https://github.com/KARPED1EM) & 程序设计：[咔皮呆](https://github.com/KARPED1EM)
 
 ---
 
-### <font color=a8e0fa>Observer</font>
+### <font color=a8e0fa>观察者</font>
 
-Observer can see other player'sshield-animation
+观察者可以看到其他玩家的碎盾动画。
 
-> From: [KARPED1EM](https://github.com/KARPED1EM) & Coding: [KARPED1EM](https://github.com/KARPED1EM)
+> 来源：[咔皮呆](https://github.com/KARPED1EM) & 程序设计：[咔皮呆](https://github.com/KARPED1EM)
 
 ---
 
-### <font color=white>Dove of Peace</font>
+### <font color=white>和平之鸽</font>
 
-When the Dove of Peace vents, they will reset the kill cooldown for every player with a kill button. When they become a Madmate, this ability will only work on Crewmates.
+当和平之鸽可以通过使用通风管道进行歌颂，在场所有拥有击杀键的玩家的击杀/技能冷却时间会被重置。当和平之鸽成为叛徒时歌颂只对船员生效。
 
-> From: 我若戏命 & Coding: [喜](https://space.bilibili.com/443432765)
+> 来源：我若戏命 & 程序设计：[喜](https://space.bilibili.com/443432765)
 
 ---
 
-### <font color=259f94>Collator</font>
+### <font color=259f94>基因学家</font>
 
-The Collator can extract samples by using the kill button. In each round, two players' samples can be extracted, and the identity information of the samples will be obtained on the next round's meeting.
+基因学家可以通过对玩家点击击杀提取样本，每轮可以提取两位玩家的样本，并在下一轮会议上得到样本的身份信息。
 
-> From: NOS & Coding: [慕斯Mousse](https://github.com/Sand-and-Beans)
+> 来源: NOS & 程序设计: [慕斯Mousse](https://github.com/Sand-and-Beans)
 
 ---
 
-### <font color=863756>Swapper</font>
+### <font color=863756>换票师</font>
 
-The Swapper can swap the votes of two players during meetings.\nThe swapping command is: /cmd sw [player id]
-You can see the player's id before the player's name, or use the /cmd id command to view the id of all players.
+换票师可以在会议上交换两位玩家的票数。换票指令为：/cmd sw [玩家编号]
+您可以在玩家名字前看到该玩家的编号，或者使用/cmd id指令查看所有玩家的编号。
 
-> From: TOR & Coding: [慕斯Mousse](https://github.com/Sand-and-Beans)
+> 来源: TOR & 程序设计: [慕斯Mousse](https://github.com/Sand-and-Beans)
 
 ---
 
-### <font color=ffd700>Justice</font>
+### <font color=ffd700>大神官</font>
 
-The Justice can select two players to call a justice meeting. During the justice meeting, only the chosen players can be voted. Both of the players will be exiled if the voting ties.
-The balancing command is: /cmd bl [player id]\nYou can see the player's id before the player's name, or use the /cmd id command to view the id of all players.
+大神官可以选择两名玩家召开特殊会议。在此会议上，只能投票给这两名玩家，平票或不投票则同时票出。
+技能指令为：/cmd bl [目标编号]
+您可以在玩家名字前看到该玩家的编号，或者使用/cmd id指令查看所有玩家的编号。
 
-> From: SNR & Coding: [ELinmei](https://github.com/hayashiume)、[慕斯Mousse](https://github.com/Sand-and-Beans)、[Slok·琐律](https://github.com/Slok7656)
+> 来源: SNR & 程序设计: [ELinmei](https://github.com/hayashiume)、[慕斯Mousse](https://github.com/Sand-and-Beans)、[Slok·琐律](https://github.com/Slok7656)
 
 ---
 
-### <font color=#4b6e8c>Security Guard</font>
+### <font color=#4b6e8c>保安</font>
 
-Use the vent button to seal a vent, preventing further entry. The shared sealed-vent limit is configurable (1-15, default 3), as is the ability cooldown (5-60 seconds, default 25). Sealing replaces normal vent use, and once the limit is reached you cannot seal additional vents or use vents normally. Win with the Crewmates.
+使用管道按钮封锁通风管道，阻止其他玩家进入。封锁数量上限由所有保安共享，可设置为 1-15 个，默认 3 个；技能冷却可设置为 5-60 秒，默认 25 秒。封锁技能会替代正常钻管，达到上限后无法继续封锁或正常使用管道。跟随船员阵营获胜。
 
-> From: The Other Roles & Coding: [LezaiYa](https://github.com/LezaiYa)
+> 来源：The Other Roles & 程序设计：[LezaiYa](https://github.com/LezaiYa)
 
 ---
-
-## ⭐ Neutral
 
-### <font color=#ff6633>Arsonist</font>
+## ⭐ 中立阵营
 
-The Arsonist can douse by clicking the kill button on the player and following them for a few seconds. When the dousing starts and its successful, a shield-animation will be displayed as a reminder (only visible to themselves). When all surviving players have been doused by the Arsonist, the Arsonist can vent to start the fire and win alone.
+### <font color=#ff6633>纵火犯</font>
 
-If the player name shows 「△」, that means they are being doused;
+纵火犯可以通过对玩家点击击杀按钮并跟随其数秒来完成涂油，开始涂油以及涂油成功时会显示护盾破碎的动画作为提示（仅自己可见）。当所有存活玩家都被纵火犯涂油后，纵火犯可以通过跳通风管来点火，并单独获得胜利。
 
-if the player name shows 「▲」, it means they have been completely doused.
+玩家名显示「△」表示涂油中；玩家名显示「▲」表示已涂油。
 
-> From: TOH
+> 来源：TOH
 
 ---
 
-### <font color=#ec62a5>Jester</font>
+### <font color=#ec62a5>小丑</font>
 
-If the Jester get voted out, the Jester wins the game alone. If the Jester is still alive at the end of the game, the Jester loses the game. Note: Jester, Executioner, and Innocent can win together.
+小丑被票出则小丑单独游戏胜利。游戏结束时若小丑仍存活则小丑输掉游戏。请注意：小丑、处刑人、冤罪师可以共享胜利。
 
-> From: TOH
+> 来源：TOH
 
 ---
 
-### <font color=#00ff00>Opportunist</font>
+### <font color=#00ff00>投机者</font>
 
-If the Opportunist survives at the end of the game, the Opportunist will win with the winning player.
+若投机者在游戏结束时存活，则投机者跟随获胜玩家一同获得胜利。
 
-> From: TOH
+> 来源：TOH
 
 ---
 
-### <font color=#00e600>Terrorist</font>
+### <font color=#00e600>恐怖分子</font>
 
-If the Terrorist dies after completing all tasks, the Terrorist wins the game alone. (They can win by either being voted out or killed).
+恐怖分子完成所有任务后死亡，则恐怖分子单独获得胜利。（怎么死都行，包括票死，反正死了就行）
 
-> From: TOH
+> 来源：TOH
 
 ---
 
-### <font color=#611c3a>Executioner</font>
+### <font color=#611c3a>处刑人</font>
 
-The Executioner has a target, which will be indicated by a diamond 「♦」 next to the target's name. If the target is killed, the Executioner becomes Crewmate, Jester, or Opportunist according to the settings. If the target is voted out in a meeting, the Executioner wins. Note: Jester, Executioner, and Innocent can win together.
+游戏开始时处刑人会被分配到一个处刑目标，并在其昵称旁用菱形「♦」表示。若处刑目标被击杀，则处刑的职业会根据设置变为船员，小丑或投机者。如果处刑目标在会议中被票出则处刑人胜利。请注意：小丑、处刑人、冤罪师可以共享胜利。
 
-> From: TOH
+> 来源：TOH
 
 ---
 
-### <font color=#00b4eb>Jackal</font>
+### <font color=#00b4eb>豺狼</font>
 
-If there are only the Jackal team and the Crewmate team are left, and the number of Jackal is greater than the number of Crewmate members, the Jackal will win. Jackal can kill anyone, and depending on the host's settings, Jackal may be able to vent or has Impostor vision, Jackal may be allowed to create a sidekick.
+仅剩豺狼阵营与船员阵营且豺狼阵营人数大于船员人数，豺狼获得胜利。豺狼拥有击杀能力，根据房主设置豺狼可能可以跳管或拥有内鬼视野。根据设置，豺狼可以招募一名跟班。
 
-> From: TOH
+> 来源：TOH
 
 ---
 
-### <font color=#00b4eb>Sidekick</font>
+### <font color=#00b4eb>跟班</font>
 
-Help the Jackal to win. Sidekick may vent, have a according to the host's settings. Depending on the host's settings, Sidekick may be able to vent or has Impostor vision or become Jackal after Jackal is dead.
+帮助豺狼获得胜利，根据房主设置跟班可能可以跳管或拥有内鬼视野，并可能在豺狼死后替代豺狼。
 
-> From: TOR & Coding: [慕斯Mousse](https://github.com/Sand-and-Beans)
+> 来源: TOR & 程序设计: [慕斯Mousse](https://github.com/Sand-and-Beans)
+>
 ---
 
-### <font color=#f96464>God</font>
+### <font color=#f96464>神</font>
 
-God knows everyone's role from the beginning, and God will win alone as long as he lives to the end. Note: God won't be Lovers.
+神从一开始就知道所有人的身份，而神只要活到最后就会抢走胜利。神不会成为恋人。
 
-> From: SNR &  Coding: [KARPED1EM](https://github.com/KARPED1EM)
+> 来源：SNR &  程序设计：[咔皮呆](https://github.com/KARPED1EM)
 
 ---
 
-### <font color=#ff6201>Mario</font>
+### <font color=#ff6201>马里奥</font>
 
-Mario will win alone by venting a certain number of times.
+马里奥跳管达到一定次数就会单独获得胜利。
 
-> From: [KARPED1EM](https://github.com/KARPED1EM) &  Coding: [KARPED1EM](https://github.com/KARPED1EM)
+> 来源：[咔皮呆](https://github.com/KARPED1EM) &  程序设计：[咔皮呆](https://github.com/KARPED1EM)
 
 ---
 
-### <font color=#8f815e>Innocent</font>
+### <font color=#8f815e>冤罪师</font>
 
-The Innocent can use the kill button to plant any player, and the planted target will immediately kill the Innocent. If the target is voted out in the meeting, the Innocent wins. Note: Jester, Executioner, and Innocent can win together.
+冤罪师可以用击杀键栽赃任意一位玩家，被栽赃的目标会立刻击杀冤罪师，若目标在会议上被驱逐则冤罪师获胜。请注意：小丑、处刑人、冤罪师可以共享胜利。
 
-> From: SNR & Coding: [NCSIMON](https://github.com/NCSIMON)、[KARPED1EM](https://github.com/KARPED1EM)
+> 来源：SNR & 程序设计：[NCSIMON](https://github.com/NCSIMON)、[咔皮呆](https://github.com/KARPED1EM)
 
 ---
 
-### <font color=#34c84b>Pelican</font>
+### <font color=#34c84b>鹈鹕</font>
 
-Only the Pelican team and the Crewmate team are left, and the number of Pelican is greater than the number of Crewmate members, then the Pelican win. The Pelican can use the kill button to swallow a player alive (the player who is swallowed alive will be teleported out of the map and cannot interact with the game). After the swallow is successful, the Pelican will see an shield-animation shows on his body as a reminder. An emergency meeting or reporting a dead body will result in the instant death of all players swallowed by the Pelican. If the Pelican dies or disconnects, all players swallowed immediately return to where the Pelican died. Note: Pelican swallowing people is not a normal way to kill, so role skills such as Bodyguard and Veteran will not take effect.
+仅剩鹈鹕阵营与船员阵营且鹈鹕阵营人数大于船员人数，鹈鹕获得胜利。鹈鹕可以使用击杀键活吞一位玩家（被活吞的玩家将被传送到地图外且无法与游戏互动），活吞成功后鹈鹕将看到自己身上出现盾牌破碎的动画作为提示。紧急会议或报告尸体会导致鹈鹕吞下的所有玩家立刻死亡。若鹈鹕死亡或掉线，则被吞下的所有玩家立刻回到鹈鹕死亡的位置。请注意：鹈鹕吞人不是正常击杀方式，因此保镖、老兵等职业技能不会生效。
 
-> From: Goose Goose Duck & Coding: [KARPED1EM](https://github.com/KARPED1EM)
+> 来源：鹅鸭杀 & 程序设计：[咔皮呆](https://github.com/KARPED1EM)
 
 ---
 
-### <font color=#ba4d06>Revolutionist</font>
+### <font color=#ba4d06>革命家</font>
 
-Revolutionist can recruit players by clicking the kill button on the player and following them for a few seconds. When they start recruiting and the recruiting is successful, a shield animation will be displayed as a reminder (only visible to the Revolutionist). Players have a chance of being killed immediately after being recruited (the host sets the probability). When the specified number of players are recruited (the number is set by the host) and they vent within the specified time, the Revolutionist and all the players who are recruited win; if not, the recruited player dies; if the Revolutionist is killed during the countdown, nothing happens; if a meeting is held, the Revolutionist dies. Note: Players who died after being recruited can still win with the Revolutionist.
+革命家可以通过对玩家点击击杀按钮并跟随其数秒来拉拢玩家，开始拉拢以及拉拢成功时会显示护盾破碎的动画作为提示（仅自己可见）。玩家有概率在被拉拢后立刻牺牲（概率根据房主设定）。当达到指定的拉拢人数（人数根据房主设定）后并在规定时间内跳进通风管道，则革命家以及所有被拉拢的玩家获胜；若没有在规定时间内跳进通风管道则革命家以及所有被拉拢的玩家死亡；倒计时期间若革命家被杀，则无事发生；若召开了紧急会议，则革命家死亡。请注意：被拉拢后牺牲的玩家依然可以跟随革命家胜利。
 
-If the player name displays 「○」, it means that they are being recruited;
+玩家名显示「○」表示拉拢中；玩家名显示「●」表示已拉拢。
 
-If the player name displays 「●」, it means they have been recruited.
+> 来源：波奇酱 & 程序设计：[NCSIMON](https://github.com/NCSIMON)
 
-> From: 波奇酱 & Coding: [NCSIMON](https://github.com/NCSIMON)
-
 ---
 
-### <font color=#414b66>Hater</font>
+### <font color=#414b66>FFF团</font>
 
-The Hater will not be lovers or Neptune. The Hater has unlimited killing ability without cooling down. At the same time, the keen observation ability of the Hater makes him have the Impostor vision by default. The Hater can only kill Lovers and Neptune. Hater kills itself instantly if it kills the wrong target. At the end of the game, if there are no Lovers and Neptune alive and the Hater has killed Lovers or Neptune at least once, the Neptune wins with winning team.
+FFF团不会成为恋人或海王。FFF团拥有无限且没有冷却的击杀能力，同时FFF团敏锐的观察力使他默认拥有内鬼的视野。FFF团只能击杀恋人与海王，击杀其他玩家则会立刻牺牲。游戏结束时，没有恋人与海王存活且FFF团曾经击杀过至少一次恋人或海王，则FFF团胜利。请注意：FFF团只会附加胜利不会抢夺原本阵营的胜利。
 
-> From: SNR & Coding: [KARPED1EM](https://github.com/KARPED1EM)
+> 来源：SNR & 程序设计：[咔皮呆](https://github.com/KARPED1EM)
 
 ---
 
-### <font color=#68bc71>Demon</font>
+### <font color=#68bc71>玩家</font>
 
-Only the Demon team and the Crewmate team are left, and the number of Demon is greater than the number of Crewmate members, then the Demon win. The Demon's killing rules are different from others. Everyone in the Demon's perspective has health volume. Demon kill and are killed instead consume health. Killing will take effect when the health is exhausted. Note: If other people consume the Demon's health but fail to kill the player, the murderer will see the shield-animation on the Demon as a reminder.
+仅剩玩家阵营与船员阵营且玩家阵营人数大于船员人数，玩家获得胜利。玩家的击杀规则与其他人不同，玩家视角下所有人拥有血量，玩家击杀以及被击杀改为消耗血量，当血量耗空时击杀才会生效。请注意：若其他人消耗玩家血量但没有成功击杀玩家时，凶手会看到玩家身上出现护盾破碎动画作为提示。
 
-> From: [KARPED1EM](https://github.com/KARPED1EM) &  Coding: [KARPED1EM](https://github.com/KARPED1EM)
+> 来源：[咔皮呆](https://github.com/KARPED1EM) &  程序设计：[咔皮呆](https://github.com/KARPED1EM)
 
 ---
 
-### <font color=#483d8b>Stalker</font>
+### <font color=#483d8b>潜藏者</font>
 
-The Stalker can kill anyone, and every kill will immediately cause electricity sabotage (if electricity is already sabotaged, nothing will happen). Stalker cannot vent. If the Impostor wins while the Stalker is alive or the Crewmate wins by killing the Impostors (according to the host's setting, the Stalker may also win when the Crewmate wins by killing the Neutrals), then the Stalker win alone.
+潜藏者可以击杀任何人，且每次击杀都会立刻造成电力破坏（若电力已经被破坏则无事发生）。潜藏者无法使用通风管道。若潜藏者存活时内鬼胜利或船员通过击杀内鬼胜利（根据房主设定船员击杀中立玩家胜利时潜藏者也可能抢夺胜利），则潜藏者抢夺胜利。
 
-> From: TOHY
+> 来源：TOHY
 
 ---
 
-### <font color=#008b8b>Workaholic</font>
+### <font color=#008b8b>工作狂</font>
 
-Workaholics have more tasks and win alone when they complete all quests. (According to the settings of the host, completing the task after the death of the Workaholic may also lead to win)
+工作狂拥有更多的任务，当工作狂完成所有任务后单独胜利。（根据房主设定，工作狂死后完成任务也可能胜利）
 
-> From: TOHY
+> 来源：TOHY
 
 ---
 
-### <font color=#9d8892>Collector</font>
+### <font color=#9d8892>集票者</font>
 
-After vote Collector vote for a target, they can collect all the votes cast by that target in this meeting. When the Collector collects the specified number of votes, the Collector alone wins. Note: Collector wins take precedence over exile players.
+集票者投票给一名玩家后，可以收集到本次会议该玩家被投的所有票数。当集票者收集到指定数量的票后，则集票者单独胜利。请注意：集票者的胜利优先于驱逐玩家。
 
-> From: [NCSIMON](https://github.com/NCSIMON) & Coding: [NCSIMON](https://github.com/NCSIMON)
+> 来源：[NCSIMON](https://github.com/NCSIMON) & 程序设计：[NCSIMON](https://github.com/NCSIMON)
 
 ---
 
-### <font color=#74ba43>Provocateur</font>
+### <font color=#74ba43>自爆卡车</font>
 
-The Provocateur can kill any target with the kill button. If the target loses at the end of the game, the Provocateur wins with the winning team.
+自爆卡车可以用击杀键与任意目标同归于尽。若游戏结束时目标输了，则自爆卡车与胜利阵营一起胜利。
 
-> From: [法师](https://space.bilibili.com/511107305) & Coding: [KARPED1EM](https://github.com/KARPED1EM)
+> 来源：[法师](https://space.bilibili.com/511107305) & 程序设计：[咔皮呆](https://github.com/KARPED1EM)
 
 ---
 
-### <font color=#630000>Blood Knight</font>
+### <font color=#630000>嗜血骑士</font>
 
-The Blood Knight wins when they're the last killing role alive and the amount of crewmates is lower or equal to the amount of Blood Knights. The Blood Knight gains a temporary shield after every kill that makes them immortal for a few seconds.
+仅剩嗜血骑士阵营与船员阵营且嗜血骑士阵营人数大于船员人数，嗜血骑士获得胜利。嗜血骑士每次击杀后都可以获得一定时间的护盾，护盾可以抵消所有常规击杀，直到护盾超时失效。
 
-> From: TOHR & Coding: [KARPED1EM](https://github.com/KARPED1EM)
+> 来源：TOHR & 程序设计：[咔皮呆](https://github.com/KARPED1EM)
 
 ---
 
-### <font color=#ff9409>Follower</font>
+### <font color=#ff9409>赌徒</font>
 
-Follower can flollow on any player through the kill button, and can use kill button again to switch the following target. If the following target wins, the Follower win together. Note: Follower can also win after they die.
+赌徒可以通过击杀键在任何玩家身上下注，且中途可以切换下注目标。若下注目标胜利，则赌徒一起胜利。请注意：赌徒死亡后也可以胜利。
 
-> From: TOHY & Coding: [KARPED1EM](https://github.com/KARPED1EM)
+> 来源：TOHY & 程序设计：[咔皮呆](https://github.com/KARPED1EM)
 
 ---
 
-### <font color=#cf6acd>Succubus</font>
+### <font color=#cf6acd>魅魔</font>
 
-Only the Succubus team and the Crewmate team are left, and the number of Succubus is greater than the number of Crewmate members, then the Succubus win. Succubus can charm a non neutral player by hitting the kill button. The charmed player's skills will not change and will be considered as a Succubus team and will no longer have the original victory conditions.
+仅剩魅魔阵营与船员阵营且魅魔阵营人数大于船员人数，魅魔阵营获得胜利。魅魔可以通过击杀键魅惑一位非中立玩家。被魅惑的玩家技能不会改变，并被视为魅魔阵营，且不再具有原先的胜利条件。
 
-> From: idk & Coding: [KARPED1EM](https://github.com/KARPED1EM)
+> 来源：TOR-MR & 程序设计：[咔皮呆](https://github.com/KARPED1EM)
 
 ---
 
-### <font color=#696969>Schrodinger Cat</font>
+### <font color=#696969>薛定谔的猫</font>
 
-When you are killed, you block the kill and join the attacker's team.
+薛定谔的猫被击杀后会加入凶手的阵营，并跟随凶手胜利。
 
-> From: TOH & Coding: [KARPED1EM](https://github.com/KARPED1EM)
+> 来源: TOH & 程序设计: [咔皮呆](https://github.com/KARPED1EM)
 
 ---
 
-### <font color=#ff6633>Plague Doctor</font>
+### <font color=#ff6633>疫医</font>
 
-The Plague Doctor's goal is to infect every living player.
-They start by choosing one player to infect, after which anyone who spends a set
-amount of time in range of the infected player becomes infected themselves.
-Infection progress is cumulative, and does not reset with distance or after meetings.
+疫医的目标是感染所有活着的玩家。疫医首先选择一名玩家来感染，之后任何在受感染玩家范围内停留一定时间的人都会被感染。感染进度是累积的，且不会因距离或会议重置。
 
-> From: TOH & Coding: [KARPED1EM](https://github.com/KARPED1EM)
+> 来源: TOH & 程序设计: [咔皮呆](https://github.com/KARPED1EM)
 
 ---
 
-### <font color=#696969>Shifter</font>
+### <font color=#696969>连环交换师</font>
 
-The Shifter can shift roles by using the kill button. The skills will take effect after the next round of the meeting. Please note: The Shifter cannot win.
+交换师可以通过对玩家点击击杀按钮进行职业交换，交换技能在下一轮会议结束后生效。请注意：交换师无法获胜。
 
-> From: TOR-GMH & Coding: [慕斯Mousse](https://github.com/Sand-and-Beans)
+> 来源: TOR-GMH & 程序设计: [慕斯Mousse](https://github.com/Sand-and-Beans)
 
 ---
-
-### <font color=#14f786>Doomsayer</font>
-
-The Doomsayer can get hints by using the kill button. The Doomsayer needs to guess a specific number of players correctly to win. According to the setting, wrong guesses may lead to suicide.
-The guessing command is: /cmd bt [player id] [role]
-You can see the player's id before the player's name, or use the /cmd id command to view the id of all players.
 
-> From: TOH & Coding: [慕斯Mousse](https://github.com/Sand-and-Beans)
+### <font color=#14f786>末日预言家</font>
 
----
-
-### <font color=#ff9902>Sunnyboy</font>
+末日预言家可以通过对玩家点击击杀按钮获取提示，末日预言家需要正确猜测指定个数玩家的职业才能获胜。根据房主设置，猜测错误可能会自杀。
+猜测指令为：/cmd bt [玩家编号] [职业名]
+您可以在玩家名字前看到该玩家的编号，或者使用/cmd id指令查看所有玩家的编号。
 
-The Sunnyboy can check the life status of others through the life panel. When the Sunnyboy is alive, the game will not end due to a numerical advantage. If the Sunnyboy dies by the end of the game, the Sunnyboy will win alongside the winning team.
+> 来源: TOH & 程序设计: [慕斯Mousse](https://github.com/Sand-and-Beans)
 
-> From: TONX & Coding：[ELinmei](https://github.com/HayashiUme)
 
+---
 
-### <font color=#ff69b4>Yandere</font>
+### <font color=#ff69b4>病娇</font>
 
-You receive a randomly chosen crush, whom you cannot kill. Other players who spend enough time near your crush become rivals. While your crush is alive, killing a rival shortens your next kill cooldown, while killing someone else lengthens it. If your crush dies, you use the separate cooldown configured for that state. Proximity time is cleared at meetings.
+你会随机获得一名暗恋对象，且无法击杀对方。其他玩家在暗恋对象身边累计停留足够时间后会成为情敌。暗恋对象存活时，击杀情敌会缩短下一次击杀冷却，击杀非情敌则会延长冷却。暗恋对象死亡后，改用单独设置的击杀冷却。会议会清空尚未成为情敌的接近计时。
 
-Win by being the last survivor, or by leaving only yourself and your living crush; in the latter case, your crush wins with you. The host can configure proximity range, rival time, cooldown adjustments, target arrows, vent access and Impostor vision.
+当只剩自己存活，或只剩自己和仍存活的暗恋对象时获胜；后一种情况下暗恋对象也会一同获胜。房主可以设置接近范围、情敌判定时间、冷却调整、目标箭头、钻管权限和内鬼视野。
 
-> From: Extreme Roles & Coding: [LezaiYa](https://github.com/LezaiYa)
+> 来源：Extreme Roles & 程序设计：[LezaiYa](https://github.com/LezaiYa)
 
 ---
 
-### <font color=#788514>Lawyer</font>
+### <font color=#788514>律师</font>
 
-At game start, you receive an eligible non-Crewmate client marked with “§”; Lovers cannot be clients. If the client wins, you gain an additional win even if you are dead. If you are alive, the Lawyer rule removes the client's individual winner entry as it grants yours. If the client dies, or no eligible client exists, you become a Prosecutor.
+游戏开始时，你会获得一名符合条件的非船员客户，其名字旁带有「§」标记；恋人不能成为客户。客户获胜时，你可以额外获胜，即使自己已经死亡。若自己仍存活，律师规则会在为你授予胜利时移除客户的个人胜者记录。客户死亡或没有合适客户时，你会转变为起诉人。
 
-The host can allow Madmate and Jester clients, reveal the client's role to you, and notify the client that they have a Lawyer. Blank cooldown and use count for the Prosecutor are configured under the Lawyer options (defaults: 30 seconds and 3 uses).
+房主可以允许叛徒和小丑成为客户、让律师知道客户职业，以及让客户知道自己有律师。起诉人的空包弹冷却与次数也在律师选项中设置，默认分别为 30 秒和 3 次。
 
-> From: TOR & Coding: [ELinmei](https://github.com/HayashiUme)
+> 来源：TOR & 程序设计：[ELinmei](https://github.com/HayashiUme)
 
 ---
 
-### <font color=#788514>Prosecutor</font>
+### <font color=#788514>起诉人</font>
 
-This is the Lawyer's transformed role, rather than a separately assigned lobby role. Use the kill button to fire a blank at a player without killing them. The blank blocks that player's next non-suicide kill attempt and is then consumed. Unused blank states are cleared when a meeting starts. You have limited shots and cannot vent or sabotage. Survive to the end of the game to gain an additional win.
+起诉人是律师转变后的职业，不会作为独立的大厅职业分配。使用击杀按钮向玩家发射空包弹，发射本身不会杀人。空包弹会拦截该玩家下一次非自杀击杀，生效后消耗；未生效的空包弹状态会在会议开始时清除。发射次数有限，不能钻管或破坏。存活至游戏结束即可额外获胜。
 
-> From: TOR & Coding: [ELinmei](https://github.com/HayashiUme)
+> 来源：TOR & 程序设计：[ELinmei](https://github.com/HayashiUme)
 
 ---
-## ⭐ Add-on
 
-### <font color=#ff9ace>Lovers</font>
+## ⭐ 附加职业
 
-Lovers are a combination of two players. The Lovers wins when only the Lovers is left. When one of the Lovers wins, the other also wins together. Lovers can see the 「♡」 mark next to each other's name. If one of the Lovers dies, the other will die in love (may not die in love according to the host's settings). When one of the Lovers is exiled in the meeting, the other will die and become a dead body that cannot be reported.
+### <font color=#ff9ace>恋人</font>
 
-> From: TOH
+恋人为两名玩家的组合。场上仅剩恋人时恋人获胜。恋人其中一人胜利时另一人也一起胜利。恋人可以看到对方名字旁有「♡」标志。恋人其中一人死亡则另一人殉情（根据房主设置可能不会殉情）。恋人其中一人在会议中被放逐时，另一人将死亡并变为不可以被报告的尸体。
 
+> 来源：TOH
+
 ---
 
-### <font color=red>Last Impostor</font>
+### <font color=red>绝境者</font>
 
-This effect is given to the last surviving Impostor. Reduces their kill cooldown.
+这个效果在内鬼仅剩一人时赋予该内鬼。使其击杀冷却缩短。
 
-> From: TOH
+> 来源：TOH
 
 ---
 
-### <font color=#00a4ff>Neptune</font>
+### <font color=#00a4ff>海王</font>
 
-When there is Neptune, all players will see that they are Lovers with Neptune, and they will not die in love together and will not change the win conditions. Note: Lovers won't become Neptune, and Neptune won't become Lovers.
+当场上存在海王时，所有玩家将看到自己与海王为恋人关系，实际并不会一起殉情也不会改变胜利条件。请注意：恋人不会成为海王，海王也不会成为恋人。
 
-> From: [法师](https://space.bilibili.com/511107305) & Coding: [SHAAARKY](https://github.com/SHAAARKY)
+> 来源：[法师](https://space.bilibili.com/511107305) & 程序设计：[鲨鲨](https://github.com/SHAAARKY)
 
 ---
 
-### <font color=#800080>Watcher</font>
+### <font color=#800080>窥视者</font>
 
-During the meeting, Watcher can see everyone's votes.
+会议时窥视者可以看到所有人的投票。
 
 
-> From: TOH & Coding: [KARPED1EM](https://github.com/KARPED1EM)
+> 来源：TOH & 程序设计：[咔皮呆](https://github.com/KARPED1EM)
 
 ---
 
-### <font color=#eee5be>Lighter</font>
+### <font color=#eee5be>执灯人</font>
 
-Only the Crewmate will be the Lighter, who have max vision and are not affected by Lights sabotage.
+只有船员会成为执灯人，执灯人视野范围很大且不受停电影响。
 
-> From: TOH & Coding: [KARPED1EM](https://github.com/KARPED1EM)
+> 来源：TOH & 程序设计：[咔皮呆](https://github.com/KARPED1EM)
 
 ---
 
-### <font color=#61b26c>Seer</font>
+### <font color=#61b26c>灵媒</font>
 
-Whenever a player dies, the Seer will see a kill-flash (a red flash, possibly accompanied by an alarm sound like sabotage).
+每当有玩家死亡时，灵媒会看到杀戮闪烁（红光闪一下，可能伴随警报声）。
 
-> From: TOH
+> 来源：TOH
 
 ---
 
-### <font color=#ff8400>Flash</font>
+### <font color=#ff8400>闪电侠</font>
 
-The Flash's default movement speed is faster than others. (speed depends on the setting of the host) Note: Due to technical limitations, the Flash is the same as the Speed Booster, which is normal speed in the eyes of others, so they look like glitch.
+闪电侠的初始移动速度比其他人快。（具体速度看房主设定）请注意：由于技术限制，闪电侠同理增速者，在其他人眼中为正常速度，所以会以闪现的方式移动。
 
-> From: TOHR & Coding: [KARPED1EM](https://github.com/KARPED1EM)
+> 来源：TOHR & 程序设计：[咔皮呆](https://github.com/KARPED1EM)
 
 ---
 
-### <font color=#1447af>Tiebreaker</font>
+### <font color=#1447af>破平者</font>
 
-When tie vote, priority will be given to the target voted by the Tiebreaker. Note: If multiple Tiebreaker choose different tie targets at the same time, the skills of the Tiebreaker will not take effect.
+放逐投票平票时，会优先驱逐破平者投票的目标。请注意：若多个破平者同时选择了不同的平票目标，则破平者的技能不会生效。
 
-> From: TOR & Coding: [KARPED1EM](https://github.com/KARPED1EM)
+> 来源：TOR & 程序设计：[咔皮呆](https://github.com/KARPED1EM)
 
 ---
 
-### <font color=#424242>Oblivious</font>
+### <font color=#424242>胆小鬼</font>
 
-Detective and Cleaners won't be Oblivious. Oblivious cannot report dead bodies. Note: Bait killed by Oblivious will still be reported automatically, and Oblivious can still be used as a scapegoat for Hacker.
+侦探和清理工不会成为胆小鬼。胆小鬼无法报告尸体。请注意：胆小鬼击杀诱饵还是会自动报告，此外胆小鬼可以照常成为骇客的替罪羊。
 
-> From: TOHR & Coding: [KARPED1EM](https://github.com/KARPED1EM)
+> 来源：TOHR & 程序设计：[咔皮呆](https://github.com/KARPED1EM)
 
 ---
 
-### <font color=#c894f5>Bewilder</font>
+### <font color=#c894f5>迷幻者</font>
 
-The Impostor won't be Bewilder. Bewilder may have a smaller/bigger vision depends on the host settings. When the Bewilder is killed, the murderer's vision will become as small/big as the Bewilder.
+内鬼不会成为迷惑者。迷惑者默认拥有“较”小的视野，当迷惑者被击杀时，凶手的视野将变得跟迷惑者一样小。
 
-> From: TOHR & Coding: [KARPED1EM](https://github.com/KARPED1EM)
+> 来源：TOHR & 程序设计：[咔皮呆](https://github.com/KARPED1EM)
 
 ---
 
-### <font color=red>Madmate</font>
+### <font color=red>叛徒</font>
 
-Only Crewmates can become Madmates. Madmates help the Impostors to win the game, Madmates will lose if all Impostors are killed/cmd ejected. Madmates may know who the Impostors are and Impostors may know who the Madmates are (according to the host's settings).
+只有船员会成为叛徒，叛徒需要帮助内鬼阵营获得胜利，当内鬼阵营失败时叛徒也会失败。叛徒与内鬼是否互知根据房主设定。
 
-Lazy Guy, Celebrity can't become Madmate. Sheriff, Snitch, Nice Guesser, Mayor, and Judge may become Madmate depending on the host's settings). Abilities change when the following roles are converted into Madmates:
+摆烂人与网红不会成为叛徒，部分船员职业是否可以成为叛徒依据房主设定。此外，当以下职业成为叛徒后技能将发生变动：
 
-- Time Manager => Doing tasks will reduce meeting time.
-- Bodyguard => Their skill won't activate if the killer is an Impostor.
-- Grenadier => Flash bomb will work on Crewmates and Neutrals instead of Impostors.
-- Sheriff => Can kill anyone including Impostors (depends on the host's settings).
-- Nice Guesser => Can guess Crewmates and Neutrals.
-- Psychic => All Evil Neutrals and Crewmates' names with the ability to kill will be displayed in Red.
-- Judge => Can judge anyone.\nDove of Peace => Their ability only works on Crewmates.
-- Dove of Peace => Their ability only works on Crewmates.
+- 时间操控者 => 做任务减少会议时间。
+- 保镖 => 凶手是内鬼的时不发动技能。
+- 掷雷兵 => 闪光弹只对船员生效。
+- 警长 => 默认可以击杀任何人。（具体可以击杀的阵营根据房主设定）
+- 正义赌怪 => 可以猜测船员。
+- 告密者 => 完成任务后与内鬼互认。
+- 愚者 => 准确地看到所有邪恶中立以及带刀船员玩家显示为红名。
+- 法官 => 可以随意审判。
+- 和平之鸽 => 歌颂只对船员生效。
 
-**Madmate spawn mode [FirstKill]:** If the number of existing Madmates are lower than the host settings, when the Impostor attempts to kill a Crewmate, if the said Crewmate meets the conditions for becoming a Madmate, they will become a Madmate instead of being killed.
+**叛徒生成模式【首刀叛变】：** 若叛徒数量未达到设置的叛徒数量，且目标符合成为叛徒的条件，则游戏中被常规击杀而死亡的玩家会成为叛徒。
 
-**Madmate spawn mode [SelfVote]:** If the number of existing Madmates are lower than the host settings, the Crewmates who voted for themselves in the meeting will become Madmates.
+**叛徒生成模式【自票叛变】：** 若叛徒数量未达到设置的叛徒数量，且目标符合成为叛徒的条件，则会议上投票给自己的玩家会成为叛徒。
 
 
-> From: [KARPED1EM](https://github.com/KARPED1EM) & Coding: [KARPED1EM](https://github.com/KARPED1EM)
+> 来源：[咔皮呆](https://github.com/KARPED1EM) & 程序设计：[咔皮呆](https://github.com/KARPED1EM)
 
 ---
 
-### <font color=#e6e7ff>Fool</font>
+### <font color=#e6e7ff>蠢蛋</font>
 
-Repairman won't be Fool. Fools can't repair any sabotage.
+修理工不会成为蠢蛋。蠢蛋无法修复任何破坏。
 
 
-> From: TOHY & Coding: [NCSIMON](https://github.com/NCSIMON)、[KARPED1EM](https://github.com/KARPED1EM)
+> 来源：TOHY & 程序设计：[NCSIMON](https://github.com/NCSIMON)、[咔皮呆](https://github.com/KARPED1EM)
 
 ---
 
-### <font color=#00ffff>Workhorse</font>
+### <font color=#00ffff>加班狂</font>
 
-The first player to complete all the tasks will become Workhorse, Workhorse will give the player extra tasks. The amount of additional tasks are set by the host.
+最先完成任务的玩家会成为加班狂，加班狂会拥有更多的任务。
 
 
-> From: TOH
+> 来源：TOH
 
 ---
 
-### <font color=#ffab1b>Avenger</font>
+### <font color=#ffab1b>复仇者</font>
 
-Host can set whether the Impostor can become an Avenger. When the Avenger is killed (voted out and unconventional kills are not counted), the Avenger will revenge a random player.
+可以设定内鬼是否可以成为复仇者。当复仇者被击杀时（被票出以及非常规击杀不算），复仇者会随机带走一名玩家。
 
 
-> From: TOHY & Coding: [NCSIMON](https://github.com/NCSIMON)、[KARPED1EM](https://github.com/KARPED1EM)
+> 来源：TOHY & 程序设计：[NCSIMON](https://github.com/NCSIMON)、[咔皮呆](https://github.com/KARPED1EM)
 
 ---
 
-### <font color=#fb749b>YouTuber</font>
+### <font color=#fb749b>UP主</font>
 
-Only Crewmate will become YouTuber. When the YouTuber is the first player to be killed in the game, the YouTuber will win alone. If the YouTuber does not meet the win conditions, the YouTuber will follow the Crewmate to win. Note: Indirect killing methods such as being exiled, being guessed by the Guesser, etc. will not trigger the skills of the YouTuber.
+只有船员会成为UP主。当UP主是第一个在游戏中被击杀的玩家时，UP主会单独获得胜利，若UP主没有满足胜利条件，则UP主跟随船员阵营胜利。请注意：被放逐、被赌怪猜测等非直接击杀方式不会触发UP主的技能。
 
 
-> From: [Night_瓜](https://space.bilibili.com/1638639993) & Coding: [KARPED1EM](https://github.com/KARPED1EM)
+> 来源：[Night_瓜](https://space.bilibili.com/1638639993) & 程序设计：[咔皮呆](https://github.com/KARPED1EM)
 
 ---
 
-### <font color=#5600ff>Egoist</font>
+### <font color=#5600ff>利己主义者</font>
 
-Madmate and Neutrals won't be Egoist. If the Egoist's team wins, the Egoist wins instead of his team.
+叛徒与中立阵营不会成为利己主义者。利己主义者会抢夺自己阵营的胜利。
 
 
-> From: [小叨院长](https://space.bilibili.com/1998829749) & Coding: [KARPED1EM](https://github.com/KARPED1EM)
+> 来源：[小叨院长](https://space.bilibili.com/1998829749) & 程序设计：[咔皮呆](https://github.com/KARPED1EM)
 
 ---
 
-### <font color=red>Stealer</font>
+### <font color=red>窃票者</font>
 
-Only Impostor other than Bombers and Booby Traps will become Stealer. Every time a Stealer kills a person, he gets an additional vote (the vote number is set by the host, and the decimal is rounded down). Also, extra votes from the Stealer are hidden during meeting.
+只有除自爆兵和诡雷以外的内鬼会成为窃票者。窃票者每次击杀一个人都会增加自己本局的票数（增加数量根据房主设定，小数向下取整）。此外，窃票者额外的票是隐藏的。
 
 
-> From: idk & Coding: [KARPED1EM](https://github.com/KARPED1EM)
+> 来源：不知道 & 程序设计：[咔皮呆](https://github.com/KARPED1EM)
 
 ---
 
-### <font color=#3a648f>Schizophrenic</font>
+### <font color=#3a648f>双重人格</font>
 
-Neutrals and Madmates can't become Schizophrenic. Schizophrenic will be considered as 2 players in the game (not applying to meeting votes). Having at least one player as Schizophrenic won't end the game if there are only them and the Impostor left.
+中立和叛徒不会成为双重人格，计算其阵营人数时双重人格被视为两人。例如场上剩余一个内鬼和一个双重人格船员，则视为两名船员和一名内鬼，因此游戏不会结束。
 
 
-> From: [KARPED1EM](https://github.com/KARPED1EM) &  Coding: [KARPED1EM](https://github.com/KARPED1EM)
+> 来源：[咔皮呆](https://github.com/KARPED1EM) &  程序设计：[咔皮呆](https://github.com/KARPED1EM)
 
 ---
 
-### <font color=red>Mimic</font>
+### <font color=red>宝箱怪</font>
 
-Only Impostor can become Mimic. When the Mimic is dead, other Impostors will receive a message once a meeting is called, this message will include information on roles who were killed by the Mimic.
+只有内鬼会成为宝箱怪。宝箱怪死后，其他内鬼可以在会议上收到信息。信息包含了宝箱怪生前击杀的所有人的职业。
 
 
-> From: ：3 & Coding: [KARPED1EM](https://github.com/KARPED1EM)
+> 来源：：3 & 程序设计：[咔皮呆](https://github.com/KARPED1EM)
 
 ---
 
-### <font color=74ba43>Reach</font>
+### <font color=74ba43>持枪</font>
 
-Only roles with a kill button can get this add-on. You have the longest kill range possible in the game, unlike everyone else.
+只有拥有击杀键的玩家能持枪。持枪的玩家的击杀键交互距离比一般人长。
 
 
-> From: Gurge44 & Coding: [KARPED1EM](https://github.com/KARPED1EM)
+> 来源：Gurge44 & 程序设计：[咔皮呆](https://github.com/KARPED1EM)
 
 ---
 
-### <font color=#00f7ff>Bait</font>
+### <font color=#00f7ff>诱饵</font>
 
-When a Bait is killed, the murderer who killed the Bait will be forced to report the Bait's body. However, the skill will be invalid when the Bait is killed by a Scavenger or Cleaner.
+诱饵被击杀时，击杀诱饵的凶手将被迫报告诱饵的尸体。但诱饵被清道夫或清理工击杀时技能会失效
 
-> From: TOH & Coding: [KARPED1EM](https://github.com/KARPED1EM)
+> 来源：TOH & 程序设计：[咔皮呆](https://github.com/KARPED1EM)
 
 ---
 
-### <font color=#5a8fd0>Beartrap</font>
+### <font color=#5a8fd0>陷阱师</font>
 
-When Beartrap is killed, Beartrap immobilize killer for a configurable amount of time.
+陷阱师被击杀时，凶手一段时间内将不能移动。
 
-> From: TOH & Coding: [KARPED1EM](https://github.com/KARPED1EM)
+> 来源：TOH & 程序设计：[咔皮呆](https://github.com/KARPED1EM)
 
 ---
-
 
-### <font color=#8c8c8c>Colorblind</font>
+### <font color=#8c8c8c>色盲</font>
 
-The Colorblind sees every player's color as a different color from their actual color.
+色盲玩家看到的每个玩家的颜色都与真实颜色不同。
 
-> From: [ELinmei](https://github.com/HayashiUme) & Coding: [ELinmei](https://github.com/HayashiUme)
+> 来源：[ELinmei](https://github.com/HayashiUme) & 程序设计：[ELinmei](https://github.com/HayashiUme)

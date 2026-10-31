@@ -35,7 +35,7 @@ export default defineThemeConfig({
   nextPage: false,
   createTime: false,
   locales: {
-    '/': {
+    '/en/': {
       navbar: enNavbar,
       sidebar: {
         "/docs/": [
@@ -54,7 +54,7 @@ export default defineThemeConfig({
       sidebarMenuLabel: "Menu",
       editLinkText: "View this page on GitHub"
     },
-    '/zh/': {
+    '/': {
       navbar: zhNavbar,
       sidebar: {
         "/docs/": [
