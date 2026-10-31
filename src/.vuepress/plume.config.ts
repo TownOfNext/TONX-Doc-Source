@@ -44,6 +44,7 @@ export default defineThemeConfig({
           "advanced",
           "game-modes",
           "roles",
+          "achievements",
           "faq"
         ]
       },
@@ -62,6 +63,7 @@ export default defineThemeConfig({
           "advanced",
           "game-modes",
           "roles",
+          "achievements",
           "faq"
         ]
       },

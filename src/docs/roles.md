@@ -2,56 +2,56 @@
 title: Role List
 ---
 
-Count: 131
+This page introduces custom roles and add-ons.
 
-|              Impostor               |             Crewmate              |               Neutral               |             Add-on              |
-| :---------------------------------: | :-------------------------------: | :---------------------------------: | :-----------------------------: |
-|   [Bounty Hunter](#bounty-hunter)   |   [Nice Guesser](#nice-guesser)   |        [Arsonist](#arsonist)        |        [Lovers](#lovers)        |
-|   [Serial Killer](#serial-killer)   |         [Luckey](#luckey)         |          [Jester](#jester)          | [Last Impostor](#last-impostor) |
-|         [Vampire](#vampire)         |       [Lazy Guy](#lazy-guy)       |     [Opportunist](#opportunist)     |       [Neptune](#neptune)       |
-|         [Warlock](#warlock)         |     [Super Star](#super-star)     |       [Terrorist](#terrorist)       |       [Watcher](#watcher)       |
-|        [Assassin](#assassin)        |      [Celebrity](#celebrity)      |     [Executioner](#executioner)     |       [Lighter](#lighter)       |
-|          [Zombie](#zombie)          |          [Mayor](#mayor)          |          [Jackal](#jackal)          |          [Seer](#seer)          |
-|          [Hacker](#hacker)          |      [Repairman](#repairman)      |        [Sidekick](#sidekick)        |         [Flash](#flash)         |
-|           [Miner](#miner)           |        [Sheriff](#sheriff)        |             [God](#god)             |    [Tiebreaker](#tiebreaker)    |
-|        [Escapist](#escapist)        |       [Paranoid](#paranoid)       |           [Mario](#mario)           |     [Oblivious](#oblivious)     |
-| [Killing Machine](#killing-machine) |        [Psychic](#psychic)        |        [Innocent](#innocent)        |      [Bewilder](#bewilder)      |
-|           [Witch](#witch)           |         [Snitch](#snitch)         |         [Pelican](#pelican)         |       [Madmate](#madmate)       |
-|           [Mafia](#mafia)           |  [Speed Booster](#speed-booster)  |   [Revolutionist](#revolutionist)   |          [Fool](#fool)          |
-|      [Fireworker](#fireworker)      |         [Doctor](#doctor)         |           [Hater](#hater)           |     [Workhorse](#workhorse)     |
-|          [Sniper](#sniper)          |       [Dictator](#dictator)       |           [Demon](#demon)           |       [Avenger](#avenger)       |
-|       [Puppeteer](#puppeteer)       |      [Detective](#detective)      |         [Stalker](#stalker)         |      [YouTuber](#youTuber)      |
-|            [Mare](#Mare)            |      [Vigilante](#vigilante)      |      [Workaholic](#workaholic)      |        [Egoist](#egoist)        |
-|      [Time Thief](#time-thief)      |    [Transporter](#transporter)    |       [Collector](#collector)       |       [Stealer](#stealer)       |
-|    [Evil Guesser](#evil-guesser)    |   [Time Manager](#time-manager)   |     [Provocateur](#provocateur)     | [Schizophrenic](#schizophrenic) |
-|    [Anti Adminer](#anti-adminer)    |        [Veteran](#veteran)        |    [Blood Knight](#blood-knight)    |         [Mimic](#mimic)         |
-|       [Arrogance](#arrogance)       |      [Bodyguard](#bodyguard)      |        [Follower](#follower)        |         [Reach](#reach)         |
-|          [Bomber](#bomber)          |       [Deceiver](#deceiver)       |        [Succubus](#succubus)        |          [Bait](#bait)          |
-|      [Booby Trap](#booby-trap)      |      [Grenadier](#grenadier)      | [Schrodinger Cat](#schrodinger-cat) |      [Beartrap](#beartrap)      |
-|    [Evil Tracker](#evil-tracker)    |          [Medic](#medic)          |   [Plague Doctor](#plague-doctor)   |                                 |
-|       [Scavenger](#scavenger)       | [Fortune Teller](#fortune-teller) |         [Shifter](#shifter)         |                                 |
-|    [Shape Master](#shape-master)    |     [The Glitch](#the-glitch)     |       [Doomsayer](#doomsayer)       |                                 |
-|      [Capitalist](#capitalist)      |          [Judge](#judge)          |                                     |                                 |
-|        [Gangster](#gangster)        |      [Mortician](#mortician)      |                                     |                                 |
-|         [Cleaner](#cleaner)         |         [Medium](#medium)         |                                     |                                 |
-|       [Lightning](#lightning)       |       [Observer](#observer)       |                                     |                                 |
-|          [Greedy](#greedy)          |  [Dove of Peace](#dove-of-peace)  |                                     |                                 |
-|      [CursedWolf](#cursedWolf)      |       [Collator](#collator)       |                                     |                                 |
-|    [Soul Catcher](#soul-catcher)    |        [Swapper](#swapper)        |                                     |                                 |
-|   [Quick Shooter](#quick-shooter)   |  [Criminologist](#criminologist)  |                                     |                                 |
-|       [Concealer](#concealer)       |        [Justice](#justice)        |                                     |                                 |
-|          [Eraser](#eraser)          |                                   |                                     |                                 |
-|         [Butcher](#butcher)         |                                   |                                     |                                 |
-|         [Hangman](#hangman)         |                                   |                                     |                                 |
-|         [Swooper](#swooper)         |                                   |                                     |                                 |
-|      [CrewPostor](#crewpostor)      |                                   |                                     |                                 |
-|         [Stealth](#stealth)         |                                   |                                     |                                 |
-|       [Messenger](#messenger)       |                                   |                                     |                                 |
-|         [Penguin](#penguin)         |                                   |                                     |                                 |
-|         [Insider](#insider)         |                                   |                                     |                                 |
-|            [Bard](#bard)            |                                   |                                     |                                 |
-|  [Evil Grenadier](#evil-grenadier)  |                                   |                                     |                                 |
-|    [Cargo Truck](#cargo-truck)     |                                   |         [Sunnyboy](#sunnyboy)        |        [Charmed](#charmed)         |
+|              Impostor               |                     Crewmate                      |               Neutral               |             Add-on              |
+|:-----------------------------------:|:-------------------------------------------------:|:-----------------------------------:|:-------------------------------:|
+|   [Bounty Hunter](#bounty-hunter)   |           [Nice Guesser](#nice-guesser)           |        [Arsonist](#arsonist)        |        [Lovers](#lovers)        |
+|   [Serial Killer](#serial-killer)   |                 [Luckey](#luckey)                 |          [Jester](#jester)          | [Last Impostor](#last-impostor) |
+|         [Vampire](#vampire)         |               [Lazy Guy](#lazy-guy)               |     [Opportunist](#opportunist)     |       [Neptune](#neptune)       |
+|         [Warlock](#warlock)         |             [Super Star](#super-star)             |       [Terrorist](#terrorist)       |       [Watcher](#watcher)       |
+|        [Assassin](#assassin)        |              [Celebrity](#celebrity)              |     [Executioner](#executioner)     |       [Lighter](#lighter)       |
+|          [Zombie](#zombie)          |                  [Mayor](#mayor)                  |          [Jackal](#jackal)          |          [Seer](#seer)          |
+|          [Hacker](#hacker)          |              [Repairman](#repairman)              |        [Sidekick](#sidekick)        |         [Flash](#flash)         |
+|           [Miner](#miner)           |                [Sheriff](#sheriff)                |             [God](#god)             |    [Tiebreaker](#tiebreaker)    |
+|        [Escapist](#escapist)        |               [Paranoid](#paranoid)               |           [Mario](#mario)           |     [Oblivious](#oblivious)     |
+| [Killing Machine](#killing-machine) |                [Psychic](#psychic)                |        [Innocent](#innocent)        |      [Bewilder](#bewilder)      |
+|           [Witch](#witch)           |                 [Snitch](#snitch)                 |         [Pelican](#pelican)         |       [Madmate](#madmate)       |
+|           [Mafia](#mafia)           |          [Speed Booster](#speed-booster)          |   [Revolutionist](#revolutionist)   |          [Fool](#fool)          |
+|      [Fireworker](#fireworker)      |                 [Doctor](#doctor)                 |           [Hater](#hater)           |     [Workhorse](#workhorse)     |
+|          [Sniper](#sniper)          |               [Dictator](#dictator)               |           [Demon](#demon)           |       [Avenger](#avenger)       |
+|       [Puppeteer](#puppeteer)       |              [Detective](#detective)              |         [Stalker](#stalker)         |      [YouTuber](#youtuber)      |
+|            [Mare](#mare)            |              [Vigilante](#vigilante)              |      [Workaholic](#workaholic)      |        [Egoist](#egoist)        |
+|      [Time Thief](#time-thief)      |            [Transporter](#transporter)            |       [Collector](#collector)       |       [Stealer](#stealer)       |
+|    [Evil Guesser](#evil-guesser)    |           [Time Manager](#time-manager)           |     [Provocateur](#provocateur)     | [Schizophrenic](#schizophrenic) |
+|    [Anti Adminer](#anti-adminer)    |                [Veteran](#veteran)                |    [Blood Knight](#blood-knight)    |         [Mimic](#mimic)         |
+|       [Arrogance](#arrogance)       |              [Bodyguard](#bodyguard)              |        [Follower](#follower)        |         [Reach](#reach)         |
+|          [Bomber](#bomber)          |               [Deceiver](#deceiver)               |        [Succubus](#succubus)        |          [Bait](#bait)          |
+|      [Booby Trap](#booby-trap)      |              [Grenadier](#grenadier)              | [Schrodinger Cat](#schrodinger-cat) |      [Beartrap](#beartrap)      |
+|    [Evil Tracker](#evil-tracker)    |                  [Medic](#medic)                  |   [Plague Doctor](#plague-doctor)   |    [Colorblind](#colorblind)    |
+|       [Scavenger](#scavenger)       |         [Fortune Teller](#fortune-teller)         |         [Shifter](#shifter)         |                                 |
+|    [Shape Master](#shape-master)    |             [The Glitch](#the-glitch)             |       [Doomsayer](#doomsayer)       |                                 |
+|      [Capitalist](#capitalist)      |                  [Judge](#judge)                  |         [Yandere](#yandere)         |                                 |
+|        [Gangster](#gangster)        |              [Mortician](#mortician)              |          [Lawyer](#lawyer)          |                                 |
+|         [Cleaner](#cleaner)         |                 [Medium](#medium)                 |      [Prosecutor](#prosecutor)      |                                 |
+|       [Lightning](#lightning)       |               [Observer](#observer)               |                                     |                                 |
+|          [Greedy](#greedy)          |          [Dove of Peace](#dove-of-peace)          |                                     |                                 |
+|      [CursedWolf](#cursedwolf)      |               [Collator](#collator)               |                                     |                                 |
+|    [Soul Catcher](#soul-catcher)    |                [Swapper](#swapper)                |                                     |                                 |
+|   [Quick Shooter](#quick-shooter)   |                [Justice](#justice)                |                                     |                                 |
+|       [Concealer](#concealer)       |         [Security Guard](#security-guard)         |                                     |                                 |
+|          [Eraser](#eraser)          |                                                   |                                     |                                 |
+|         [Butcher](#butcher)         |                                                   |                                     |                                 |
+|         [Hangman](#hangman)         |                                                   |                                     |                                 |
+|         [Swooper](#swooper)         |                                                   |                                     |                                 |
+|      [CrewPostor](#crewpostor)      |                                                   |                                     |                                 |
+|         [Stealth](#stealth)         |                                                   |                                     |                                 |
+|       [Messenger](#messenger)       |                                                   |                                     |                                 |
+|         [Penguin](#penguin)         |                                                   |                                     |                                 |
+|         [Insider](#insider)         |                                                   |                                     |                                 |
+|            [Bard](#bard)            |                                                   |                                     |                                 |
+|  [Evil Grenadier](#evil-grenadier)  |                                                   |                                     |                                 |
+|                                     |                                                   |                                     |                                 |
 
 ## ⭐ Impostor
 
@@ -423,14 +423,6 @@ The Evil Grenadier can vanish to use the flashbang, which will cause players who
 
 > From: TOU & Coding：[ELinmei](https://github.com/hayashiume)、[慕斯Mousse](https://github.com/Sand-and-Beans)
 
----
-
-### <font color=red>Cargo Truck</font>
-
-The Cargo Truck can use their ability to ram in the facing direction at high speed. During the ram, any player within range will be killed (death reason: Rammed). The ram lasts for the configured distance at 2x speed, and a visual truck sprite is displayed on the Cargo Truck during the dash. Cargo Truck has limited ability uses per game.
-
-> From: NOS & Design：[ELinmei](https://github.com/HayashiUme)
-
 ## ⭐ Crewmate
 
 ### <font color=#eede26>Nice Guesser</font>
@@ -702,16 +694,6 @@ You can see the player's id before the player's name, or use the /cmd id command
 
 ---
 
-### <font color=3C5BA3>Criminologist</font>
-
-The Criminologist selects a victim and a surviving player for pairing during the meeting. If the surviving player is the murderer of the victim, then that player immediately dies. Even if the two do not have a compatible relationship, the Criminologist will not die.
-The verifying command is: /cmd vf [victim id] [murderer id]
-You can see the player's id before the player's name, or use the /cmd id command to view the id of all players.
-
-> From: Plan17 & Coding: [ELinmei](https://github.com/hayashiume)、[慕斯Mousse](https://github.com/Sand-and-Beans)
-
----
-
 ### <font color=ffd700>Justice</font>
 
 The Justice can select two players to call a justice meeting. During the justice meeting, only the chosen players can be voted. Both of the players will be exiled if the voting ties.
@@ -719,6 +701,15 @@ The balancing command is: /cmd bl [player id]\nYou can see the player's id befor
 
 > From: SNR & Coding: [ELinmei](https://github.com/hayashiume)、[慕斯Mousse](https://github.com/Sand-and-Beans)、[Slok·琐律](https://github.com/Slok7656)
 
+---
+
+### <font color=#4b6e8c>Security Guard</font>
+
+Use the vent button to seal a vent, preventing further entry. The shared sealed-vent limit is configurable (1-15, default 3), as is the ability cooldown (5-60 seconds, default 25). Sealing replaces normal vent use, and once the limit is reached you cannot seal additional vents or use vents normally. Win with the Crewmates.
+
+> From: The Other Roles & Coding: [LezaiYa](https://github.com/LezaiYa)
+
+---
 
 ## ⭐ Neutral
 
@@ -940,6 +931,34 @@ The Sunnyboy can check the life status of others through the life panel. When th
 
 > From: TONX & Coding：[ELinmei](https://github.com/HayashiUme)
 
+
+### <font color=#ff69b4>Yandere</font>
+
+You receive a randomly chosen crush, whom you cannot kill. Other players who spend enough time near your crush become rivals. While your crush is alive, killing a rival shortens your next kill cooldown, while killing someone else lengthens it. If your crush dies, you use the separate cooldown configured for that state. Proximity time is cleared at meetings.
+
+Win by being the last survivor, or by leaving only yourself and your living crush; in the latter case, your crush wins with you. The host can configure proximity range, rival time, cooldown adjustments, target arrows, vent access and Impostor vision.
+
+> From: Extreme Roles & Coding: [LezaiYa](https://github.com/LezaiYa)
+
+---
+
+### <font color=#788514>Lawyer</font>
+
+At game start, you receive an eligible non-Crewmate client marked with “§”; Lovers cannot be clients. If the client wins, you gain an additional win even if you are dead. If you are alive, the Lawyer rule removes the client's individual winner entry as it grants yours. If the client dies, or no eligible client exists, you become a Prosecutor.
+
+The host can allow Madmate and Jester clients, reveal the client's role to you, and notify the client that they have a Lawyer. Blank cooldown and use count for the Prosecutor are configured under the Lawyer options (defaults: 30 seconds and 3 uses).
+
+> From: TOR & Coding: [ELinmei](https://github.com/HayashiUme)
+
+---
+
+### <font color=#788514>Prosecutor</font>
+
+This is the Lawyer's transformed role, rather than a separately assigned lobby role. Use the kill button to fire a blank at a player without killing them. The blank blocks that player's next non-suicide kill attempt and is then consumed. Unused blank states are cleared when a meeting starts. You have limited shots and cannot vent or sabotage. Survive to the end of the game to gain an additional win.
+
+> From: TOR & Coding: [ELinmei](https://github.com/HayashiUme)
+
+---
 ## ⭐ Add-on
 
 ### <font color=#ff9ace>Lovers</font>
@@ -1144,8 +1163,9 @@ When Beartrap is killed, Beartrap immobilize killer for a configurable amount of
 
 ---
 
-### <font color=#ff00ff>Charmed</font>
 
-Charmed is a special add-on applied by the Succubus's charm ability. Charmed players retain their original skills but their team and victory condition change to align with the Succubus faction. Charmed players are part of the Succubus team and win or lose together with the Succubus.
+### <font color=#8c8c8c>Colorblind</font>
 
-> From: TOR-MR & Coding: [KARPED1EM](https://github.com/KARPED1EM)
+The Colorblind sees every player's color as a different color from their actual color.
+
+> From: [ELinmei](https://github.com/HayashiUme) & Coding: [ELinmei](https://github.com/HayashiUme)
