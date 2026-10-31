@@ -2,60 +2,113 @@
 title: Game Modes
 ---
 
-TONX comes with several built-in game modes. The host can switch between them via the "Game Mode" option in the lobby. Currently, the following three modes are supported:
+TONX currently offers 5 game modes. You can switch between them in the lobby settings under **Mode Options**.
 
-- [Standard Mode](#standard-mode)
-- [SoloKombat Mode](#solokombat-mode)
-- [Role Draft Mode](#role-draft-mode)
+## Standard
 
-## Standard Mode
+The default TONX game mode. Roles are assigned according to the host's role settings, including all custom roles, add-ons, and vanilla roles. Add-ons are assigned on top of main roles. This is the classic TONX experience with crewmate vs impostor vs neutral gameplay.
 
-Standard mode is the default game mode of TONX. All roles, add-ons, and regular game settings are assigned according to the lobby options.
+> This is the default mode and requires no special configuration beyond the standard role options.
 
-In this mode, the host can freely enable or disable any role and add-on, and the system automatically assigns factions and counts based on the settings. Aside from that, Standard mode has no extra special rules and plays the same as the extended version of vanilla Among Us.
+---
 
-## SoloKombat Mode
+## Role Draft
 
-SoloKombat mode is a signature PVP mode of TONX. No roles are assigned in this mode; instead, every player becomes a "Challenger" and has their own health (HP). Players can use the kill button to deal damage to others, and the player with the highest number of kills (score) at the end of the game wins.
+In Role Draft mode, instead of roles being randomly assigned, players take turns choosing their role from a set of randomized options. The draft happens during a special meeting at the start of the game.
 
-### Options
+### How It Works
 
-| Option | Description |
-| --- | --- |
-| Game Duration | Total duration of the match (seconds) |
-| Default HP | The health a player starts with |
-| Default Attack | Damage dealt per attack |
-| Recover Cooldown | Time to wait after taking damage before health recovery begins |
-| Recover Per Second | Amount of health recovered per second |
-| Resurrection Waiting Time | Wait time before a killed player is revived |
-| Kill Bonus Multiplier | HP bonus multiplier gained when killing another player |
-| Attack Cooldown | Cooldown of the kill button |
-
-### Player Panel
-
-On the task panel, players can see their attack, defense, and per-second recovery in real time, as well as the current score ranking of all players.
-
-## Role Draft Mode
-
-Role Draft mode is a unique role-selection gameplay of TONX. After the game starts, all players draft their own roles one by one during a meeting, instead of being directly assigned by the system.
-
-### Draft Process
-
-1. A "draft meeting" is automatically called when the game starts.
-2. The system lets each player pick from several random roles in seat order.
-3. Each player has a fixed number of role options (set by the host) and must choose within a time limit.
-4. If a player times out, the system automatically picks a random role for them.
-5. Once every player has chosen, the meeting ends and the game officially begins.
-
-### Options
-
-| Option | Description |
-| --- | --- |
-| Number of Options | How many random role options each player sees per turn |
-| Drafting Time | Time limit for each player to make a selection (seconds) |
-| Show Players Selections | Whether to display the roles chosen by other players in the public chat |
+1. At the start of the game, a meeting is automatically called
+2. Players are arranged in random order and take turns drafting
+3. On your turn, you receive a list of role options (configurable count, default 3) plus a "Random" option
+4. Use `/cmd ch [number]` to select your desired role
+5. If time runs out, a role is automatically chosen for you
+6. After everyone has picked, the meeting ends and the game begins normally
 
 ### Commands
 
-- `/cmd ch [ID]`: Select the role with the specified ID from the current options (IDs start from 1)
-- `/cmd ch`: Randomly select one from the current options
+| Command | Function |
+| ------- | -------- |
+| `/cmd ch` / `/cmd choose` | Show your available role options |
+| `/cmd ch [number]` | Select a role by its number (e.g. `/cmd ch 2`) |
+
+### Settings
+
+| Setting | Description |
+| ------- | ----------- |
+| Number of Options | How many role choices each player gets (2-5, default 3) |
+| Drafting Time | Time limit per player to choose (15-60s, default 25s) |
+| Show Players Selections | Whether to announce each player's chosen role to everyone |
+
+> **Note:** Role Draft selects a main role for each player, then assigns add-ons according to the room's add-on settings. Director Mode can still be used to pre-assign roles.
+
+---
+
+## Solo PVP
+
+In Solo PVP mode, there are no teams and no role assignments. Every player becomes a **Challenger** with HP (health points) and ATK (attack power). Everyone can use the kill button to deal damage to other players. The player with the highest score when time runs out wins.
+
+### How It Works
+
+- All players spawn with the same HP and ATK
+- Hitting a player with the kill button deals ATK damage to their HP
+- When a player's HP reaches 0, they die and the killer gets a score bonus
+- Dead players respawn after a configurable waiting time
+- HP slowly recovers over time after not taking damage for a while
+- The game ends when the timer runs out; highest score wins
+
+### Task Panel Display
+
+During the game, the task panel shows:
+- Your current ATK, DF (defense), and RCO (HP recovery rate)
+- A live scoreboard of all players ranked by score
+
+### Kill Bonus
+
+Each kill grants a score multiplier bonus, increasing the killer's ATK and HP recovery, making them stronger as they rack up kills.
+
+### Settings
+
+| Setting | Description |
+| ------- | ----------- |
+| Game Duration | Total game time (30-300s, default 180s) |
+| Default HP | Starting health for all players (10-990, default 100) |
+| Default Attack | Damage per hit (1-100, default 8) |
+| Attack Cooldown | Time between attacks (1-10s, default 1s) |
+| Recover Cooldown | Seconds without taking damage before HP regen starts (0-60s, default 8s) |
+| Recover Per Second | HP recovered per second (1-180, default 2) |
+| Resurrection Waiting Time | Time before dead players respawn (5-990s, default 15s) |
+| Kill Bonus Multiplier | Score/stat multiplier per kill (0.25x-5x, default 1.25x) |
+
+---
+
+## Hot Potato
+
+Players begin as **Cold Potatoes**. At the end of each countdown, the current Hot Potatoes explode and are eliminated; a new group of living players receives the Hot Potato. The number of Hot Potatoes is limited by a lobby setting and automatically reduced in smaller lobbies. The last survivor wins. Body reports are disabled.
+
+Press kill on a Cold Potato to pass the Hot Potato to them and become Cold yourself; the transfer does not kill anyone. Everyone can see the holders. The first distribution follows a preparation period of the explosion countdown plus 9 seconds; subsequent rounds use the configured countdown. Players spawn randomly, move at 1.75x speed, receive no add-ons, and cannot vent or sabotage.
+
+### Settings
+
+| Setting | Description |
+| ------- | ----------- |
+| Maximum Hot Potatoes | Maximum number assigned at each explosion (1-64, default 2); the game reduces this for smaller groups |
+| Explosion Countdown | Time between Hot Potato explosions (10-60s, default 15s) |
+
+---
+
+## Doom Tag
+
+Every player is assigned a target in a cycle. Kill your target to inherit their target and continue hunting. Attacking someone else triggers the configured punishment: with suicide, the attack proceeds and the attacker dies shortly afterward; with reduced vision, the attack is blocked and the attacker keeps the vision penalty. When the living player count reaches the frenzy threshold, all survivors enter Frenzy mode with the configured movement speed and kill cooldown (faster movement and shorter cooldown by default). The last survivor wins. No add-ons are assigned; players cannot vent or sabotage.
+
+### Settings
+
+| Setting | Description |
+| ------- | ----------- |
+| Base Kill Cooldown | Kill cooldown outside Frenzy (2.5-60s, default 15s) |
+| Wrong Target Punishment | Suicide (default) or reduced vision |
+| Reduced Vision Multiplier | Vision multiplier applied after a wrong-target kill (0-10x, default 0.5x) |
+| Frenzy Player Count | Living-player threshold that activates Frenzy (1-127, default 3; at least 2 survivors are required) |
+| Frenzy Kill Cooldown | Kill cooldown during Frenzy (2.5-60s, default 5s) |
+| Frenzy Speed Multiplier | Multiplier relative to the lobby's initial speed (0.25-10x, default 2x) |
+| Show Target Arrow | Whether to display an arrow pointing to your target (off by default) |
